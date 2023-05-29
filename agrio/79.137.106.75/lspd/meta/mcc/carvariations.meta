@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAPD vehicles pack. Original model by Candice_211, edited & modified by BravoAlphaNatillas -->
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>mcc</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            132 
+            0 
+            122 
+            156 
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits />
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="81" />
+      <sirenSettings value="126" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

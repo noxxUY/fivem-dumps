@@ -1,0 +1,340 @@
+.noty_theme__gta.noty_bar {
+    text-shadow: 2px 1px #000000;
+    font-size: medium;
+    margin: 5px;
+    padding: 0;
+    font-family: Rubik;
+    position: relative;
+    height: auto;
+    word-wrap: break-word;
+}
+
+@font-face {
+	font-family: Rubik;
+	src: url('https://cdn.discordapp.com/attachments/780480535306305556/948757005810671636/Rubik-Regular.ttf');
+}
+@font-face {
+	font-family: fuente;
+	src: url(https://cdn.discordapp.com/attachments/899078133242810399/905911501649481788/ProductSans.ttf)
+  }
+
+
+
+.blue {color: #86e3ff;}
+.red {color: #ff2b2b;}
+.green {color: #82fd93;}
+.yellow {color: #fffb00;} 
+.purple {color: #e19fff;}
+.grey {color: #cfcfcf;}
+.darkgrey {color: #8d8d8d;}
+.black {color: #000000;}
+.gold {color: #e0d100;}
+
+.noty_theme__gta.noty_bar .noty_body {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.noty_theme__gta.noty_bar .noty_buttons {
+    padding: 0px; 
+}
+
+.noty_theme__gta.noty_bar .noty_progressbar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 500%;
+    background-color: rgba(255, 0, 0, 0);
+    opacity: 0.5;
+    filter: alpha(opacity=80);
+}
+
+.noty_theme__gta.noty_type__alert,
+.noty_theme__gta.noty_type__notification {
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #D1D1D1;
+    color: white;
+}
+
+
+.noty_theme__gta.noty_type__warning {
+
+    background-color: #000000bd;
+
+
+    padding: 3px 3px 3px 3px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 0 .2vw #000000bd, 0 0 .2vw #000000bd, 0 0 .6vw #000000bd, 0 0 .6vw #000000bd;
+
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 0.3vw;
+    
+
+}
+
+.noty_theme__gta.noty_type__error {
+    background-color: #000000bd;
+
+
+    padding: 3px 3px 3px 3px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 0 .2vw #000000bd, 0 0 .2vw #000000bd, 0 0 .6vw #000000bd, 0 0 .6vw #000000bd;
+
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 0.3vw;
+}
+
+.noty_theme__gta.noty_type__info,
+.noty_theme__gta.noty_type__information {
+    background-color: #000000bd;
+
+
+    padding: 3px 3px 3px 3px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 0 .2vw #000000bd, 0 0 .2vw #000000bd, 0 0 .6vw #000000bd, 0 0 .6vw #000000bd;
+
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 0.3vw;
+}
+
+.noty_theme__gta.noty_type__success {
+    background-color: #000000bd;
+
+
+    padding: 3px 3px 3px 3px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 0 .2vw #000000bd, 0 0 .2vw #000000bd, 0 0 .6vw #000000bd, 0 0 .6vw #000000bd;
+
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 0.3vw;
+}
+
+.noty_theme__gta.noty_type__police {
+
+    background: url('police.jpg');
+    
+
+    background-size: 350px;
+
+    width: 350px;
+
+    height: 110px;
+    
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+
+}
+
+.noty_theme__gta.noty_type__police.type2_prueba {
+
+    color: rgb(255, 0, 0);
+
+}
+
+.noty_theme__gta.noty_type__mechanic {
+
+    background: url('mechanic.png');
+
+    background-size: 350px;
+
+    width: 350px;
+
+    height: 110px;
+    
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+
+}
+
+
+.noty_theme__gta.noty_type__lsfd {
+
+    background: url('lsfd.png');
+
+    background-size: 350px;
+
+    width: 350px;
+
+    height: 110px;
+    
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+
+}
+
+.gta_effects_open {
+    opacity: 0;
+    animation: fadeInRight 1s;
+    /* -webkit-animation: noty_anim_in 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation: noty_anim_in 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+}
+
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+  ×
+
+@keyframes openNotify {
+    0%{
+        opacity: 0;
+        transform: translateX(-10vw);
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0) translateY(0);
+    }
+}
+
+.fadeOutRight {
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeOutRight {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    }
+    @keyframes fadeOutRight {
+    0% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    }
+
+@keyframes closeNotify {
+    0%{
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity:0;
+        transform: translateX(-10vw);
+    }
+}
+
+
+.gta_effects_close {
+    animation: fadeOutRight 1s;
+    /* -webkit-animation: noty_anim_out 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation: noty_anim_out 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;  */
+}
+@-webkit-keyframes noty_anim_out_left {
+  100% {
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    opacity: 0; } }
+
+@keyframes noty_anim_out_left {
+  100% {
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    opacity: 0; } }
+
+.gta_effects_open_left {
+    opacity: 0;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-animation: noty_anim_in 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation: noty_anim_in 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.gta_effects_close_left {
+    -webkit-animation: noty_anim_out_left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation: noty_anim_out_left 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards; 
+}
+
+@-webkit-keyframes noty_anim_fade_in {
+  100% { opacity: 1; } }
+
+@keyframes noty_anim_fade_in {
+  100% { opacity: 1; } }
+
+@-webkit-keyframes noty_anim_fade_out {
+  100% { opacity: 0; } }
+
+@keyframes noty_anim_fade_out {
+  100% { opacity: 0; } }
+
+.gta_effects_fade_in {
+    opacity: 0;
+    animation: noty_anim_fade_in 0.5s;
+}
+
+.gta_effects_fade_out {
+    opacity: 1;
+    animation: noty_anim_fade_out 0.5s;
+}

@@ -1,0 +1,153 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
+    src: url("../BarlowCondensed.ttf");
+
+* {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url(https://runtime.fivem.net/temp/ChaletLondonNineteenSixty.otf?a);
+}
+
+@font-face {
+    font-family: 'Font2_cond';
+    src: url(https://runtime.fivem.net/temp/chaletcomprime-colognesixty-webfont.ttf?a);
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#app {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.chat-window {
+  position: absolute;
+  left: 15px;
+  width: 38%;
+  height: 530px;
+  background: inherit !important;
+  -webkit-animation-duration: 2s;
+}
+
+
+
+.chat-messages {
+  position: relative;
+  height: 95%;
+  font-size: 1.8vh;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.chat-input {
+  font-size: 1.65vh;
+  position: absolute;
+
+  top: 23.8%;
+  left: 15px;
+  width: 38%;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.chat-input > div {
+    background-color: rgba(255, 255, 255, 0);
+    padding: calc(0.28vh / 2);
+}
+
+.chat-input .prefix {
+    margin: 0;
+    margin-left: 0.7%;
+    margin-top: -0.1%;
+}
+
+
+.prefix {
+  font-size: 1.8vh;
+  position: absolute;
+  margin-top: 0.5%;
+  left: 0.208%;
+}
+
+
+textarea {
+    background: transparent;
+    border: calc(0.28vh / 2) solid rgba(180, 180, 180, 0);
+    padding: calc(0.28vh / 2);
+    padding-left: calc(4.5% + (0.28vh / 2));
+	font-size: 1.65vh;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.msg {
+    font-family: Font2, sans-serif;
+    color: #fff;
+
+    font-size: calc(1.8vh); /* 13px in 720p, calc'd by width */
+    filter: url(#svgDropShadowFilter);
+
+    line-height: calc(2.7vh * 1.0);
+
+    margin-bottom: 0;
+}
+
+.twitter
+{
+  height: 10%;
+  width: 90%;
+  background: #ffbb33;
+  border-radius: 5px;
+  color: #0000;
+}
+
+.multiline {
+  margin-left: 4%;
+  text-indent: -1.2rem;
+  white-space: pre-line;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 27px;
+  font-size: 1.65vh;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(206, 227, 114, 0);
+  width: 100%;
+}
+
+.help {
+  color: #b0bbbd;
+}
+
+.disabled {
+  color: #b0bbbd;
+}

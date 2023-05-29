@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<script src="nui://game/ui/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/976789b613.js" crossorigin="anonymous"></script>
+		<link href="css/style.css" rel="stylesheet">
+
+		<title>ESX Identity</title>
+	</head>
+
+	<body onkeydown="TriggeredKey(this)">
+		<div class="dialog">
+			<div class="title"><b>Creá tu personaje</b></div>
+			<form id="register" name="register" action="#">
+				<div style="color: rgba(255, 255, 255, 0);font-size: 12px; font-family: 'Gill Sans', sans-serif">First Name</div>
+				<input id="firstname" type="text" class="" name="firstname" placeholder="Nombre" minlength="3" maxlength="8" pattern="[a-zA-Z]*"><br>
+				<div style="color: rgb(255, 255, 255, 0);font-size: 12px; font-family: 'Gill Sans', sans-serif">Last Name</div>
+				<input id="lastname" type="text" class="" name="lastname" placeholder="Apellido" minlength="3" maxlength="10" pattern="[a-zA-Z]*"><br>
+				<div style="color: rgb(255, 255, 255, 0);font-size: 12px; font-family: 'Gill Sans', sans-serif">Date of Birth (MM/DD/YYYY)</div>
+				<input id="dateofbirth" type="date" name="dateofbirth" class="" min="1900-01-01" max="2010-01-01" onfocus="(this.type='date')"><br>
+				<div style="color: rgb(255, 255, 255, 0);font-size: 12px; font-family: 'Gill Sans', sans-serif">Height</div>
+				<input id="height" type="number" class="" name="height" min="120" max="220" placeholder="Altura (cm)"><br>
+				<center>
+					<div class="radio-toolbar">
+						<input type="radio" id="radiom" name="sex" value="m" checked>
+						<label for="radiom">Masculino</label>
+					
+						<input type="radio" id="radiof" name="sex" value="f">
+						<label for="radiof">Femenino</label>
+					</div>
+					<button id="submit" type="submit"><font size="2px">CREAR</font>
+					</button>
+					
+				</center>
+				
+			</form>
+			
+		</div>
+		
+		<div class="serverinfo">
+			<div class="servername">
+				<b>KILOMBO ROLEPLAY</b>
+			</div>
+            <h1>Somos un servidor inaugurado en el 2022, nuestra intención como servidor es lograr un buen clima y un buen ambiente en la comunidad. Si querés pasar un buen rato y divertirte este es el lugar indicado, tenemos muchos sistemas y scripts propios e innovadores, para que te diviertas al máximo. Si queres obtener más información sobre nosotros podes hacerlo en nuestro Discord</h1>
+		<div class="infobutton">
+			<ul>
+			<li><a href="https://discord.gg/kilombo" target="_blank"><i class="fa-brands fa-discord"></i></a></li> 
+			<li><a href="https://www.instagram.com/kilombo.rp/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://www.tiktok.com/@kilomborp" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+			<li><a href="https://kilomborp.tebex.io/" target="_blank"><i class="fa-solid fa-store"></i></a></li>
+		</ul>
+		</div>
+		</div>
+		
+		<script>		
+			function TriggeredKey(e) {
+				var keycode;
+				if (window.event) keycode = window.event.keyCode;
+				if (window.event.keyCode == 13 || window.event.keyCode == 27) return false;
+			}
+		</script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

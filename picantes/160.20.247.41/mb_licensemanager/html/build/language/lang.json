@@ -1,0 +1,51 @@
+{
+	"homepage": {
+		"title": "Administrador de Licencias",
+		"welcome_message": "Bienvenido Oficial, ",
+		"create_license": "Crear Licencia",
+		"license_database": "Base de datos"
+	},
+	"licensedb": {
+		"title": "Base de datos",
+		"header": {
+			"number": "Numero",
+			"name": "Nombre",
+			"licenses": "Licencias",
+			"manage": "Administrar"
+		},
+		"manage_button": "Administrar",
+		"back_button": "Volver",
+		"search_textfield": "Buscar"
+	},
+	"createlicense": {
+		"title": "CREAR LICENCIA",
+		"textfields": {
+			"player_id": "ID del jugador",
+			"license_type": "Tipo de licencia"
+		},
+		"error_submit": "El ID o la licencia provocaron un error!",
+		"submit_button": "Enviar",
+		"cancel_button": "Cancelar",
+		"second_title": "Informacion Ciudadana",
+		"informationfields": {
+			"first_name": "Nombre",
+			"last_name": "Apellido",
+			"dob": "Fecha de nacimiento",
+			"height": "Altura",
+			"sex": "Sexo"
+		}
+	},
+	"managelicense": {
+		"title": "Administrar licencias",
+		"license_type": "Tipo de licencia",
+		"revoke_button": "Revocar",
+		"cancel_button": "Canelar",
+		"informationfields": {
+			"first_name": "Nombre",
+			"last_name": "Apellido",
+			"dob": "Fecha de nacimiento",
+			"height": "Altura",
+			"sex": "Sexo"
+		}
+	}
+}

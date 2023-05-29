@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+    --main-bkg-color: rgba(0, 0, 0, 0.4);
+    --default-blur: .14vw;
+    --default-box-shadow: #000000 0px 0px 2.5px;
+    --green-color: #15DB95; /*#3AFE32*/
+    --yellow-color: #FED614;
+    --blue-color: #06D2EA;
+    --red-color: #FC4445; /*#F33439*/
+    --violet-color: #8860D0;
+    --purple-color: #E64398;
+}
+
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress-container {
+    display: none;
+    z-index: 5;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    width: 15%;
+    font-weight: bold;
+    position: fixed;
+    bottom: 12.65%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-labels {
+    width: 100%;
+    top: 8px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.progress-labels div {
+    font-size: 12px;
+    position: relative;
+    color: #f2f2f2;
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    background: var(--main-bkg-color);
+    border-radius: .5vw;
+    backdrop-filter: var(--default-blur);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    white-space: nowrap;
+}
+
+.progress-bar { 
+    background-color: rgb(51, 112, 165, 0.85);
+    width: 0%;
+    height: 4vh;
+    transition: width 0.3s;
+    transition-timing-function: ease-out;
+}

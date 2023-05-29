@@ -1,0 +1,249 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.top {	
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+}
+
+.cantidad {
+	margin: auto;	
+	width: 50%;
+	border: 1px solid red;
+}
+
+.line { 
+position: absolute;
+  height: 2px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#181818), to(#181818), color-stop(50%, white));
+}
+
+.button {
+  border : 0;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.center-align {
+	width: 100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+}
+
+#wrapper {
+	width: 70%;
+	height: 80%;
+	background-color: #181818;
+	border: 3px solid #222;
+	border-radius: 10px;
+	margin: auto;
+	overflow: hidden;
+	display: none;
+	overflow-y: auto;
+	margin-top: 5%;  
+}
+
+#payment {
+  display: none;
+  width: 1600px;
+  height: 50px;
+  font-size: 14px;
+  text-align: right;
+  color: #fff;
+  background-color: #000000;
+	position: absolute;
+  top: 940px;           
+  overflow : auto;
+  right: 160px;
+}
+
+#blocklol {
+  width: 1600px;
+  height: 20px;
+  color: #fff;
+  position: absolute;
+  display: none;
+  right: 5px;
+  font-family: 'Open Sans', sans-serif;
+  top: 952.5px;
+  font-size: 17.5px;
+  right: 250px;
+  margin-left: 5px;
+  border: 1.5px solid #ffffff;
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+
+.cartitem {
+  width: auto;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  left: 15px;
+  margin-right: 15px;
+  border: 1.5px solid #ffffff;
+  padding: 6px 3px;
+}
+
+#cart {
+  display: none;
+  padding: 5px 3px;
+  border-radius: 5px;
+  height: 425px;
+	width: 400px;
+	position: absolute;         
+  overflow : auto;
+  background-color: #181818;
+  left: 772.5px;
+}
+
+input[type=text], select {
+  width: 100px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h4 {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h6 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: -20px;
+}
+
+.h4 {
+  color: #fff;
+  margin-bottom: -20px;
+}
+
+.carticon {
+  display: none;
+  position: absolute;
+  left: 85px;
+}
+
+h2 {
+  border : 0;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid #ffffff;
+  padding: 10px 6px;
+  border-radius: 5px;
+}
+
+.text-block {
+  position: absolute;
+  display: none;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.image {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  left: 100px;
+  margin-right: 100px;
+  top: -50px;
+  margin-top: 50px;
+}
+
+
+.textclass {
+  font: 100 30px/1.3 'Arizonia', Helvetica, sans-serif;
+  background-color: #181818;
+  color: #ffffff;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+#leftblock {
+  display: none;
+  height: 900px;
+	width: 600px;
+	position: absolute;
+	top: 10%;
+	right: 15%;
+	border-radius: 15px;
+	background-color: #181818;
+}
+
+.block {
+  display: none;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(143, 143, 143);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #181818; 
+}
+ 
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+
+.room-info-block {
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+}

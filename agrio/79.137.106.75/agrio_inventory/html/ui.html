@@ -1,0 +1,134 @@
+ <!-- Inicio -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>inventory</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <script src="https://kit.fontawesome.com/fc96155a5f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <audio src="inventario.ogg" id="abrir-inventario"></audio>
+    <audio src="botones.ogg" id="botones"></audio>
+    <audio src="cerrar.ogg" id="cerrarboton"></audio>
+    <script src="js/config.js"></script>
+    <script src="locales/en.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/inventory.js"></script>
+    <script src="https://kit.fontawesome.com/fc96155a5f.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                clickOutside: true
+            });
+        });
+    </script>
+    <div class="ui">
+       <!---- <div class="zona" id="zone">
+            <center>Suelta aqui el item para tirarlo</center>
+        </div> !-->
+        <div class="inventory">
+            <div id="playerInventory">
+            </div>
+				<div id="playerInventoryFastItems">
+            </div>
+            
+            <div id="controls">
+                <div class="info-div"></div>
+               <!---- <div class="weight-div"></div> !-->
+                <div class="controls-div">
+                    <input type="number" class="control4" id="count" value="1">
+                    <div class="control1" id="use"></div>
+                    <div class="control2" id="give"></div>
+                   <!---- <div class="control3" id="drop"></div> !-->
+                </div>
+            </div>
+            <div class="info2">Tu Inventario
+                <div class="triangulo"></div>
+            </div>
+            <ion-icon name="person-outline" id="botonropa"></ion-icon>
+            <ion-icon name="close-sharp" id="cerrarropa"></ion-icon>
+            <div class="menu-lateral">
+                <div class="boton" action="Hat" event="qb-radialmenu:ToggleProps">
+                    <span class="noti1">Gorro</span>
+                    <img src="https://i.imgur.com/ZtO53wF.png">
+                </div>
+                <div class="boton" action="Mask" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti2">Mascara</span>
+                    <img src="https://i.imgur.com/xumzPe1.png">
+                </div>
+               
+                <div class="boton" action="Glasses" event="qb-radialmenu:ToggleProps">
+                    <span class="noti3">Gafas</span>
+                    <img src="https://i.imgur.com/ZVMaHQV.png" >
+                </div>
+                
+                <div class="boton" action="Neck" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti4">Collar</span>
+                    <img src="https://i.imgur.com/GY1MfnR.png" >
+                </div>
+                <div class="boton" action="Shirt" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti5">Camisa</span>
+                    <img src="https://i.imgur.com/TWnoPuV.png" >
+                </div>
+                <div class="boton" action="Top" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti6">Chaqueta</span>
+                    <img src="https://i.imgur.com/YowsimO.png" >
+                </div>
+                <div class="boton" action="Gloves" event="qb-radialmenu:ToggleProps">
+                    <span class="noti7">Guantes</span>
+                    <img src="https://i.imgur.com/RgcMls6.png" >
+                </div>
+           
+                <div class="boton" action="Bagoff" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti8">Mochila</span>
+                    <img src="https://i.imgur.com/9AOVvli.png" >
+                </div>
+                <div class="boton" action="Pants" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti9">Pantalones</span>
+                    <img src="https://i.imgur.com/hlloBrG.png" >
+                </div>
+                <div class="boton" action="Shoes" event="qb-radialmenu:ToggleClothing">
+                    <span class="noti10">Zapatos</span>
+                    <img src="https://i.imgur.com/mFfeuT2.png" >
+                </div>
+            </div>
+            
+           
+           <!---- <div id="otherInventory">
+                <div id="noSecondInventoryMessage">
+                </div>
+            </div> !--->
+
+            <div style="width: 100% ;bottom: 0;top: auto;">
+                <span align="left" class="info-div2" style="float: left;"></span>
+                <span align="right" class="info-div" style="float: right;"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dialog">
+        <div id="nearPlayers">
+        </div>
+    </div>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $("#use").html(invLocale.useItem);
+        $("#give").html(invLocale.giveItem);
+      //  $("#drop").html(invLocale.dropItem);
+    });
+</script>
+</html>
+
+<!-- Fin -->

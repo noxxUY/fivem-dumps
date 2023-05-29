@@ -1,0 +1,268 @@
+:root {
+    --main-bkg-color: rgba(0, 0, 0, 0.4);
+    --default-blur: .14vw;
+    --default-box-shadow: #000000 0px 0px 2.5px;
+    --green-color: #15DB95; /*#3AFE32*/
+    --yellow-color: #FED614;
+    --blue-color: #06D2EA;
+    --red-color: #FC4445; /*#F33439*/
+    --violet-color: #8860D0;
+    --purple-color: #E64398;
+}
+
+body {
+    background-color: transparent !important;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.template,
+.notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 22%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    padding: 8px;
+    width: fit-content;
+    border-radius: 3px;
+    margin: 6px;
+    font: caption;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--main-bkg-color);
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: var(--default-box-shadow);
+
+    border-width: 5px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image-source:-webkit-linear-gradient(top,  rgba(69, 44, 145) 0%,rgba(18,105,202,0.7) 100%); 
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.success {
+    border-image-source:-webkit-linear-gradient(top,  #2bff00 0%,#a0ff7a 100%);
+    color: #fff;
+}
+
+.inform {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #ffffff;
+}
+
+.info {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #ffffff;
+}
+
+.error {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+
+.cajaroja {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #ffffff;
+}
+
+.cajavioleta {
+    border-image-source:-webkit-linear-gradient(top,  #a556b2 0%,#a556b2 100%);
+    color: #ffffff;
+}
+
+.cajaverde {
+    border-image-source:-webkit-linear-gradient(top,  #2bff00 0%,#a0ff7a 100%);
+    color: #ffffff;
+}
+
+.cajanegra {
+    border-image-source:-webkit-linear-gradient(top,  #4e4e4e 0%,#4e4e4e 100%);
+    color: #fff;
+}
+
+.cajaploma {
+    border-image-source:-webkit-linear-gradient(top,  #BDBBBE 0%,#BDBBBE 100%);
+    color: #fff;
+}
+
+.cajaceleste {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #fff;
+}
+
+.cajaroja2 {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+.cajamostaza {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+.cajaazul {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #fff;
+}
+
+.cajaroja3 {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+.cajamorada {
+    border-image-source:-webkit-linear-gradient(top,  #6c02fc 0%,#6c02fc 100%);
+    color: #fcfcfc;
+}
+
+.cajaamarilla {
+    border-image-source:-webkit-linear-gradient(top,  #e2ab03 0%,#e2ab03 100%);
+    color: #fcfcfc;
+}
+
+
+.noereseljobquenecesita {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+.notificacionpolicia {
+    border-image-source:-webkit-linear-gradient(top,  #3370a5 0%,#3370a5 100%);
+    color: #fff;
+}
+
+.nohayjugadorescerca {
+    border-image-source:-webkit-linear-gradient(top,  #b55255 0%,#b55255 100%);
+    color: #fff;
+}
+
+.recolecciondeitems {
+    border-image-source:-webkit-linear-gradient(top,  #4e4e4e 0%,#4e4e4e 100%);
+    color: #fff;
+}
+
+.cajanaranja {
+    border-image-source:-webkit-linear-gradient(top,  #ef601d 0%,#ef601d 100%);
+    color: #fff;
+}
+
+.badge {
+    padding: 3px 4px;
+    font-size: 13px;
+    font-weight: 600;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    border-radius: .25rem;
+    position: relative;
+}
+
+.badge2 {
+    display: inline-block;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px dashed transparent;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-primary {
+    background-color: rgba(244, 0, 0);
+}
+
+.badge-duda {
+    background-color: rgba(0, 0, 244);
+}
+
+.badge-developer {
+    border-color: #6989ff;
+    color: #6989ff;
+    background-color: transparent;
+}
+
+.badge-ceo {
+    border-color: #ff6969;
+    color: #ff6969;
+    background-color: transparent;
+}
+
+.badge-manager {
+    border-color: #ffad69;
+    color: #ffad69;
+    background-color: transparent;
+}
+
+.badge-admin {
+    border-color: #f985ff;
+    color: #f985ff;
+    background-color: transparent;
+}
+
+.badge-highstaff {
+    border-color: #afff69;
+    color: #afff69;
+    background-color: transparent;
+}
+
+.badge-staff {
+    border-color: #85ffd8;
+    color: #85ffd8;
+    background-color: transparent;
+}
+
+.badge-streamer {
+    border-color: #c569ff;
+    color: #c569ff;
+    background-color: transparent;
+}
+
+.badge-vip {
+    border-color: #fff569;
+    color: #fff569;
+    background-color: transparent;
+}
+
+.badge-anuncio {
+    border-color: #fcc565;
+    color: #fcc565;
+    background-color: transparent;
+}
+
+.badge-dado {
+    background-color: #00c97c;
+}
+
+.badge-anon {
+    background-color: #3F3F3F;
+}
+
+.badge-gr {
+    background-color: #fc0303;
+}
+
+.badge-m {
+    background-color: #6b25be;
+}
+
+.badge-me {
+    background-color: #4169e1;
+}
+
+.badge-do {
+    background-color: #aa66cc;
+}

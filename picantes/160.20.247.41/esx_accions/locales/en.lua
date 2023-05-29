@@ -1,0 +1,20 @@
+Locales ['en'] = {
+  ['blip_name'] = 'Carcel',
+  ['judge'] = 'JUEZ ',
+  ['escape_attempt'] = 'No se le permite escapar.',
+  ['remaining_msg'] = 'Te quedan ~y~%s~w~ segundos hasta que salgas de la carcel',
+  ['remaining_msg2'] = 'Te quedan ~y~%s~w~ acciones salir',
+  ['jailed_msg'] = '%s está ahora en la cárcel durante %s minutos',
+  ['unjailed'] = '%s ha sido liberado de la cárcel!',
+  ['comserv_msg']       	= '%s ha sido sentenciado en %s meses de servicio comunitario.',
+  ['comserv_finished']  	= '%s ha terminado su servicio comunitario!',
+  ['press_to_start']      = 'Presione ~INPUT_CONTEXT~ para empezar.',
+  ['system_msn']          = '^1SYSTEM',
+  ['invalid_player_id_or_actions']      = 'ID de jugador o recuento de acciones no válidos.',
+  ['insufficient_permissions']      = 'Permisos insuficientes.',
+  ['give_player_community']      = 'Dar servicio a la comunidad de jugadores',
+  ['target_id']      = 'ID del jugador',
+  ['action_count_suggested']      = 'recuento de acciones [sugerido: 10-40]',
+  ['invalid_player_id']      = 'ID de jugador inválido!',
+  ['unjail_people']      = 'Desencarcelar a la gente.'
+}

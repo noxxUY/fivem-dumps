@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    transition: all 300ms;
+}
+
+#All{
+    display:none;
+}
+
+
+.container{
+    
+    overflow: hidden;
+    font-family: 'Exo', sans-serif;
+    display:none;
+    position: absolute;
+    top: calc(50% - 8.1018515vh);
+    right: 1%;
+    width: 15.625000vw;
+    height: 16.203703vh;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    font-size: 1.388889vh;
+    border-radius: 0.462963vh;
+    padding: 0.922963vh;
+}
+
+.regist{
+    overflow: hidden;
+    font-family: 'Exo', sans-serif;
+    display: none;
+    position: absolute;
+    top: calc(50% - 32.5vh);
+    right: calc(50% - 25vh);
+    width: 50vh;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: rgb(250, 250, 250);
+    font-size: 1.388889vh;
+    border-radius: 0.62963vh;
+    padding: 0.922963vh;
+}
+
+.databox {
+    position: sticky;
+    margin-top: 0.4vh;
+    width: 85%;
+    right: 7.5%;
+    max-height: 45vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0.3vh;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(194, 194, 194); 
+}

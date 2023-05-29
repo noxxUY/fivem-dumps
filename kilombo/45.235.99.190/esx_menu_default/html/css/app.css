@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+/* @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.menu {
+	font-family: 'Roboto', sans-serif;
+	min-width: 400px;
+	font-weight: 500;
+	color: #ffffff;
+	position: absolute;
+	right: 5%; 
+	top: 40%;
+	border-radius: 15px;
+
+}
+
+/* .menu .head {
+	background: #000 url(https://cdn.discordapp.com/attachments/895860742920744984/1000970882505769080/logo.png) center center / cover no-repeat; 
+	height: 100px;
+	line-height: 60px;
+	border: 1.5px solid #efd6a8;
+	border-radius: 40px;
+} */
+
+.menu .subhead {
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 10px auto;
+	border-bottom: 2px solid white;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 23px;
+}
+.menu .subhead i {
+	padding-right: .3rem;
+}
+
+.menu .menu-items {
+	max-height: 450px;
+	overflow-y: hidden;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+	.menu {
+		min-width: 300px;
+	}
+
+	.menu .menu-items {
+		max-height: 200px;
+	}
+  }
+
+
+.menu .menu-items .menu-item {
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+	padding: 12px;
+	text-align: left;
+	box-shadow: inset -5px 0 transparent;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+}
+
+/* .menu .menu-item:nth-child(even) {
+	background: rgba(41, 41, 41, 0.3);
+} */
+
+/* [EXTRA] Menu Align Overrides */
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 10vh;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

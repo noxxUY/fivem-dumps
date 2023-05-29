@@ -1,0 +1,71 @@
+{
+  "Executors": {
+    "E1": true,
+    "E2": false,
+    "E3": true,
+    "E4": true,
+    "E5": true,
+    "E6": false
+  },
+  "General": {
+    "AntiLuaMenu": true,
+    "AntiTeleport": false,
+    "AntiNoClip": true,
+    "AntiFreeCam": false,
+    "AntiSpeedHack": false,
+    "AntiNoRagdoll": true,
+    "AntiSpectate": true,
+    "AntiInvisible": true,
+    "AntiSuperJump": true,
+    "AntiInfiniteStamina": true,
+    "AntiPedModelChange": true,
+    "AntiNightVisions": true,
+    "AntiAFKBypass": true,
+    "AntiBlips": true
+  },
+  "GodMode": {
+    "AntiInfiniteRefill": true,
+    "AntiOverrideHealthStats": false,
+    "AntiInvincible": true,
+    "AntiNoCombatDamages": true
+  },
+  "Weapons": {
+    "EnableWeaponsBlackList": true,
+    "AntiWeaponSpawner": true,
+    "AntiWeaponComponentModifier": true,
+    "AntiWeaponDamagesModifier": true,
+    "AntiHitboxModifier": true,
+    "AntiAmmoCheating": true,
+    "AntiInfiniteAmmo": true,
+    "AntiNoReload": true,
+    "AntiSoftAim": true,
+    "AntiNoRecoil": true,
+    "AntiMagicBullets": false,
+    "AntiShootOutOfScreen": true
+  },
+  "Vehicles": {
+    "NoCarKill": true,
+    "AntiTeleportInVehicle": true,
+    "AntiSpawnFromOtherScripts": true,
+    "AntiSpawnFromUnauthorizedScripts": true,
+    "AntiSpeedModifier": true,
+    "AntiHandlingModifier": true,
+    "AntiVehicleDamagesModifier": true
+  },
+  "Objects": {
+    "AntiSpawnFromOtherScripts": true,
+    "AntiSpawnFromUnauthorizedScripts": true
+  },
+  "Peds": {
+    "AntiSpawnFromOtherScripts": true,
+    "AntiSpawnFromUnauthorizedScripts": true
+  },
+  "Resources": {
+    "AntiResourceInjection": true,
+    "AntiResourceStop": true
+  },
+  "Events": {
+    "AntiTriggerClientEvent": true,
+    "AntiTriggerServerEvent": true
+  }
+}

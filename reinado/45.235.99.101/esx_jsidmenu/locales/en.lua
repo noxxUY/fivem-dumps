@@ -1,0 +1,55 @@
+Locales['en'] = {
+	-- Citizen Interactions
+	["citizen_interactions"] 	= "Documentos",
+	["vehicle_menu"]			= "Vehicle Menu",
+	["id_card"]					= "D.N.I",
+	["id_card2"]				= "Licencia de Conducir",
+	["id_card3"]				= "Licencia de Armas",
+	["pee"]						= "Pee",
+	["poop"]					= "Poop",
+	["blindfold"]				= "On/Off blindfold",
+	["nobody_near"]				= "No players nearby",
+	-- ID Meny
+	["check_id"]				= "Ver D.N.I",
+	["show_id"]					= "Mostrar D.N.I",
+	["check_id2"]				= "Ver Licencia de Conducir",
+	["show_id2"]				= "Monstar Licencia de Conducir",
+	["check_id3"]				= "Ver Licencia de Armas",
+	["show_id3"]				= "Mostrar Licencia de Armas",
+	["id_menu"]					= "D.N.I",
+	["dl_menu"]					= "Licencia de Conducir",
+	["gl_menu"]					= "Licencia de Armas",
+	-- Fordonsmeny
+	["engine"]					= "Engine",
+	["doors"]					= "Doors",
+	["window"]					= "Window",
+	["cruise_control"]			= "Cruise Control",
+	["shuff"]					= "Change Seat",
+	["turned_off_engine"]		= "You turned off the engine",
+	["turned_on_engine"]		= "You turned on the engine",
+	-- Dörrar
+	["hood"]					= "Hood",
+	["trunk"]					= "Trunk",
+	["front_left_door"]			= "Left front door",
+	["front_right_door"]		= "Right front door",
+	["back_left_door"]			= "Left back door",
+	["back_right_door"]			= "Right back doot",
+	["closed_hood"]				= "You closed the hood!",
+	["opened_hood"]				= "You opened the hood!",
+	["closed_door"]				= "You opened the door",
+	["opened_door"]				= "You closed the door!",
+	-- Fönster meny
+	["window_menu"]				= "Window Menu",
+	["front_left_window"]		= "Left right window",
+	["front_right_window"]		= "Right front window",
+	["back_left_window"]		= "Left back window",
+	["back_right_window"]		= "Right back door",
+	["opened_window"]			= "You closed the window",
+	["closed_wondow"]			= "You opened the window",
+	-- Fartbegränsare
+	["disabled"]				= "Disabled",
+	["disabled_cruise_control"]	= "You turned off the cruise control",
+	-- Seatbelt
+	["seatbelt_on"]				= "Fasten seatbelt!",
+	["seatbelt_off"]			= "Unbuckled seatbelt!"
+}

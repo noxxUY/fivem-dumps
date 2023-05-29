@@ -1,0 +1,170 @@
+.weedBody {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(56, 60, 67);
+    border-radius: 3%;
+    display:none;
+}
+
+.heading {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Coda Caption';
+}
+
+.progress_fertilizer {
+    position: absolute;
+    top: -18%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #DEB887;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.progress_fertilizer .progress-text_fertilizer {
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    z-index: 5;
+}
+
+.progress_fertilizer .progress-bar_fertilizer {
+    height: 100%;
+    width: 10%;
+    background-color: #fff;
+    border-radius: inherit;
+    overflow: hidden;
+    position: relative;
+    -webkit-animation: animate 4s;
+    animation: animate 4s;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate {
+    0% {
+        width: 0%;
+    }
+}
+
+.progress_water {
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    width: 80%;
+    height: 10%;
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #07A4DD;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.progress_water .progress-text_water {
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    z-index: 5;
+}
+
+.progress_water .progress-bar_water {
+    height: 100%;
+    overflow: hidden;
+    width: 10%;
+    background-color: #fff;
+    border-radius: inherit;
+    position: relative;
+    -webkit-animation: animate 4s;
+    animation: animate 4s;
+}
+
+.progress_status {
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    width: 80%;
+    height: 10%;
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #3cff00;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.progress_status .progress-text_status {
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    color: rgb(9, 9, 9);
+    font-variant: small-caps;
+    z-index: 5;
+}
+
+.progress_status .progress-bar_status {
+    height: 100%;
+    overflow: hidden;
+    width: 10%;
+    background-color: #fff;
+    border-radius: inherit;
+    position: relative;
+    -webkit-animation: animate 4s;
+    animation: animate 4s;
+}
+
+.progress_quality {
+    position: absolute;
+    left: 10%;
+    top: 36%;
+    width: 80%;
+    height: 10%;
+    margin: 100px auto;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #ff0000;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.progress_quality .progress-text_quality {
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    color: rgb(9, 9, 9);
+    font-variant: small-caps;
+    z-index: 5;
+}
+
+.progress_quality .progress-bar_quality {
+    height: 100%;
+    overflow: hidden;
+    width: 50%;
+    background-color: #fff;
+    border-radius: inherit;
+    position: relative;
+    -webkit-animation: animate 4s;
+    animation: animate 4s;
+}

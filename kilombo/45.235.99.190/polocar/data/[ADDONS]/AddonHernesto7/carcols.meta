@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>665_tiger_modkit</kitName>
+      <id value="665" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+        <Item>
+          <modelName>tiger_base</modelName>
+          <modShopLabel>WT_HAP</modShopLabel>
+          <linkedModels>
+            <Item>tiger_turret</Item>
+			<Item>tiger_barrel</Item>
+			<Item>tiger_gun</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_m</Item>
+			<Item>mod_v</Item>
+			<Item>mod_w</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="3" />
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>tiger_turret</modelName>
+          <bone>mod_n</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>tiger_barrel</modelName>
+          <bone>mod_o</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>tiger_gun</modelName>
+          <bone>mod_p</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_HAP</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_HAP</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>

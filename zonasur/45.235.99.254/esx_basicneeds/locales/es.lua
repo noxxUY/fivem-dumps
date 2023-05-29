@@ -1,0 +1,16 @@
+Locales['es'] = {
+  ['used_bread'] = 'Has usado ~y~1x~s~ ~b~pan~s~',
+  ['used_water'] = 'Has usado ~y~1x~s~ ~b~agua~s~',
+  ['used_hamburger'] = 'Has usado ~y~1x~s~ ~b~Hamburguesa~s~',
+  ['used_sandwich'] = 'Has usado ~y~1x~s~ ~b~Sandwich~s~',
+  ['used_chocolate'] = 'Has usado ~y~1x~s~ ~b~Chocolate~s~',
+  ['used_bolchips'] = 'Has usado ~y~1x~s~ ~b~Lays~s~',
+  ['used_apple'] = 'Has usado ~y~1x~s~ ~b~Manzana~s~',
+  ['used_cocacola'] = 'Has usado ~y~1x~s~ ~b~Coca-Cola~s~',
+  ['used_beer'] = 'Has usado ~y~1x~s~ ~b~Cervesa~s~',
+  ['used_wine'] = 'Has usado ~y~1x~s~ ~b~Vino~s~',
+  ['used_vodka'] = 'Has usado ~y~1x~s~ ~b~Vodka~s~',
+  ['used_grand_cru'] = 'Has usado ~y~1x~s~ ~b~Champagne~s~',
+  ['used_cupcake'] = 'Has usado ~y~1x~s~ ~b~Cupcake~s~',
+  ['used_coffee'] = 'Has usado ~y~1x~s~ ~b~Cafe~s~',
+}

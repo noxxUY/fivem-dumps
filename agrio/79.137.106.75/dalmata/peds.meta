@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+   <InitDatas>
+  <Item>
+   <Name>A_C_Retriever</Name>
+   <PropsName>null</PropsName>
+   <ClipDictionaryName>creatures@retriever@move</ClipDictionaryName>
+   <BlendShapeFileName>null</BlendShapeFileName>
+   <ExpressionSetName />
+   <ExpressionDictionaryName>a_c_retriever</ExpressionDictionaryName>
+   <ExpressionName>a_c_retriever</ExpressionName>
+   <Pedtype>animal</Pedtype>
+   <MovementClipSet>hash_EEBC0D35</MovementClipSet>
+   <MovementClipSets />
+   <StrafeClipSet>move_ped_strafing</StrafeClipSet>
+   <MovementToStrafeClipSet>move_ped_to_strafe</MovementToStrafeClipSet>
+   <InjuredStrafeClipSet>move_strafe_injured</InjuredStrafeClipSet>
+   <FullBodyDamageClipSet>dam_ko</FullBodyDamageClipSet>
+   <AdditiveDamageClipSet>dam_ad</AdditiveDamageClipSet>
+   <DefaultGestureClipSet>anim_group_gesture_m_generic</DefaultGestureClipSet>
+   <FacialClipsetGroupName>facial_clipset_group_gen_male</FacialClipsetGroupName>
+   <DefaultVisemeClipSet>anim_group_visemes_m_lo</DefaultVisemeClipSet>
+   <SidestepClipSet>creatures@retriever@step</SidestepClipSet>
+   <PoseMatcherName>retriever</PoseMatcherName>
+   <PoseMatcherProneName>null</PoseMatcherProneName>
+   <GetupSetHash>hash_D843E224</GetupSetHash>
+   <CreatureMetadataName>null</CreatureMetadataName>
+   <DecisionMakerName>hash_8B09733B</DecisionMakerName>
+   <MotionTaskDataSetName>retriever</MotionTaskDataSetName>
+   <DefaultTaskDataSetName>animal</DefaultTaskDataSetName>
+   <PedCapsuleName>retriever</PedCapsuleName>
+   <PedLayoutName />
+   <PedComponentSetName />
+   <PedComponentClothName />
+   <PedIKSettingsName>hash_E9881514</PedIKSettingsName>
+   <TaskDataName>hash_8B09733B</TaskDataName>
+   <IsStreamedGfx value="true" />
+   <AmbulanceShouldRespondTo value="false" />
+   <CanRideBikeWithNoHelmet value="false" />
+   <CanSpawnInCar value="true" />
+   <IsHeadBlendPed value="false" />
+   <bOnlyBulkyItemVariations value="false" />
+   <RelationshipGroup>hash_522B964A</RelationshipGroup>
+   <NavCapabilitiesName>hash_025767B0</NavCapabilitiesName>
+   <PerceptionInfo>default_perception</PerceptionInfo>
+   <DefaultBrawlingStyle>hash_1A1009AE</DefaultBrawlingStyle>
+   <DefaultUnarmedWeapon>hash_E5B7DE7A</DefaultUnarmedWeapon>
+   <Personality>retriever</Personality>
+   <CombatInfo>rottweiler</CombatInfo>
+   <VfxInfoName>hash_677DF8BE</VfxInfoName>
+   <AmbientClipsForFlee>hash_6CF6FC6A</AmbientClipsForFlee>
+   <Radio1>RADIO_GENRE_PUNK</Radio1>
+   <Radio2>RADIO_GENRE_JAZZ</Radio2>
+   <FUpOffset value="0" />
+   <RUpOffset value="0" />
+   <FFrontOffset value="0" />
+   <RFrontOffset value="0.147" />
+   <MinActivationImpulse value="20" />
+   <Stubble value="0" />
+   <HDDist value="6" />
+   <TargetingThreatModifier value="1" />
+   <KilledPerceptionRangeModifer value="-1" />
+   <Sexiness />
+   <Age value="0" />
+   <MaxPassengersInCar value="0" />
+   <ExternallyDrivenDOFs />
+   <PedVoiceGroup>hash_087D1FC0</PedVoiceGroup>
+   <AnimalAudioObject>hash_9C03FC16</AnimalAudioObject>
+   <AbilityType>SAT_NONE</AbilityType>
+   <ThermalBehaviour>TB_COLD</ThermalBehaviour>
+   <SuperlodType>SLOD_KEEP_LOWEST</SuperlodType>
+   <ScenarioPopStreamingSlot>SCENARIO_POP_STREAMING_NORMAL</ScenarioPopStreamingSlot>
+   <DefaultSpawningPreference>DSP_NORMAL</DefaultSpawningPreference>
+   <DefaultRemoveRangeMultiplier value="1" />
+   <AllowCloseSpawning value="false" />
+  </Item>
+	     </InitDatas>
+</CPedModelInfo__InitDataList>

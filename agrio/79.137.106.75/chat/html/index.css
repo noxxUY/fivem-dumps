@@ -1,0 +1,263 @@
+@font-face {
+  font-family: Rubik;
+  src: url('https://cdn.discordapp.com/attachments/780480535306305556/948757005810671636/Rubik-Regular.ttf');
+}
+@font-face {
+font-family: Subils;
+src: url('https://cdn.discordapp.com/attachments/851889255437566012/969938622038040586/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+text-transform: capitalize;
+font-family: Subils;
+src: url('https://cdn.discordapp.com/attachments/970013991172730920/980113710616047646/Montserrat-Bold.ttf');
+}
+
+@font-face {
+font-family: Frank;
+src: url('./franklin.ttf');
+}
+
+@font-face {
+  font-family: new_font;
+  src: local("Franklin"), url("https://cdn.discordapp.com/attachments/886714318471712798/913543247496884224/franklin.ttf") format("truetype");
+}
+.color-0{ color: #ffffff; } .color-1{ color: #ff4444; } .color-2{ color: #99cc00; } .color-3{ color: #ffbb33; } .color-4{ color: #0099cc; } .color-5{ color: #33b5e5; } .color-6{ color: #aa66cc; } .color-8{ color: #cc0000; } .color-9{ color: #cc0068; }
+html{ overflow: hidden }* { margin: 0; padding: 0; } .no-grow { flex-grow: 0; } em { font-style: normal; } #app { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: white; } textarea:focus, input:focus { outline: none; } .help { color: #b0bbbd; } .disabled { color: #b0bbbd; } .suggestion { margin-bottom: 0.5%; } .hidden { display: none; }
+.chat-window {
+position: absolute;
+top: 2vw;
+left: 0.5vw;
+width: 20vw;
+text-shadow: 0 0 4vw rgb(255, 255, 255);
+height: 240vw;
+line-height: 1.2vw;
+font-weight: 700;
+letter-spacing: 0vw !important;
+user-select: none;
+}
+.chat-messages {
+  font-family: Subils;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  text-shadow: 0 0 .2vw #000, 0 0 .3vw #000, 0 0 .1vw #000, 0 0 .1vw #000, 0 0 .3vw #0000;
+  height: 100%;
+  font-size: 0.88em;
+  margin: 0vw;
+  font-weight: 500 !important;
+  /*  background-color: rgba(0, 0, 0, 0.288);*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-left: 0.3vw;
+  font-weight: 300;
+}
+.chat-input {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 25.8vh;
+  left: 0.8%;
+  text-shadow: 0 0 4vw rgba(255, 255, 255, 0.404);
+  width: 25vw;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+.prefix {
+  font-size: 1.4vh;
+  color: #ccc;
+  position: absolute;
+  margin-top: 1%;
+  left: 1%;
+  display: none;
+  transform: scale(0);
+} 
+
+input.chat-text {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  font-size: 0.97em;
+  color: #fff;
+  padding: .68vw;
+  border: none;
+  border-radius: .4vw;
+  text-shadow: 0 0 0px rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.842);
+  box-shadow: 0 0 .8vw rgba(0,0,0,.8);
+  width: 90%;
+  animation: fadeIn .3s ease-in-out forwards;
+  max-height: .5vw;
+}
+input.chat-text::placeholder {
+  color: #ccc;
+  
+}
+.msg {
+  font-weight: 500;
+  animation: sendMessage .3s ease-in-out forwards;
+  margin-bottom: 0.3vw;
+}
+.suggestions {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: .8vw;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0,0,0,.75);
+  box-shadow: 0 0 .5vw rgba(0,0,0,.95);
+  border-top-left-radius: .2vw;
+  border-top-right-radius: .2vw;
+  border-bottom-left-radius: .5vw;
+  border-bottom-right-radius: .5vw;
+  padding: .4vw;
+  list-style: none;
+  margin-left: 1%;
+  width: 78%;
+}
+
+.chat-background {
+  background-color: rgba(0, 0, 0, 0.623);
+  box-shadow: 0 0 .8vw rgba(0,0,0,.8);
+  border-radius: .5vw;
+  padding: .2vw .5vw;
+}
+
+@keyframes sendMessage {
+  from {
+      opacity: 0%;
+      /* transform: scale(0.2, 0.5); */
+      transform: translateX(5vw);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0%;
+  }
+}
+
+
+.me_box{
+  padding: 0.1vw; 
+  margin-right: 1vw; 
+box-shadow: 0vw 0vw .32vw rgb(0, 0, 0);
+background-color: rgba(53, 0, 0, 0.664);
+border-left: rgba(255, 0, 0, 0).5px solid; 
+color: rgb(255, 0 ,0); 
+max-width: max-content;
+border-radius: 0.3vw;
+margin: 0.1vw;
+size: 1vw;
+}
+.me_box > span{
+color: white;
+font-weight:normal;
+}
+
+.do_box{ 
+  padding: 0.1vw; 
+  margin-right: 1vw; 
+box-shadow: 0vw 0vw .32vw rgb(0, 0, 0);
+background-color: rgba(0, 1, 53, 0.664);
+border-left: rgba(0, 153, 255, 0) 3.5px solid; 
+color: rgba(0, 151, 255, 1.00);
+border-radius: 0.3vw;
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.do_box > span{
+color: white;
+font-weight:normal;
+}
+
+
+
+
+
+.oop_box{
+padding: 0.1vw; 
+margin-right: 1vw; 
+box-shadow: 0vw 0vw .32vw rgb(0, 0, 0);
+background-color: rgba(72, 0, 149, 0.434);
+border-left: rgba(0, 153, 255, 0) 3.5px solid; 
+color: rgb(123, 0, 255);
+border-radius: 0.3vw;
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.oop_box > span{
+color: rgb(255, 255, 255);
+font-weight:normal;
+}
+
+.ayuda_box{
+  padding: 0.1vw; 
+  margin-right: 1vw; 
+font-weight:normal;
+border-radius: 0.3vw;
+color: rgb(251, 255, 0);
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.ayuda_box > span{
+color: rgb(255, 255, 255);
+font-weight:normal;
+}
+
+.id_box{
+  padding: 0.1vw; 
+  margin-right: 1vw;
+box-shadow: 0vw 0vw .32vw rgb(0, 0, 0);
+background-color: rgba(44, 0, 53, 0.664);
+border-left: rgba(204, 0, 255, 0) 3.5px solid;
+color: rgb(213, 46, 255); 
+font-weight:normal;
+border-radius: 0.3vw;
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.id_box > span{
+color: rgb(255, 255, 255);
+font-weight:normal;
+}
+
+.staff_box{
+  padding: 0.1vw; 
+  margin-right: 1vw;
+background-color: rgba(0, 0, 0, 0.733);
+border-left: rgba(255, 0, 221, 0) 3.5px solid;
+color: rgb(255, 255, 255); 
+font-weight:normal;
+border-radius: 0.3vw;
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.staff_box > span{
+color: rgb(255, 255, 255);
+font-weight:normal;
+}
+
+
+.dados_box{
+  padding: 0.1vw; 
+  margin-right: 1vw;
+
+font-weight:normal;
+border-radius: 0.3vw;
+max-width: max-content;
+margin: 0.1vw;
+size: 1vw;
+}
+.dados_box > span{
+color: rgb(255, 255, 255);
+font-weight:normal;
+}

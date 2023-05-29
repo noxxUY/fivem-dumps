@@ -1,0 +1,154 @@
+<html>
+<head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="./rescale.js" type="text/javascript"></script>
+        <script src="./index.js" type="text/javascript"></script>
+        <style id="applicationStylesheet" type="text/css"></style>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <script>
+                $(".tableimg1").click(function () {
+                        var $button = $(this);
+                        var $license = $button.attr('license')
+                        $.post('https://kilombo_amenu/unban', JSON.stringify(
+                                {
+                                        license: $license
+                                }
+                        ));
+                        $.post('https://kilombo_amenu/exit', JSON.stringify({}));
+                });
+
+        </script>
+        <div id="Canvas">
+                <div class="banlist" id="banlist">
+                        <img src="img/return.png" id="returnme" class="return">
+                        <div class="top">BANEOS</div>
+                        <p class="search">Buscar</p>
+                        <input type="text" class="search1" id="bansearch">
+                        <hr>
+                        <div class="banitems">
+                                <div class="datatable-container">
+                                        <table class="datatable">
+                                          <thead>
+                                            <tr>
+                                              <th>ID</th>
+                                              <th>Nombre</th>
+                                              <th>Razón</th>
+                                              <th>Baneado por</th>
+                                              <th>Expiración</th>
+                                              <th>Permanente</th>
+                                              <th>Eliminar</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody class="banlistqq" id="banlistqq">
+                                                <tr>
+                                                        <td>1</td>
+                                                        <td>dnz</td>
+                                                        <td>Kilombo RP</td>
+                                                        <td>Keks</td>
+                                                        <td>21.01.2021 19:42:32</td>
+                                                        <td><img src="img/yes.png" class="tableimg"></td>
+                                                        <td><img src="img/trash.png" class="tableimg1"></td>
+                                                </tr>
+
+                                                <tr>
+                                                        <td>1</td>
+                                                        <td>qq</td>
+                                                        <td>wee RP</td>
+                                                        <td>dd</td>
+                                                        <td>21.01.2021 19:42:32</td>
+                                                        <td><img src="img/no.png"  class="tableimg"></td>
+                                                        <td><img src="img/trash.png" class="tableimg1"></td>
+                                                </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                        </div>
+                </div>
+
+
+
+                <div id="container" class="container">
+                        <div class="top">KILOMBO ADMIN PANEL</div>
+                        <hr>
+                        <img src="img/refresh.png" alt="" class="refresh">
+                        <button class="leavespec"><p>Dejar Spect</p></button>
+                        <button class="leavemenu"><p><i class="fa-solid fa-arrow-right-from-bracket"></i></p></button>
+                        <!--<button class="showbans"><p>Lista Bans</p></button>-->
+                        <p class="infoaction">INFORMACIÓN Y ACCIONES</p>
+                        <p class="playerinventory">INVENTARIO</p>
+                        <img src="img/players.png" alt="" class="players">
+                        <p class="players" id="onlineplayers">N/A</p>
+                        <img src="img/admins.png" alt="" class="admins">
+                        <p class="admins" id="onlineadmins">N/A</p>
+                        <input type="text" class="search" id="search" placeholder="ID o Nombre">
+                        <div class="playerbox">
+                                <div id="dialog-window" >
+                                        <div id="scrollable-content">
+                                                <div id="playerlist" id="playerlist">
+                                                        <div class="player">
+                                                                <div class="id">Loading...</div>
+                                                                <div class="hr"></div>
+                                                                <div class="playername">Loading...</div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="infobox" style="display: block;">
+                                <div class="noone">NINGÚN JUGADOR SELECCIONADO 🤔</div>
+                                <div style="display: none;" class="realnametext">NOMBRE Y APELLIDO:</div>
+                                <div style="display: none;" class="dobtext">NACIMIENTO:</div>
+                                <div style="display: none;" class="heighttext">ALTURA:</div>
+                                <div style="display: none;" class="gendertext">SEXO:</div>
+                                <div style="display: none;" class="realname" id="realname">NADIE SELECCIONADO</div>
+                                <div style="display: none;" class="dob" id="dob">NADIE SELECCIONADO</div>
+                                <div style="display: none;" class="height" id="height">NADIE SELECCIONADO</div>
+                                <div style="display: none;" class="gender" id="sex">NADIE SELECCIONADO</div>
+                                <hr style="display: none;" class="HrMain">
+                                <p style="display: none;" class="money">DINERO</p>
+                                <p style="display: none;" class="bankmoney">DINERO EN BANCO</p>
+                                <p style="display: none;" class="blackmoney">DINERO NEGRO</p>
+                                <div style="display: none;" class="playermoney"><p id="meingeld">NADIE SELECCIONADO</p></div>
+                                <div style="display: none;" class="playerbankmoney"><p id="meinebank">NADIE SELECCIONADO</p></div>
+                                <div style="display: none;" class="playerblackmoney"><p id="meinschwarzgeld">NADIE SELECCIONADO</p></div>
+                                <!--<div class="spec" id="spec"><p>Spectear</p></div>
+                                <div class="screenshot" id="screenshot"><p>Discord Screenshot</p></div>
+                                <div class="goto" id="goto"><p>Ir</p></div>
+                                <div class="bring" id="bring"><p>Traer</p></div>
+                                 <div class="kick" id="kick"><p>Kick</p></div>
+                                <div class="spec" id="spec"><p>Spec</p></div>
+                                <div class="banqq" id="ban"><p>Ban</p></div>
+                                <div class="goto" id="goto"><p>Ir</p></div>
+                                <div class="bring" id="bring"><p>Traer</p></div>
+                                <div class="freeze" id="freeze"><p>Freeze</p></div>
+                                <div class="screenshot" id="screenshot"><p>Discord Screenshot</p></div>
+                                <p class="grund">Razón de Kick/Ban</p>
+                                <input type="text" class="grund" id="grundaction">
+                                <div class="ban first" id="ban_1"><p>1 día</p></div>
+                                <div class="ban two" id="ban_7"><p>1 semana</p></div>
+                                <div class="ban third" id="ban_30"><p>1 mes</p></div>
+                                <div class="ban four" id="ban_182"><p>6 meses</p></div>
+                                <div class="ban five" id="ban_365"><p>1 año</p></div>
+                                <div class="ban six" id="ban_0"><p>Perm</p></div> -->
+                        </div>
+
+                        <div class="inventorybox">
+                                <div id="dialog-window" >
+                                        <div id="scrollable-content" class="clearinv">
+                                                <!-- <div class="item">
+                                                        <div class="anzahl">255x</div>
+                                                        <div class="hr"></div>
+                                                        <div class="itemname">KOKAIN</div>
+                                                </div> -->
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</body>
+</html>

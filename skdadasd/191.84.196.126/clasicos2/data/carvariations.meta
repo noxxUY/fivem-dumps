@@ -1,0 +1,3011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+      <modelName>kustom</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Mayland Black -->
+            0
+            0 
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Battleship Gray -->
+            9
+            0
+            8
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Live Oak Green -->
+            204
+            204
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Oxford Maroon -->
+            167
+            167
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Lake Como Blue -->
+            62
+            0
+            7
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Satin Green -->
+            213
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dove Gray -->
+            4
+            0
+            8
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Gray Green -->
+            214
+            0
+            0
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="900" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>pstan48</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            212
+			198
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            183 
+            183
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            164 
+            164 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            167
+            167 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            176 
+			198
+			0
+			0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>        <Item>
+          <indices content="char_array">
+            209 
+            169 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            185 
+            169 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            1 
+            171 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>pstan48p</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+			111
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="1" />
+    </Item>
+<Item>
+      <modelName>jzeldo57</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- 112 Chamonix White -->
+            111
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 110 Ebony -->
+            0
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+         <Item>
+          <indices content="char_array"> <!-- 116 Wimbledon Gray -->
+            7
+            0
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 118 Deauville Gray -->
+            2
+            0
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 122 Lake Placid Blue -->
+            64
+            0
+            0
+            111
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 124 Copenhagen Blue -->
+            62
+            73
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 126 Fairfax Blue -->
+            141
+            73
+            73
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 132 Jamaican Green -->
+            54
+            51
+            68
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 134 Laurentian Green -->
+            51
+            107
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 136 Plantation Green -->
+            49
+            107
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 140 Manila Cream -->
+            107
+            105
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 144 Sandalwood -->
+            98
+            105
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 148 Kenya Beige-->
+            97
+            0
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 149 Nairobi Pearl -->
+            14
+            97
+            34
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 152 Maharani Maroon -->
+            34
+            111
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 48A Dusty Rose -->
+            32
+            111
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dakota Red Dark -->
+            27
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Kiowa Red Dark -->
+            29
+            0
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Kiowa Red Light -->
+            150
+            0
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 45 Mountain Laurel -->
+            137
+            107
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 49 Amethyst -->
+            142
+            0
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+ <Item>
+      <modelName>jzeldo57r</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- 112 Chamonix White -->
+            111
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 110 Ebony -->
+            0
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+         <Item>
+          <indices content="char_array"> <!-- 116 Wimbledon Gray -->
+            7
+            0
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 118 Deauville Gray -->
+            2
+            0
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 122 Lake Placid Blue -->
+            64
+            0
+            0
+            111
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 124 Copenhagen Blue -->
+            62
+            73
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 126 Fairfax Blue -->
+            141
+            73
+            73
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 132 Jamaican Green -->
+            54
+            51
+            68
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 134 Laurentian Green -->
+            51
+            107
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 136 Plantation Green -->
+            49
+            107
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 140 Manila Cream -->
+            107
+            105
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 144 Sandalwood -->
+            98
+            105
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 148 Kenya Beige-->
+            97
+            0
+            5
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 149 Nairobi Pearl -->
+            14
+            97
+            34
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 152 Maharani Maroon -->
+            34
+            111
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 48A Dusty Rose -->
+            32
+            111
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dakota Red Dark -->
+            27
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Kiowa Red Dark -->
+            29
+            0
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Kiowa Red Light -->
+            150
+            0
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 45 Mountain Laurel -->
+            137
+            107
+            4
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- 49 Amethyst -->
+            142
+            0
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>lancer57</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- Ice Blue/Jewel Black -->
+			87
+            0
+            0
+			87
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Flame Red/Jewel Black -->
+			27
+            0
+            0
+			27
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Jewel Black/Jewel Black -->
+            0
+            0
+            0
+            27
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Glacier White/Velvet Blue -->
+            111
+            73
+            0
+			73
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Gallant Gold/Glacier White -->
+            37
+            111
+            0
+			111
+			0
+            68
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Jewel Black/Gallant Gold -->
+            0
+            37
+            0
+			37
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Jewel Black/Tropical Coral -->
+            0
+            46
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Flame Red/Glacier White -->
+            27
+            111
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Forest Green/Glacier White -->
+            51
+            111
+            0
+            51
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Heather Green/Glacier White -->
+            54
+            111
+            0
+            51
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Misty Green/Glacier White-->
+            67
+            111
+            0
+			67
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sunshine Yellow/Glacier White -->
+            160
+            111
+            0
+			160
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sunshine Yellow/Jewel Black  -->
+            160
+            0
+            0
+			160
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Metallic Charcoal/Moonstone Gray -->
+            9
+            4
+            0
+			9
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Metallic Charcoal/Glacier White  -->
+            9
+            111
+			0
+			9
+            0
+            27
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Jewel Black/Turquoise -->
+            0
+            140
+			0
+			0
+            0
+            27
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>jzbelv</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Sky Blue / White -->
+            229
+            198
+            0
+			73
+          </indices>
+        </Item>
+		        <Item>
+          <indices content="char_array"> <!-- Sand Dune White / Jade Green -->
+            198
+            195
+            54
+			195
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Marine Blue Metallic / White -->
+            208
+            198
+            4
+			73
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Meadow Green / White -->
+            217
+            198
+            0
+			195
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Jade Green Metallic / Meadow Green -->
+            195
+            217
+            54
+			195
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Satin Gray / White -->
+            7
+            198
+            0
+			1
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Charcoal Metallic / White -->
+            3
+            198
+            4
+			1
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Carnival Red / White -->
+            27
+            198
+            0
+			27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ginger / White -->
+            166
+            198
+            0
+			166
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Canary Yellow / White -->
+            207
+            198
+            0
+			168
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Burgundy Metallic / White -->
+            31
+            198
+            4
+			1
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dusty Coral / White -->
+            216
+            198
+            0
+			216
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Desert Gold Metallic / White -->
+            168
+            198
+            4
+			168
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Jet Black / White -->
+            0
+            198
+            0
+			1
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>bville58</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            51 
+            139 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            1 
+            111
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            111 
+            27 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            36 
+            111 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            68 
+            111 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>        <Item>
+          <indices content="char_array">
+            1
+            1 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            54 
+            64 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            4 
+            111 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>fairlane64</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- Wimbledon White -->
+            111
+            0
+            3
+			111
+            3
+			3
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Arcadian Blue -->
+            67
+            0
+            3
+            67
+			127
+			127
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Frost -->
+            4
+            0
+            0
+            4
+			106
+			3
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Raven Black -->
+            0 
+            0
+            0
+			0
+            107
+			131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Nightmist Blue -->
+            164
+            0
+            63
+			164
+            73
+			73
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sauterne Gold -->
+            168
+            0
+            3
+			168
+            99
+			99
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Tahoe Turquoise -->
+            161
+            0
+            111
+			161
+            107
+			107
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Blue -->
+            7
+            0
+            3
+			7
+            73
+			73
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Antique Bronze -->
+            165
+            0
+            165
+            165
+			99
+			99
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ivy Green -->
+            49
+            0
+            3
+			49
+            102
+			102
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Rangoon Red -->
+            27
+            0
+            1
+			27
+            27
+			27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Vintage Burgundy -->
+            167
+            0
+            3
+			167
+            27
+			27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sahara Beige -->
+            107
+            0
+            3
+			107
+            104
+			104
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Raven Black w/ red interior -->
+            0
+            0
+            0
+			0
+            27
+			27
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Triple Raven Black -->
+            0
+            0
+            0
+			0
+            0
+			27
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>fairlane64_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>mbenz220s</modelName>
+      <colors> 
+	  <Item>
+          <indices content="char_array"> <!-- White / Carnival Red -->
+            198
+            27
+            0
+			198
+			27
+			27
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Mercedes Blue / Schwarz -->
+            75
+            0
+            0
+			0
+			0
+			0
+          </indices>
+        </Item>	
+		<Item>
+          <indices content="char_array"> <!-- Sand / Havana Brown -->
+            99
+            96
+            0
+			99
+			96
+			96
+          </indices>
+        </Item>			
+        <Item>
+          <indices content="char_array"> <!-- Horizon Blue / Mercedes Benz White -->
+            68
+            107
+            0
+			68
+			107
+			107
+          </indices>
+        </Item>
+
+        <Item>
+          <indices content="char_array"> <!-- Papyrus White/ Mercedes Benz White -->
+            67
+            107
+            0
+			67
+			107
+			107
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sea Green / Moss Green Metallic  -->
+            54
+            50
+            0
+			54
+			50
+			50
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- White / Tunis Beige Metallic -->
+            198
+            7
+            0
+			198
+			7
+			7
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ivory / Mercedes Benz White -->
+            37
+            107
+            0
+			37
+			107
+			107
+          </indices>
+        </Item>
+       <Item>
+          <indices content="char_array"> <!-- Cherry Red / Dark Maroon -->
+            27
+            143
+            0
+			27
+			143
+			143
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Schwarz / Cherry Red -->
+            0
+            143
+            0
+			0
+			143
+			143
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Dark Maroon / Schwarz -->
+            143
+            0
+            0
+			143
+			0
+			0
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>parklane</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Polar White - Onyx Black -->
+            131
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Platinum Beige - Onyx Black  -->
+            7
+            0
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Carnival Red - Polar White -->
+            32
+            131
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Burgundy - Onyx Black -->
+            34 
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Peacock - Onyx Black -->
+            70
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Turquoise - Polar White -->
+            68
+            131
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- ST. NORTIZ BLUE FIREMIST (2457) -->
+            73
+            68
+            0
+			0
+			0
+            131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pacific Blue - Onyx Black -->
+            62
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Bittersweet - Polar White -->
+            46
+            131
+            0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pink Frost - Onyx Black -->
+            136
+            0
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Aztec Gold - Onyx Black -->
+            102
+            0
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pecan Frost - Yellow Mist -->
+            98
+            107
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cardinal Red - Onyx Black -->
+            27
+            0
+            0
+			0
+          </indices>
+        </Item>      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>chargersb</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            29
+            0
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            145 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            188 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            167 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            92 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>        <Item>
+          <indices content="char_array">
+            91 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            187 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            135 
+            0 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>cfleet72</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- COTILLION WHITE (2058) -->
+            131
+            0
+            0
+			0
+			0
+            131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- CONTESSA PEWTER METALLIC (2429) -->
+            7
+            5
+            0
+            0
+			0
+			0 
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- MAYFAIR GREY METALLIC (2430) -->
+            3
+            5
+            0
+            0
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- SABLE BLACK (9400) -->
+            0 
+            0
+            0
+			0
+			0
+            107
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- ADRIATIC TURQUOISE METALLIC (2168) -->
+            68
+            5
+            0
+			0
+			0
+            68
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- ZODIAC BLUE METALLIC (2328) -->
+            70
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- ST. NORTIZ BLUE FIREMIST (2457) -->
+            73
+            68
+            0
+			0
+			0
+            131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- BRITTANY BLUE METALLIC (2330) -->
+            62
+            68
+            0
+			0
+			0
+            68
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- BALMORAL GREEN FIREMIST (2460) -->
+            51
+            56
+            0
+            0
+			0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- WILLOW (2441) -->
+            100
+            100
+            0
+			0
+			0
+            50
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- PROMENADE GOLD METALLIC (2442) -->
+            102
+            52
+            0
+			0
+			0
+            37
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- BREWSTER GREEN METALLIC (2440) -->
+            50
+            50
+            0
+			0
+			0
+            50
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- PALOMNO FIREMIST (2458) -->
+            37
+            37
+            0
+			0
+			0
+            37
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- COGNAC METALLIC (2452) -->
+            98
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- CORONATION RED METALLIC (2453) -->
+            27
+            0
+			0
+			0
+            0
+            27
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- CAMBRIDGE RED METALLIC (2348) -->
+            32
+            111
+            0
+			0
+			0
+            32
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>markiv72</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- Red Moondust Metallic 2G -->
+            35
+            0
+            0
+			107
+			0
+            107
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dark Copper Moondust Metallic 5P -->
+            36
+            0
+            0
+            0
+			0
+			0 
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Ginger Moondust Metallic 5D -->
+            104
+            103
+            0
+            103
+			0
+			103
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Yellow Gold Moondust Metallic 6G -->
+            37 
+            0
+            0
+			103
+			0
+            103
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Ivy Moondust Metallic 4D -->
+            125
+            111
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ivy Moondust Metallic 4D -->
+            50
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Black 1C -->
+            0
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pastel Lime 4A -->
+            107
+            107
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Moondust Metallic 1D -->
+            5
+            34
+            0
+            34
+			0
+			34
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Yellow 6D -->
+            160
+            103
+            0
+			109
+			0
+            109
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Blue Moondust Metallic 3L -->
+            64
+            111
+            0
+			62
+			0
+            62
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Blue 3B -->
+            68
+            111
+            0
+			62
+			0
+            62
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>fleet78</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Cotillion White -->
+            131
+            131
+            0
+			131
+            32
+			131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Commodore Blue Metallic -->
+            62
+            62
+            0
+            62
+			73
+			62 
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Ruidoso Saddle Metallic -->
+            33
+            131
+            0
+            33
+			90
+			33
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Sable Black -->
+            0 
+            0
+            0
+			0
+            107
+			131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Columbia Blue -->
+            68
+            62
+            0
+			68
+            69
+			68
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Aztec Gold Firemist -->
+            90
+            90
+            0
+			90
+            107
+			90
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Seamist Green -->
+            60
+            0
+            0
+			60
+            56
+			60
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Mulberry Metallic -->
+            142
+            32
+            0
+			143
+            43
+			142
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Western Saddle Firemist -->
+            36
+            96
+            0
+            36
+			97
+			36
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Platinum Metallic -->
+            6
+            0
+            0
+			6
+            23
+			131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Blackwatch Green -->
+            49
+            49
+            0
+			49
+            49
+			49
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Carmine Red -->
+            27
+            131
+            0
+			27
+            131
+			27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Autumn Haze Firemist -->
+            98
+            98
+            0
+			98
+            99
+			98
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Pewter Metallic -->
+            8
+            0
+            0
+			8
+			0
+            131
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Colonial Yellow -->
+            160
+            160
+			0
+			160
+            160
+			160
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Canyon Copper Firemist -->
+            4
+            40
+            137
+			46
+            32
+			131
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Sable Black w/ red interior -->
+            0
+            0
+            0
+			0
+            27
+			27
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Triple Sable Black -->
+            0
+            0
+            0
+			0
+            0
+			27
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+    <Item>
+      <modelName>fleet78low</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array">
+            27
+            34
+            135
+			27
+            32
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            30
+            103
+            38
+            30
+			103
+			0 
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            145
+            131
+            70
+            145
+			131
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            38 
+            0
+            36
+			38
+            0
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            88
+            131
+            38
+			88
+            131
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Aztec Gold Firemist -->
+            90
+            90
+            36
+			90
+            107
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Seamist Green -->
+            60
+            0
+            51
+			60
+            56
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Mulberry Metallic -->
+            142
+            32
+            0
+			143
+            43
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Western Saddle Firemist -->
+            36
+            96
+            0
+            36
+			97
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            70
+            0
+            64
+			6
+            23
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Blackwatch Green -->
+            49
+            49
+            0
+			49
+            49
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Carmine Red -->
+            27
+            131
+            0
+			27
+            131
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Autumn Haze Firemist -->
+            98
+            98
+            0
+			98
+            99
+			0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Pewter Metallic -->
+            8
+            0
+            0
+			8
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Cadillac Colonial Yellow -->
+            160
+            160
+			0
+			160
+            160
+			0
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Canyon Copper Firemist -->
+            4
+            40
+            137
+			46
+            32
+			0
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Sable Black w/ red interior -->
+            0
+            0
+            0
+			0
+            27
+			0
+          </indices>
+        </Item>
+		<Item>
+          <indices content="char_array"> <!-- Cadillac Triple Sable Black -->
+            0
+            0
+            0
+			0
+            0
+			0
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>888_fleet78low_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>
+<Item>
+      <modelName>newyorker88</modelName>
+       <colors>
+        <Item>
+          <indices content="char_array"> <!-- Red Moondust Metallic 2G -->
+            35
+            0
+            0
+			107
+			0
+            107
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Dark Copper Moondust Metallic 5P -->
+            36
+            0
+            0
+            0
+			0
+			0 
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Ginger Moondust Metallic 5D -->
+            104
+            103
+            0
+            103
+			0
+			103
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Yellow Gold Moondust Metallic 6G -->
+            37 
+            0
+            0
+			103
+			0
+            103
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Ivy Moondust Metallic 4D -->
+            125
+            111
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Ivy Moondust Metallic 4D -->
+            50
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Black 1C -->
+            0
+            0
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Pastel Lime 4A -->
+            107
+            107
+            0
+			0
+			0
+            0
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Silver Moondust Metallic 1D -->
+            5
+            34
+            0
+            34
+			0
+			34
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Yellow 6D -->
+            160
+            103
+            0
+			109
+			0
+            109
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Blue Moondust Metallic 3L -->
+            64
+            111
+            0
+			62
+			0
+            62
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Light Blue 3B -->
+            68
+            111
+            0
+			62
+			0
+            62
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item>              						
+  </variationData>
+</CVehicleModelInfoVariation>

@@ -1,0 +1,20 @@
+Locales["en"] = {
+	["cash"] = "Efectivo",
+	["black_money"] = "Dinero sucio",
+	["player_nearby"] = "Este jugador ya no está cerca de ti!",
+	["players_nearby"] = "¡No hay jugadores cerca!",
+	["openinv_help"] = "Abre el inventario de otro jugador",
+	["openinv_id"] = "Jugador ID",
+	["no_permissions"] = "No tienes permisos para hacer eso!",
+	["no_player"] = "No encontré al jugador con el ID proporcionado!",
+	["player_inventory"] = "Inventario del jugador",
+	["store"] = "Tienda",
+	["not_enough_space"] = "No tienes suficiente espacio Gatooo!!",
+	["not_enough_money"] = "no tienes suficiente dinero anda a laburar !!!",
+	["already_have_weapon"] = "Ya tene este fierro ñery!",
+	["bought"] = "Tú compraste %sx %s por $%s",
+	["bad_amount"] = "¡Cantidad incorrecta!",
+	["took_from_storage"] = "Te la tomaste toda eeeh %sx %s",
+	["took_not_enough"] = "No hay suficiente almacenamiento!",
+	["put_into_storage"] = "Usted ha puesto %sx %s en el almacenamiento"
+}

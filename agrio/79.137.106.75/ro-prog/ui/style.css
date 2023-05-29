@@ -1,0 +1,52 @@
+﻿
+@font-face {
+	font-family: Play;
+	src: url('https://cdn.discordapp.com/attachments/791803602993414144/975574767233024032/Play-Bold.ttf');
+}
+
+
+#originalprogressbar {
+  position: relative;
+  margin:auto;
+  margin-top: 51%;
+  margin-left: 90%;
+  height: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+#text {
+  color: rgb(255, 255, 255);
+  font-family: Play;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 40%;
+}
+
+svg {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  right: 0;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+
+#circle {
+  stroke-dasharray:  188.49555921539px;
+  stroke-dashoffset: 0px;
+  stroke-linecap: round;
+  stroke-width: 5.0px;
+  fill: none;   
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+    stroke: rgb(255, 255, 255);
+  }
+  to {
+    stroke-dashoffset: 188.49555921539px;
+    stroke: rgb(9, 255, 0);
+  }
+}

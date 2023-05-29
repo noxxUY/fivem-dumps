@@ -1,0 +1,122 @@
+.container {
+  width: 80%;
+  height: 80%;
+}
+
+.IconContainer {
+  position: absolute;
+  bottom: 0vh;
+  left: 0.1vh;
+}
+
+
+.logo
+{
+	position: absolute;
+	right: 1vh;
+	top: 2vh;
+	opacity: 1.8px;
+}
+
+
+.BaseCircle {
+  position: relative;
+  top: 6.65vw; 
+  right: -19.7vw;
+  width: 3vh !important;
+  height: 3vh !important;
+  float: right;
+  z-index: 1px;
+  margin: 0.6vh;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.63);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+}
+
+.fa-heart,
+.fa-shield-alt,
+.fa-drumstick-bite,
+.fa-skull {
+  color: white;
+  position: absolute;
+  font-size: 1.3vh;
+  left: 0.77vh;
+  bottom: 0.7vh;
+}
+
+.fa-brain  {
+  color: white;
+  position: absolute;
+  font-size: 1.3vh;
+  left: 0.82vh;
+  bottom: 0.7vh;
+}
+
+.fa-microphone {
+  color: white;
+  position: absolute;
+  font-size: 1.4vh;
+  left: 1vh;
+  bottom: 0.86vh;
+}
+
+
+
+.fa-lungs {
+  color: white;
+  position: absolute;
+  font-size: 1.45vh;
+  left: 0.6vh;
+  bottom: 0.7vh;
+}
+
+.fa-glass-whiskey {
+  color: white;
+  position: absolute;
+  font-size: 1.3vh;
+  left: 0.80vh;
+  bottom: 0.7vh;
+}
+
+.fa-pizza-slice {
+  color: white;
+  position: absolute;
+  font-size: 1.3vh;
+  left: 0.88vh;
+  bottom: 0.8vh;
+}
+
+.fa-hamburger		 {
+color: white;
+position: absolute;
+font-size: 1.3vh;
+left: 0.88vh;
+bottom: 0.8vh;
+}
+
+
+
+
+.fa-drumstick-bite {
+color: white;
+position: absolute;
+font-size: 1.3vh;
+left: 0.88vh;
+bottom: 0.8vh;
+}
+
+.flash {
+  -webkit-animation: flash 1s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

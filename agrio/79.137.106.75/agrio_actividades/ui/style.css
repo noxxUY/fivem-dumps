@@ -1,0 +1,49 @@
+@font-face {
+	font-family: days;
+	src: url('https://images.forasterosroleplay.es/fonts/fonts33.otf');
+}
+
+@font-face {
+	font-family: Rubik;
+	src: url('https://cdn.discordapp.com/attachments/780480535306305556/948757005810671636/Rubik-Regular.ttf');
+}
+
+
+/* body{
+    background-color: black;
+} */
+.container {
+    position:absolute;
+    display:none;
+    flex-direction: row;
+    bottom: 5px;
+    left:65%;
+    /* transform: translate(-50%,-50%); */
+}
+.box {
+    width: auto;
+    height: 40px; 
+    text-shadow: .1vw .1vw .5vw rgba(132, 0, 255, 0.993);
+    position: relative;
+    border-radius: 5px;
+    /* bottom: 15px;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    background: #00000088;
+    opacity: 75%;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;   display: flex;   justify-content: center;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Rubik;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: bold;
+    
+}

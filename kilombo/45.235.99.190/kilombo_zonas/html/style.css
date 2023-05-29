@@ -1,0 +1,44 @@
+/* This applies to all elements (bad practice) */
+
+
+/* This css centers at the middle of the screen */
+#container {
+	padding: .5vw;
+	text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    bottom: 20%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+	text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: .2vw;
+    display: none;
+}
+
+#container2 {
+	padding: .5vw;
+	text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: 20%;
+    left: 6%;
+    font-size: 1vw;
+	text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: .2vw;
+    display: none;
+}
+
+.small {
+	font-size: 1vw;
+	color:#66FF66;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.small2 {
+	font-size: 1vw;
+	color:#FF3333;
+	font-family: Arial, Helvetica, sans-serif;
+
+}

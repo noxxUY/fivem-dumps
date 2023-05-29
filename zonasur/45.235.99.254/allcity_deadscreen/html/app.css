@@ -1,0 +1,65 @@
+/* MADE BY KALU AND KASHNAR
+[ALL CITY]
+version : 1.00
+update : 16/06/2018
+info: */
+
+@font-face {
+  font-family: 'Edo';
+  src: url('font/edosz.ttf');  
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin-top: 13vh;
+	margin-left: auto; /*25*/
+	margin-right: auto; /*25*/
+	margin-bottom: auto;
+	width: 152.20700152207002vh; /*958px;*/
+	height: 76.10350076103501vh;
+	color: white;
+	border-radius: 6.0882800608828vh;
+	border: 1px solid #333;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	
+}
+
+#wrapper-text{
+	display: flex;
+	font-family: Edo;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	align-items: center;
+	font-size: 3.8051750380517504vh;
+	text-align: center;
+}
+
+#wrapper-img{
+	width: 38.051750380517504vh;
+	height: 76.10350076103501vh;
+	background-image: url("1.png");
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333 ;
+	border-top-right-radius: 6.0882800608828vh;
+	border-bottom-right-radius: 6.0882800608828vh;
+}
+
+
+#titre {
+	font-size: 5.327245053272451vh;
+}
+
+
+img{
+	width: 38.051750380517504vh;
+	height: 76.10350076103501vh;
+	opacity: 0.5;
+	border-top-right-radius: 6.0882800608828vh;
+	border-bottom-right-radius: 6.0882800608828vh;
+}

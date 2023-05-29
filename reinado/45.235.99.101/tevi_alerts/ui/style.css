@@ -1,0 +1,8 @@
+#logo {
+display: flex;
+    justify-content: center;
+    	position: absolute;
+    left: .1vw;
+    bottom: 12vw;			
+    
+}

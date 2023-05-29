@@ -1,0 +1,15 @@
+.voiceInfo{
+    position: absolute;
+    bottom: 1.5%;
+    right: 1%;
+    text-align: right;
+    padding: 5px 10px 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+    
+    .talking{color:#efd6a8}p{margin:0}

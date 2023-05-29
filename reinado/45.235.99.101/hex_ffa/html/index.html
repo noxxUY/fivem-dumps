@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>by Henrick</title>
+</head>
+<body>
+    <div class="main__hex-container">
+        <div class="main__hex-ffa-container-frame-1" style="display: none;">
+            <div class="main__hex-ffa-frame-1-header">
+                <div class="main__hex-ffa-frame-1-header-left-container">
+                    <div class="main__hex-ffa-frame-1-header-left-big">
+                        <p>Practica</p>
+                    </div>
+                    <div class="main__hex-ffa-frame-1-header-left-small">
+                        <p>Tu Aim</p>
+                    </div>
+                </div>
+                <div class="main__hex-ffa-frame-1-header-right-container">
+                    <div class="main__hex-ffa-frame-1-header-right-item-left active categoryButton" data-type="main">
+                        <p>Principal</p>
+                    </div>
+                    <div class="main__hex-ffa-frame-1-header-right-item-middle categoryButton" data-type="private">
+                        <p>Privado</p>
+                    </div>
+                    <div class="main__hex-ffa-frame-1-header-right-item-right categoryButton" data-type="statistics">
+                        <p>Estadisticas</p>
+                    </div>
+                    <div class="main__hex-ffa-frame-1-header-right-close" id="closeButton">
+                        <i class="fa-thin fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__hex-ffa-frame-1-scroll-container cleanCategory" id="mainZones"></div>
+            <div class="main__hex-ffa-frame-1-scroll-container cleanCategory" id="privateZones"></div>
+            <div class="main__hex-ffa-frame-2-scroll-container cleanCategory" id="playerStats" style="display: none;"></div>
+        </div>
+
+        <div class="main__hex-ffa-container-frame-3" style="display: none;">
+            <div class="main__hex-ffa-frame-3-top-notify-container"></div>
+
+            <div class="main__hex-ffa-frame-3-bottom-hud-container">
+                <div class="main__hex-ffa-frame-3-bottom-hud-item">
+                    <div class="main__hex-ffa-frame-3-bottom-hud-item-inner">
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-big" id="playerKills">
+                            <p>25</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-small">
+                            <p>Kills</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-stripe"></div>
+                    </div>
+                </div>
+                <div class="main__hex-ffa-frame-3-bottom-hud-item">
+                    <div class="main__hex-ffa-frame-3-bottom-hud-item-inner">
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-big" id="playerDeaths">
+                            <p>25</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-small">
+                            <p>Tode</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-stripe"></div>
+                    </div>
+                </div>
+                <div class="main__hex-ffa-frame-3-bottom-hud-item">
+                    <div class="main__hex-ffa-frame-3-bottom-hud-item-inner">
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-big" id="playerKda">
+                            <p>25</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-small">
+                            <p>KD</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-stripe"></div>
+                    </div>
+                </div>
+                <div class="main__hex-ffa-frame-3-bottom-hud-item">
+                    <div class="main__hex-ffa-frame-3-bottom-hud-item-inner">
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-big" id="playerXp">
+                            <p>25</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-header-small">
+                            <p>XP</p>
+                        </div>
+                        <div class="main__hex-ffa-frame-3-bottom-hud-item-inner-stripe"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__hex-ffa-container-frame-4" style="display: none;">
+            <div class="main__hex-ffa-container-frame-4-top-sphere"></div>
+            <div class="main__hex-ffa-container-frame-4-middle-container">
+                <div class="main__hex-ffa-container-frame-4-middle-big-square"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-big-square-outline-left"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-big-square-outline-right"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-small-square-outline"></div>
+            </div>
+            <div class="main__hex-ffa-container-frame-4-middle-skull-img-container">
+                <img src="img/skull.svg" alt="">
+            </div>
+            <div class="main__hex-ffa-container-frame-4-middle-bg-container">
+                <div class="main__hex-ffa-container-frame-4-middle-bg-1"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-bg-2"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-bg-3"></div>
+                <div class="main__hex-ffa-container-frame-4-middle-bg-4"></div>
+            </div>
+            <div class="main__hex-ffa-container-frame-4-respawn-container">
+                <div class="main__hex-ffa-container-frame-4-respawn-inner">
+                    <div class="main__hex-ffa-container-frame-4-respawn-inner-header-big" id="killerTimer">
+                        <p>15 sec</p>
+                    </div>
+                    <div class="main__hex-ffa-container-frame-4-respawn-inner-header-small">
+                        <p>Respawn in</p>
+                    </div>
+                    <div class="main__hex-ffa-container-frame-4-respawn-stripe"></div> 
+                </div>
+            </div>
+            <div class="main__hex-ffa-container-frame-4-kill-container">
+                <div class="main__hex-ffa-container-frame-4-kill-name-container">
+                    <div class="main__hex-ffa-container-frame-4-kill-name-stripe"></div>
+                    <div class="main__hex-ffa-container-frame-4-kill-name-outline" id="killerName">
+                        <p>Romario Richardson</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/57b9d31625.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+[
+ 
+  {
+    "ModelName": "cartrailer",
+    "ModelHash": 410618314,
+    "Min": {
+      "X": -1.2892729,
+      "Y": -4.248108,
+      "Z": -1.038372077,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "Max": {
+      "X": 1.34207714,
+      "Y": 1.55330842,
+      "Z": 4.179366,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "RampModelHash": -1,
+    "RampPosition": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "IsNormalized": false,
+      "IsZero": true
+    }
+  },
+  
+{
+    "ModelName": "cotraiLer",
+    "ModelHash": -1894771625,
+    "Min": {
+      "X": -1.2892729,
+      "Y": -4.248108,
+      "Z": -1.038372077,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "Max": {
+      "X": 1.34207714,
+      "Y": 1.55330842,
+      "Z": 5.179366,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "RampModelHash": -1,
+    "RampPosition": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "IsNormalized": false,
+      "IsZero": true
+    }
+  },
+  
+  {
+    "ModelName": "slamtruck",
+    "ModelHash": -1045911276,
+    "Min": {
+      "X": -1.13159323,
+      "Y": -4.33380747,
+      "Z": -0.204333961,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "Max": {
+      "X": 1.162106,
+      "Y": 0.8837402,
+      "Z": 2.08279562,
+      "IsNormalized": false,
+      "IsZero": false
+    },
+    "RampModelHash": -1061569318,
+    "RampPosition": {
+      "X": 0.0,
+      "Y": -7.330452,
+      "Z": -0.8221497,
+      "IsNormalized": false,
+      "IsZero": false
+    }
+  }
+]

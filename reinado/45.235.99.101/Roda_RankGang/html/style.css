@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: transparent;
+}
+
+.global {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ranking {
+    background-color: rgba(12, 12, 12, 0.778);
+    border-radius: .5vw;
+    padding:1.2vw 2vw;
+    margin-right: 1vw;
+    border: .1vw solid #ffffff4d
+}
+
+h1 {
+    color: #ff7b00;
+    text-shadow: 0 0 7px black;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: .71vw 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #ff7b00;
+    padding: .3vw .7vw;
+    border-radius: .6vw;
+}
+
+.listado {
+    max-height: 34vh;
+    min-width: 20vw;
+    overflow-y: auto;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.6vw 0;
+}
+
+.killfoto img {
+    border-radius: 50%;
+    height: 3vw;
+}
+
+
+.killnombre {
+    font-size: .8vw;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 1vw;
+    display: flex;
+    text-shadow: 0 0 7px black;
+}
+.rankid {
+    
+    color: #ff7b00;
+    font-weight: 800;
+    padding-right: .2vw;
+}
+
+/* .listado.rankid:first-of-type::before {
+    content: "🏆";
+}
+.rankid:nth-of-type(2):before {
+    content: "🥈";
+}
+.rankid:nth-of-type(3)::after {
+    content: "🥉";
+} */
+
+
+.datakill {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1vw;
+}
+
+.killcount, .killjob {
+    font-size: .6vw;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    text-shadow: 0 0 7px black;
+}
+.matados, .trabajito {
+    font-weight: 300;
+    padding-left: .3vw;
+    
+    padding-right: .5vw;
+}
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 1vw;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }

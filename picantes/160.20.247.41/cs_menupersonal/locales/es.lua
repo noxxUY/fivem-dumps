@@ -1,0 +1,21 @@
+Locales['es'] = {
+    ['title'] = 'Menu Personal',
+    ['infoLicenses'] = '<span style="color:white">Ver/Mostrar Licencias</span>',
+    ['infoGraphics'] = '<span style="color:white">Gestion de Vehiculo</span>',
+    ['seedriver'] = 'Ver licencia de conducir',
+    ['showid'] = 'Mostrar DNI',
+    ['seeid'] = 'Ver DNI',
+    ['titleInfo'] = 'Menu de Licencias',
+    ['showdriver'] = 'Mostrar licencia de conducir',
+    ['seeguns'] = 'Ver licencia de armas',
+    ['showguns'] = 'Mostrar licencia de armas',
+    ['hudtitle'] = '<span style="color:white">--- Gestion de Vehiculo ---</span>',
+    ['invoices_item'] = '$%s',
+    ['received_invoice'] = 'Has recibido una <span style="color:red">factura/multa</span>.',
+    ['paid_invoice'] = 'Has pagado una factura/multa de $%s',
+    ['received_payment'] = 'Has recibido un pago de $%s',
+    ['player_not_online'] = 'El jugador no está conectado.',
+    ['no_money'] = 'No tienes suficiente dinero.',
+    ['target_no_money'] = 'El jugador no tiene suficiente dinero para pagar la factura!',
+    ['stadistics'] = 'Estadísticas del personaje'
+}

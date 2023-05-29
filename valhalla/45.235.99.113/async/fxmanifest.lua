@@ -1,0 +1,8 @@
+shared_script '@FiveEye/FiveEye.lua'
+
+fx_version 'cerulean'
+game 'gta5'
+
+description 'Async'
+
+shared_script 'async.lua'

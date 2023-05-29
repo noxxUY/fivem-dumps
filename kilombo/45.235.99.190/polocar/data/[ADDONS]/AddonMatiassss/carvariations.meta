@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+	<Item>
+      <modelName>stpickup</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            112
+            13
+            0
+            1
+            89
+            89
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="450" />
+      <sirenSettings value="75" />
+    </Item>
+ </variationData>
+</CVehicleModelInfoVariation>

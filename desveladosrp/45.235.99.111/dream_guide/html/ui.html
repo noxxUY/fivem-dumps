@@ -1,0 +1,103 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="app.css" type="text/css" />
+</head>
+
+<body> 
+	<div class="container">
+
+		<div class="card"> 
+			<h1>Guía de la ciudad</h1>
+
+			<div class="buttony">
+				<button class="button" onclick="Zaznacz('komisariat')">Policía</button>
+				<button class="button" onclick="Zaznacz('szpital')">Hospital</button>
+				<button class="button" onclick="Zaznacz('sklep')">Alquiler bici</button>
+				<button class="button" onclick="Zaznacz('salon')">Concesionario</button>
+				<button class="button" onclick="Zaznacz('szkolajazdy')">Carnet conducir</button>
+			</div>
+
+			<h1>TRABAJOS</h1>
+			<div id="slider">
+				<a href="#" class="control_next">></a>
+				<a href="#" class="control_prev"><</a>
+
+				<ul>
+				  <li>		
+						<img src="https://cdn.discordapp.com/attachments/905597199260467231/1092153854407217263/4.JPG" alt="Bezrobotny" width="250" height="200">
+						<p><b>Basurero</b></br>
+							Este trabajo se encarga de mantener nuestra ciudad limpia de residuos para una atractiva vista de la misma. Deberás ir a la central de trabajo, iniciar tu turno y conducir el camión de basura hasta los puntos más sucios de la ciudad. Allí recogeras los residuos y volverás a la central donde serán reciclados. </br>NO OLVIDES DEVOLVER TU VEHÍCULO!</br>
+						</p>
+
+						<div class="item" onclick="Zaznacz('praca1')">  </img>
+							<div class="label">
+									<p>MARCAR<p>
+							</div>
+			
+						</div>
+				 </li>
+				<li>
+						<img src="https://cdn.discordapp.com/attachments/905597199260467231/1092153853794848879/1.JPG" alt="Bezrobotny" width="250" height="200">
+						<p><b>Cartero</b></br>
+							Gracias a los empleados de Amazon tus correos, pedidos y demás llegan a tiempo para que puedas gozar de ellos. Deberás ir hacia el correo, cargar los paquetes y conducir con el vehículo hacia las direcciones establecidas para la entrega. </br>NO OLVIDES DEVOLVER TU VEHÍCULO!</br>
+						</p>
+
+						<div class="item" onclick="Zaznacz('praca2')">  </img>
+							<div class="label">
+									<p>MARCAR<p>
+							</div>
+			
+						</div>
+				</li>
+				<li>
+					<img src="https://cdn.discordapp.com/attachments/905597199260467231/1092153854008754237/2.JPG" alt="Bezrobotny" width="250" height="200">
+					<p><b>Pizza delivery</b></br>
+						Son los mejores aliados de las personas que poco cocinan y que aman la comida chatarra. Su labor es entregar pedidos rápido a la puerta de los clientes. Deberás ir a la pizzería y sacar la moto de repartos para dirigirte hacia las propiedades que han pedido el delivery. </br>NO OLVIDES DEVOLVER TU VEHÍCULO!</br>
+					</p>
+
+					<div class="item" onclick="Zaznacz('praca3')">  </img>
+						<div class="label">
+								<p>MARCAR<p>
+						</div>
+		
+					</div>
+			</li>
+			<li>
+				<img src="https://cdn.discordapp.com/attachments/905597199260467231/1092153854210093066/3.JPG" alt="Bezrobotny" width="250" height="200">
+				<p><b>Taxista</b></br>
+					 Saliste al boliche y no tenes en que volver?, Tu novia te dejó a pata?, No te arranca el auto? No te preocupes! Los taxistas están para ayudarte a llegar a tu destino. Deberás ir hacia la central de taxis, con /taxi preguntar quien necesita tus servicios y luego conduciras! </br>NO OLVIDES DEVOLVER TU VEHÍCULO!</br>
+				</p>
+
+				<div class="item" onclick="Zaznacz('praca4')">  </img>
+					<div class="label">
+							<p>MARCAR<p>
+					</div>
+	
+				</div>
+		</li>
+		<li>
+			<img src="https://cdn.discordapp.com/attachments/905597199260467231/1092153854730174494/5.JPG" alt="Bezrobotny" width="250" height="200">
+			<p><b>Camionero</b></br>
+				 Sos encargado de proveer a las grandes cadenas de marcados la mercadería necesaria para abastecer a los ciudadanos! Dirígete hacia tu trabajo y toma el camión, luego carga la mercadería en el trailer y sigue la ruta GPS hacia el destino! </br>NO OLVIDES DEVOLVER TU VEHÍCULO!</br>
+			</p>
+
+			<div class="item" onclick="Zaznacz('praca5')">  </img>
+				<div class="label">
+						<p>MARCAR<p>
+				</div>
+
+			</div>
+	</li>
+				</ul>  
+			  </div>
+
+			
+		</div>
+
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="app.js"></script>
+</body>
+</html>

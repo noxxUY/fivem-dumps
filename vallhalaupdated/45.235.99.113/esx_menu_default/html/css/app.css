@@ -1,0 +1,120 @@
+:root {
+    --main-bkg-color: rgba(0, 0, 0, 0.4);
+    --default-blur: .14vw;
+    --default-box-shadow: #000000 0px 0px 2.5px;
+    --green-color: #15DB95; /*#3AFE32*/
+    --yellow-color: #FED614;
+    --blue-color: #06D2EA;
+    --red-color: #FC4445; /*#F33439*/
+    --violet-color: #8860D0;
+    --purple-color: #E64398;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    min-width: 300;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+	animation: animate__zoomIn; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.head {
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.menu .head {
+	text-align: center;
+	text-transform: uppercase;
+	color: #ecf0f1;
+	font-weight: bolder;
+	line-height: 30px;
+	font-size: 1.40em;
+	border-bottom: .1vw solid #ffffff;
+	-webkit-filter: drop-shadow(0px 0px 5px #000);
+	filter: drop-shadow(0px 0px 5px #000);
+}
+
+.menu .menu-items {
+	margin-top: 10px;
+	max-height: 500px;
+	overflow-y: auto;
+	font-weight: 500;
+	top: 40%;
+	overflow-y: hidden;
+	background: var(--main-bkg-color);
+    border-radius: .5vw;
+}
+
+.menu .menu-items .menu-item {
+    display: block;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    box-shadow: inset -5px 0 transparent;
+}
+
+.menu .menu-items .menu-item.selected {
+	transform:scale(1);
+	box-shadow: 0 0 5px rgb(255, 255, 255);
+	border-radius:.2rem;
+	background-color:rgba(255,255,255,0.87);
+	color:#000; transition-duration:.2s;
+	transition-timing-function:ease-in-out;
+	animation: selectedMenu 0.1s ease-in-out;
+}
+
+.menu.align-left {
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 0;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 100;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@keyframes selectedMenu { 0% { opacity:0; transform:scale(1) } 50% { opacity:.2 } 100% { opacity:1; transform:scale(0.95) } } 

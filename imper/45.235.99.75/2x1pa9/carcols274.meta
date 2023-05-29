@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>    
+  <Wheels>
+    <Item/> <!-- VWT_SPORT -->
+    <Item/> <!-- VWT_SUPERMOD1 -->
+    <Item/> <!-- VWT_SUPERMOD2 -->
+    <Item/> <!-- VWT_OFFROAD -->
+    <Item> <!-- VWT_TUNER -->
+			<Item>
+        <wheelName>wheel_spor_cr01</wheelName>
+        <wheelVariation />
+        <modShopLabel>cr01</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_dh</wheelName>
+        <wheelVariation />
+        <modShopLabel>dh</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_en01</wheelName>
+        <wheelVariation />
+        <modShopLabel>en01</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_te37</wheelName>
+        <wheelVariation />
+        <modShopLabel>te37</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_vsxx</wheelName>
+        <wheelVariation />
+        <modShopLabel>vsxx</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_wrs</wheelName>
+        <wheelVariation />
+        <modShopLabel>wrs</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+    </Item>   
+    <Item/> <!-- VWT_BIKE -->
+    <Item/> <!-- VWT_HIEND -->
+  </Wheels>
+</CVehicleModelInfoVarGlobal>

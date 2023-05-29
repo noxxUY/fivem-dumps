@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+	<variationData>
+<!-- LSSD Pack Extended - Special Vehicles Subpack data starts here -->
+        <Item>
+           
+            <modelName>camionetapfa</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        111
+                        2
+                        0
+                        147
+                    </indices>
+                    <liveries/>
+                </Item>
+            </colors>
+            <kits>
+                <Item>598_s_sadler_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Police guv plate</Name>
+                        <Value value="100"/>
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="0"/>
+            <sirenSettings value="617"/>
+        </Item>
+	</variationData>
+</CVehicleModelInfoVariation>

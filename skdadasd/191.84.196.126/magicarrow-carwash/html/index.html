@@ -1,0 +1,397 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<style>
+    .esya-1 {
+        transform: translateX(-35px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://i.hizliresim.com/4yerhqe.png);
+    }
+    
+    .esya-2 {
+        transform: translateX(-30px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1010518788569051136/weapon_assaultrifle.png);
+    }
+
+    .esya-3 {
+        transform: translateX(-20px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025813324115480616/smg-mk2.png);
+    }
+
+    .esya-4 {
+        transform: translateX(-5px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025813881001615480/kelepce.png);
+    }
+
+    .esya-5 {
+        transform: translateX(15px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025814034093703219/advancedlockpick.png);
+    }
+
+    .esya-6 {
+        transform: translateX(35px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025814869922041876/unknown.png);
+    }
+
+    .esya-7 {
+        transform: translateX(60px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025814398129946705/sarma_ot.png);
+    }
+
+    .esya-8 {
+        transform: translateX(-35px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865481053290496/abc.png);
+    }
+
+    .esya-9 {
+        transform: translateX(-30px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865481363665056/adrenalin.png);
+    }
+
+    .esya-10 {
+        transform: translateX(-20px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865481699217428/agirzirh.png);
+    }
+
+    .esya-11 {
+        transform: translateX(-5px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865482055725116/rifle_ammo.png);
+    }
+
+    .esya-12 {
+        transform: translateX(15px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865482487726172/shotgun_ammo.png);
+    }
+
+    .esya-13 {
+        transform: translateX(35px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865482919747594/smg_ammo.png);
+    }
+
+    .esya-14 {
+        transform: translateX(60px) translateZ(-50px) rotateY(-10deg);
+        background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865483355951195/pistol_ammo.png);
+    }
+
+    .sol-ok {
+        transform: rotateY(180deg);
+        /* background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865483355951195/pistol_ammo.png); */
+    }
+
+    /* .sag-border2 { */
+        /* transform: rotateY(180deg); */
+        /* background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865483355951195/pistol_ammo.png); */
+    /* } */
+
+    /* .sol-border2 { */
+        /* transform: rotateY(180deg); */
+        /* background-image: url(https://cdn.discordapp.com/attachments/614207930279133194/1025865483355951195/pistol_ammo.png); */
+    /* } */
+
+</style>
+
+<body>
+    <div id="container">
+        <div class="all">
+            <img class = "sag-ok" id = "sag-ok" src="img/sag-ok.png" height="40" width="40" style = "position: absolute; right: 375px; top: 30px; text-align:right;"></img>
+            <img class = "sol-ok" id = "sol-ok" src="img/sag-ok.png" height="40" width="40" style = "position: absolute; right: 1480px; top: 30px; text-align:right;"></img>
+            <img class = "exitmenu" id = "exitmenu" src="img/trans.png" height="40" width="40" style = "position: absolute; right: 38px; top: 704px;"></img>
+            <!-- <button class="exitmenu" id = "exitmenu" style = "position: absolute; right: 38px; top: 704px;"></button> -->
+                        <div class="esya-1" id="esya1"></div>
+                        <div class="esya-2" id="esya2"></div>
+                        <div class="esya-3" id="esya3"></div>
+                        <div class="esya-4" id="esya4"></div>
+                        <div class="esya-5" id="esya5"></div>
+                        <div class="esya-6" id="esya6"></div>
+                        <div class="esya-7" id="esya7"></div>
+                        <div class="esya-8" id="esya8"></div>
+                        <div class="esya-9" id="esya9"></div>
+                        <div class="esya-10" id="esya10"></div>
+                        <div class="esya-11" id="esya11"></div>
+                        <div class="esya-12" id="esya12"></div>
+                        <div class="esya-13" id="esya13"></div>
+                        <div class="esya-14" id="esya14"></div>
+                    </div>
+                        <div class="container2" id="container2">
+                        <div class="esya-2-gorunum" id="esya-2-gorunum">
+                            <img class = "image" src="img/WEAPON_ASSAULTRIFLE.png" height="500" width="500" style = "position: absolute; right: 860px; top: 200px;"></img>
+                            <img class = "damage" id = "damage" src="img/damage.png" height="35" width="350" style = "position: absolute; right: 475px; top: 410px; text-align:right;"></img>
+                            <h1 style = "position: absolute; right: 488px; top: 408px; text-align:right;">70</h1> <!-- DAMAGE AMOUNTH  -->
+                            <img class = "speed" id = "speed" src="img/speed.png" height="35" width="350" style = "position: absolute; right: 475px; top: 475px; text-align:right;"></img>
+                            <h2 style = "position: absolute; right: 490px; top: 472px; text-align:right;">60</h2> <!-- SPEED AMOUNTH  -->
+                            <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                            <h5 style = "position: absolute; right: 550px; top: 790px; text-align:right;">7500</h5> <!-- information  -->
+                            <button class="purchase-rifle" id = "purchase-rifle" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        <div>
+                    </div>
+                </div>
+                <div class="container3" id="container3">
+                <div class="esya-1-gorunum" id="esya-1-gorunum">
+                    <img class = "image" src="img/WEAPON_PISTOL.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                    <img class = "damage" id = "damage" src="img/damage.png" height="35" width="350" style = "position: absolute; right: 475px; top: 410px; text-align:right;"></img>
+                    <h1 style = "position: absolute; right: 488px; top: 408px; text-align:right;">30</h1> <!-- DAMAGE AMOUNTH  -->
+                    <img class = "speed" id = "speed" src="img/speed.png" height="35" width="350" style = "position: absolute; right: 475px; top: 475px; text-align:right;"></img>
+                    <h2 style = "position: absolute; right: 490px; top: 472px; text-align:right;">50</h2> <!-- SPEED AMOUNTH  -->
+                    <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                    <h5 style = "position: absolute; right: 550px; top: 790px; text-align:right;">2500</h5> <!-- information  -->
+                    <button class="purchase-pistol" id = "purchase-pistol" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                    </div>
+                    <div class="container4" id="container4">
+                    <div class="esya-3-gorunum" id="esya-3-gorunum">
+                        <img class = "image" src="img/smg-mk2.png" height="275" width="500" style = "position: absolute; right: 750px; top: 350px;"></img>
+                        <img class = "damage" id = "damage" src="img/damage.png" height="35" width="350" style = "position: absolute; right: 475px; top: 410px; text-align:right;"></img>
+                        <h1 style = "position: absolute; right: 488px; top: 408px; text-align:right;">0</h1> <!-- DAMAGE AMOUNTH  -->
+                        <img class = "speed" id = "speed" src="img/speed.png" height="35" width="350" style = "position: absolute; right: 475px; top: 475px; text-align:right;"></img>
+                        <h2 style = "position: absolute; right: 490px; top: 472px; text-align:right;">50</h2> <!-- SPEED AMOUNTH  -->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 550px; top: 790px; text-align:right;">5000</h5> <!-- information  -->
+                        <button class="purchase-esya3" id = "purchase-esya3" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container5" id="container5">
+                    <div class="esya-4-gorunum" id="esya-4-gorunum">
+                        <img class = "image" src="img/kelepce.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h4 style = "position: absolute; right: 650px; top: 610px; text-align:right;">handchuffs</h4> <!-- item information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">You handcuff someone with this item.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->>
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">200</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya4" id = "purchase-esya4" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container6" id="container6">
+                    <div class="esya-5-gorunum" id="esya-5-gorunum">
+                        <img class = "image" src="img/advancedlockpick.png" height="300" width="400" style = "position: absolute; right: 800px; top: 350px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h4 style = "position: absolute; right: 625px; top: 610px; text-align:right;">a.lockpick</h4> <!-- item information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">You can open things with this item.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya5" id = "purchase-esya5" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container7" id="container7">
+                    <div class="esya-6-gorunum" id="esya-6-gorunum">
+                        <img class = "image" src="img/oxy.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h4 style = "position: absolute; right: 650px; top: 610px; text-align:right;">oxy</h4> <!-- item information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">This item is a bomb dude .</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">100</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya6" id = "purchase-esya6" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="esya-7-gorunum" id="esya-7-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h4 style = "position: absolute; right: 625px; top: 610px; text-align:right;">sarma ot</h4> <!-- item information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">You'll get better if you drink this item, my friend..</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya7" id = "purchase-esya7" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container8" id="container8">
+                    <div class="esya-8-gorunum" id="esya-8-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya8" id = "purchase-esya8" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container9" id="container9">
+                    <div class="esya-9-gorunum" id="esya-9-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya9" id = "purchase-esya9" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container10" id="container10">
+                    <div class="esya-10-gorunum" id="esya-10-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya10" id = "purchase-esya10" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container11" id="container11">
+                    <div class="esya-11-gorunum" id="esya-11-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya11" id = "purchase-esya11" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container12" id="container12">
+                    <div class="esya-12-gorunum" id="esya-12-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya12" id = "purchase-esya12" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container13" id="container13">
+                    <div class="esya-13-gorunum" id="esya-13-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya13" id = "purchase-esya13" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="container14" id="container14">
+                    <div class="esya-14-gorunum" id="esya-14-gorunum">
+                        <img class = "image" src="img/sarma_ot.png" height="200" width="250" style = "position: absolute; right: 900px; top: 400px;"></img>
+                        <img class = "sol-border" id = "sol-border" src="img/sol_border.png" height="150" width="150" style = "position: absolute; right: 600px; top: 390px; text-align:right;"></img>
+                        <img class = "sag-border" id = "sag-border" src="img/sag_border.png" height="150" width="150" style = "position: absolute; right: 462px; top: 530px; text-align:right;"></img>
+                        <h4 style = "position: absolute; right: 460px; top: 360px; text-align:right;">INFORMATION.</h4> <!-- information  -->
+                        <h3 style = "position: absolute; right: 500px; top: 430px; text-align:right;">Bu eşya ile birilerini kelepçelersin.</h3> <!-- information line 1 -->
+                        <h3 style = "position: absolute; right: 500px; top: 450px; text-align:right;"></h3> <!-- information  line 2-->
+                        <h3 style = "position: absolute; right: 500px; top: 470px; text-align:right;"></h3> <!-- information  line 3-->
+                        <h3 style = "position: absolute; right: 500px; top: 490px; text-align:right;"></h3> <!-- information  line 4-->
+                        <h3 style = "position: absolute; right: 500px; top: 510px; text-align:right;"></h3> <!-- information  line 5-->
+                        <h3 style = "position: absolute; right: 500px; top: 530px; text-align:right;"></h3> <!-- information  line 6-->
+                        <h3 style = "position: absolute; right: 500px; top: 550px; text-align:right;"></h3> <!-- information  line 7-->
+                        <h3 style = "position: absolute; right: 500px; top: 570px; text-align:right;"></h3> <!-- information  line 8-->
+                        <h3 style = "position: absolute; right: 500px; top: 590px; text-align:right;"></h3> <!-- information  line 9-->
+                        <h3 style = "position: absolute; right: 500px; top: 610px; text-align:right;"></h3> <!-- information  line 10-->
+                        <img class = "money" id = "money" src="img/money.png" height="50" width="50" style = "position: absolute; right: 650px; top: 850px; text-align:right;"></img>
+                        <h5 style = "position: absolute; right: 570px; top: 790px; text-align:right;">500</h5> <!-- MONEY AMOUNTH  -->
+                        <button class="purchase-esya14" id = "purchase-esya14" style = "position: absolute; right: 795px; top: 900px;">PURCHASE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+
+</html>

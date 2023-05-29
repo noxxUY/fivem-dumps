@@ -1,0 +1,932 @@
+@font-face {
+    font-family: Corleon;
+    src: url(https://cdn.discordapp.com/attachments/851889255437566012/969938622038040586/LexendDeca-Regular.ttf);
+}
+
+* {
+    font-family: Corleon;
+    color: white;
+    user-select: none;
+}
+
+.ui {
+    position: absolute;
+    right: 69vw;
+    top: 12vw;
+    width: 29vw;    
+    height: 29.4vw;
+    background-color: #000000be;
+    box-shadow: 0 0 1vw black;
+    border-radius: 0.8vw;
+    display: none;
+}
+
+.zona {
+    position: fixed;
+    top: 46%;
+    left: 10%;
+    width: 50%;
+    height: 60%;
+    border-radius: .5vw;
+    transform: translateY(-50%);
+    color: transparent;
+    transition: .4s;
+    background-color: rgba(0, 0, 0, .35);
+
+    opacity: 0;
+}
+
+@keyframes fadefade {
+    from {opacity: 0;}
+}
+
+.zona center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    font-size: 1.2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: fadefade 1s infinite alternate;
+}
+
+.inventory {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 34vw;
+    height: 27.2vw;
+}
+
+#playerInventory {
+    width: 30vw;
+    height: 22.52vw;
+    animation: slide-up 0.3s ease-in-out forwards;
+    overflow-y : auto;
+    z-index: 444;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    
+}
+
+
+#playerInventoryFastItems {
+    width: 34vw;
+    height: 2.5vw;
+	position : absolute;
+	bottom : 96.4%;
+	left: 0%;
+	z-index: 100;
+	float:left;
+    animation: slide-up 0.3s ease-in-out forwards;
+}
+
+#controls {
+    width: 4vw;
+    height: 4.5vw;
+    float: center;
+    position: absolute;
+    left: 110%;
+    top: 35%;
+}
+
+#count {
+    border: none;
+    line: none;
+    font-size: 16px;
+    transition: ease-in .3s;
+}
+
+input::-webkiter-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.slot {
+    float: left;
+    width: 4.15vw;
+    height: 4vw;
+    left: -.1vw;
+    bottom : -25.8%;
+    font-family: jav;
+    font-size: .9vw;
+    background: rgb(0, 0, 0);
+    border: .1vw solid #ffa200;
+    color: #000000;
+    border-radius: .8vw;
+    margin: .1vw;
+    position: relative;
+    transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.slot:hover {
+    transition: ease-in 0.2s;
+    background-color: #ffa200;
+    transition: ease-in 0.2s;
+}
+
+.slotFast {
+    top: 20px;
+    left: -.1vw;
+    float: left;
+    width: 4.15vw;
+    height: 4vw;
+    background: rgb(0, 0, 0);
+    border: .1vw solid #ffa200;
+    color: #000000;
+    border-radius: .8vw;
+    margin: 3px;
+    position: relative;
+    transition: ease-in 0.2s;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.slotFast:hover {
+    transition: ease-in 0.2s;
+    opacity: 80%;
+}
+
+.item,
+.item-other { 
+    width: 5.2vw;
+    height: 4.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-name {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 4.5vw;
+    z-index: 100;
+    font-family: Corleon;
+    font-size: .40vw;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+.ui-draggable-dragging .item-count{
+    display: none;
+}
+
+.ui-draggable-dragging .keybind{
+    display: none;
+
+}
+
+.ui-draggable-dragging .item-name{
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    border-radius: .8vw;
+    color: white;
+    transition: ease-in-out .1s;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.329);
+    z-index: 999;
+}
+
+.item-count {
+    position: absolute;
+    top: .2vw;
+    right: .5vw;
+    text-align: right;
+    width: 5vw;
+    height: 2px;
+    z-index: 100;
+    font-family: Corleon;
+    font-size: 14px;
+}
+
+.keybind {
+    position: absolute;
+    top: .2vw;
+    left: .2vw;
+    text-align: center;
+    text-align: center;
+    font-family: Corleon;
+    width: 1vw;
+    height: 1.1vw;
+    background-color: white;
+    z-index: 500;
+    color: #000000;
+    border-radius: .8vw;
+}
+
+.ammoIcon {
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+.info-div2 {
+    position: absolute;
+    font-family: Corleon;
+    text-align: center;
+    padding-bottom: .8vw;
+    width: 9vw;
+    left: 15.5%;
+    top: -8%;
+    font-size: .8vw;
+    border-bottom: .2vw solid #ffa200;
+    transform: translate(-50%, -50%);
+}
+
+.controls-div {
+    position: relative;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+
+.control1 {
+    position: absolute;
+    top: -14vw;
+    left: -23vw;
+    font-family: Corleon;
+    width: 3.4vw;
+    height: 2.2vw;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: rgb(255, 255, 255);
+    border-radius: .8vw;
+    text-align: center;
+    line-height: 2.5;
+    transition: ease-in 0.2s all;
+    border: .15vw solid #ffa200;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.11);
+}
+
+.control2 {
+    position: absolute;
+    text-align: center;
+    line-height: 2.5;
+    top: -14vw;
+    left: -18.6vw;
+    font-family: Corleon;
+    width: 3.6vw;
+    height: 2.2vw;
+    color: rgb(253, 253, 253);
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: .8vw;
+    transition: ease-in 0.2s;
+    border: .15vw solid #ffa200;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.11);
+}
+
+.control3 {
+    position: absolute;
+    top: -14vw;
+    left: -27.3vw;
+    font-family: Corleon;
+    width: 3.4vw;
+    height: 2.2vw;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: .8vw;
+    text-align: center;
+    line-height: 2.5;
+    transition: ease-in 0.2s;
+    border: .15vw solid #ffa200;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.11);
+}
+
+.control4 {
+    position: relative;
+    left: -14.2vw;
+    top: -14vw;
+    font-family: Corleon;
+    width: 3.4vw;
+    height: 2.4vw;;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.301);
+    background-color: #ffa20054;
+    border: none;
+    border-radius: .8vw;
+    text-align: center;
+    line-height: 2.5;
+}
+.control4:focus{
+    outline: none;
+    background-color: rgba(36, 36, 36, 0.733);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.control.disabled {
+    background-color: rgb(131, 2, 2);
+    color: white;}
+
+.hoverControl{
+    transform: scale(1.1);
+}
+
+#playerInventory::-webkit-scrollbar-track,
+#otherInventory::-webkit-scrollbar-track {
+    background-color: none;
+    border: none;
+}
+
+#playerInventory::-webkit-scrollbar,
+#otherInventory::-webkit-scrollbar {
+    width: 0px;
+    background-color: rgba(48, 47, 153, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#playerInventory::-webkit-scrollbar-thumb,
+#otherInventory::-webkit-scrollbar-thumb {
+    background-color: rgba(48, 47, 153, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nearbyPlayerButton {
+    width: 100%;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+    padding: 2px;
+    background-color: rgba(110, 110, 110, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    text-shadow: none;
+    font-size: 14px;
+    line: none;
+    text-transform: none;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+}
+
+.nearbyPlayerButton:hover {
+    background-color: rgba(235, 235, 235, 0.1);
+}
+
+.menu-lateral{
+    width: 29vw;
+    position: absolute;
+    top: 23.4vw;
+    left: -.4vw;
+    z-index: 5;
+    background-color: #000000bf;
+    border-radius: 1px;
+    animation: slide-up 0.3s ease-in-out forwards;
+}
+
+.menu-lateral .boton{
+    width: 10%;
+    float: left;
+    height:100%;
+    padding:0.4vw 0;
+    text-align:center;
+    transition:ease-in-out 0.3s all;
+}
+
+.menu-lateral .boton img{
+    width:1vw;
+    transition:ease-in-out 0.3s all;
+
+}
+
+.menu-lateral .boton:hover{
+    background-color: rgba(192, 192, 192, 0.315);
+}
+
+/*ANIMACIONES*/
+
+.anim-salida-info {
+    animation: anim-salida-escala 0.3s ease-in-out forwards !important;
+}
+
+.slide-down {
+    animation: slide-down 0.3s ease-in-out forwards;
+}
+
+.entrada{
+    animation: anim-escala 0.3s ease-in-out forwards;
+}
+
+@keyframes anim-escala {
+    0% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 100;
+    }
+}
+
+@keyframes anim-salida-escala {
+    0% {
+        transform: scale(1);
+        opacity: 100;
+    }
+    100% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+}
+
+@keyframes anim-escala-3d {
+    0% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 100;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 100;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(0px);
+        opacity: 100;
+    }
+    100% {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+}
+
+/* noti1 */
+.menu-lateral .noti1 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: .1vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti1::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti1 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* noti2 */
+
+.menu-lateral .noti2 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 2.5vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti2::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti2 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* notis3 */
+.menu-lateral .noti3 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 5.8vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti3::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti3 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* notis4 */
+.menu-lateral .noti4 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 8.8vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti4::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti4 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis5 */
+.menu-lateral .noti5 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 11.4vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti5::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti5 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis6   */
+.menu-lateral .noti6 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 13.8vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti6::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti6 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis 7   */
+.menu-lateral .noti7 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 17vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti7::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti7 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis 8 */
+.menu-lateral .noti8 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti8::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti8 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis 9  */
+.menu-lateral .noti9 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 22.3vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti9::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti9 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+/* notis 10  */
+.menu-lateral .noti10 {
+    font-family: Corleon;
+    position: absolute;
+    top: 0;
+    left: 25.7vw;
+    font-size: 14px;
+    background: #000000;
+    color: #ffa200;
+    padding: 5px 8px;
+    border-radius: .8vw;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(7, 7, 7);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.noti10::before {
+    font-family: Corleon;
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #000000;
+    bottom: 1.25vw;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s;
+}
+
+.menu-lateral .boton:hover .noti10 {
+    top: 48px;
+    font-family: Corleon;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+#botonropa{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #ffa200;
+    text-align: center;
+    width: 2.5vw;
+    height: 1vw;
+    padding: .5vw;
+    border-radius: .8vw;
+    background-color: rgba(0, 0, 0, 0.829);
+    position: absolute;
+    left: 9.5vw;
+    top: -6.5vw;
+    border: .1vw solid #ffa200;
+    animation: ropaarriba .3s;
+}
+
+#botonropa:hover{
+    background-color: rgba(29, 29, 29, 0.897);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.055);
+    cursor: pointer;
+}
+
+@keyframes ropaarriba{
+    0%{
+      transform: translateY(2vw);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+#cerrarropa{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px white;
+    text-align: center;
+    width: 1.5vw;
+    height: 1vw;
+    padding: .5vw;
+    border-radius: .8vw;
+    background-color: rgb(92, 0, 0);
+    position: absolute;
+    left: -3.5vw;
+    top: 23.4vw;
+    animation: slide-up 0.3s ease-in-out forwards;
+}
+
+#cerrarropa:hover{
+    box-shadow: 0 0 10px rgb(83, 1, 1);
+}
+
+
+.info2{
+    position: absolute;
+    top: -6.5vw;
+    text-align: center;
+    left: -.3vw;
+    color: white;
+    background-color: #000000f3;
+    box-shadow: 0 0 10px #0000009e;
+    width: 8vw;
+    height: 1vw;
+    padding: .5vw;
+    padding-bottom: .7vw;
+    border-radius: .8vw;
+}

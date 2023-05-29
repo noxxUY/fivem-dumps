@@ -1,0 +1,21 @@
+Locales['en'] = {
+    ['code_redeem']        = 'Código',
+    ['redeem']             = 'Códigos Reinado',
+    ['redeem_success']     = 'Código canjeado con éxito',
+    ['empty']              = 'Ingrese un código',
+    ['format']             = 'Código Invalido',
+    ['not_exist']          = 'Este código no existe',
+    ['same_user']          = 'Te ganaron de mano ya canjearon este codigo.',
+    ['limit']              = 'El código alcanzo el uso máximo',
+    ['full']               = 'Tienes el inventario lleno',
+    ['log_message_redeem'] = 'Usuario: `%s` \n Canjeo el código: `%s` \n y recibio `x%s %s`',
+    ['log_message_create'] = 'Administrador: `%s` \n ha creado el código: `%s` \n Con recompensa de: `x%s %s`.',
+    ['title']              = 'Crear un Código',
+    ['code']               = 'Codigo',
+    ['maxUse']             = 'Usos Maximos',
+    ['reward']             = 'Premio',
+    ['quantity']           = 'Cantidad',
+    ['insert_success']     = 'Inserte en la base de datos con éxito, presione F8 para ver el código',
+    ['insert_failed']      = 'Error al insertar en la base de datos',
+    ['updated']            = 'Datos actualizados'
+}

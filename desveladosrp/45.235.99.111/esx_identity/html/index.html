@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html style="display: none">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Inter:wght@500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="interface">
+      <div class="passport">
+        <div class="passport__front-cover">
+          <div class="passport__front-cover-face">
+            <div class="passport__front-cover-content">
+              <div class="passport__cover-text">
+                <div class="passport__title">DESVELADOS RP</div>
+                <div class="passport__lead">PASAPORTE</div>
+              </div>
+              <div class="passport__instructions">
+                Presiona en el pasaporte para registrarte en la ciudad!.
+                <div class="passport__cover-pointer-cursor"></div>
+              </div>
+              <div class="passport__cover-biometric-icon"></div>
+            </div>
+          </div>
+          <div class="passport__front-cover-face passport__front-cover-backface passport__shadow">
+            <div class="passport__secondary-page">
+              <div class="passport__guide">
+                Por favor llena <b>todos</b> los espacios con <b>información válida</b>.
+                <br>
+                Datos:
+                <ul class="passport__list">
+                  <li>Máximo 20 letras. Sin caracteres especiales ni mayus</li>
+                  <li>Fecha de nacimiento entre 1900 y 2010</li>
+                  <li>Altura en cm entre 140 y 200</li>
+                  <li>Al terminar dale al ENTER</li>
+                </ul>
+              </div>
+              <button class="passport__submit" type="submit" form="form">Aceptar</button>
+            </div>
+          </div>
+        </div>
+        <div class="passport__back-cover passport__shadow">
+          <div class="passport__data-page">
+            <div class="passport__header">
+              <div class="passport__header-text">Visa Internacional</div>
+              <div class="passport__header-biometric-icon"></div>
+            </div>
+            <form class="passport__body" id="form">
+              <div class="passport__info passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Tipo</div>
+                  <div class="passport__field">Registro</div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Código</div>
+                  <div class="passport__field">DESVELA2</div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Número de pasaporte.</div>
+                  <div class="passport__field" id="passport-number">1122334455</div>
+                </div>
+              </div>
+              <div class="passport__picture passport__picture--male"></div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Apellido</div>
+                  <input class="passport__field" id="surname" type="text" placeholder="Surname">
+                </div>
+              </div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Nombre</div>
+                  <input class="passport__field" id="name" type="text" placeholder="Given name">
+                </div>
+              </div>
+              <div class="passport__characteristics passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Fecha de nacimiento</div>
+                  <input class="passport__field" id="birthdate" type="text" placeholder="YYYY/MM/DD">
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Sexo</div>
+                  <div class="passport__custom-select">
+                    <select class="passport__field passport__field--select" id="sex" name="sex">
+                      <option value="m">M</option>
+                      <option value="f">F</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="passport__field-group passport__field-group--border-left">
+                  <div class="passport__label">Altura (cm)</div>
+                  <input class="passport__field" id="height" type="text" placeholder="Height">
+                </div>
+              </div>
+              <div class="passport__line">
+                <div class="passport__field-group">
+                  <div class="passport__label">Firma del ciudadano</div>
+                  <div class="passport__field passport__field--signature" id="signature"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/listener.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>

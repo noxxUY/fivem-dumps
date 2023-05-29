@@ -1,0 +1,18 @@
+{
+	"tank_full": "El depósito está lleno",
+	"petrolcan_cannot_afford": "No tenes plata para el bidón de nafta",
+	"refuel_cannot_afford": "No tenes plata para respostar el vehículo",
+	"vehicle_far": "El vehículo está demasiado lejos",
+	"pump_fuel_with_can": "Guardá el bidón antes de respostar con el surtidor",
+	"fuel_help": "Pulsá ~INPUT_C2939D45~ para repostar",
+	"petrolcan_help": "Pulsá ~INPUT_C2939D45~ para comprar o rellenar el bidón de nafta",
+	"leave_vehicle": "Sal del vehículo para repostar",
+	"start_fueling": "Empezar a repostar",
+	"petrolcan_buy_or_refill": "Comprar o rellenar bidón de nafta",
+	"fuel_station_blip": "YPF",
+	"not_enough_money": "No tenés suficiente dinero, faltan $%s",
+	"fuel_success": "Has repostado %s - $%s",
+	"petrolcan_refill": "Pagaste $%s por rellenar tu bidón de nafta",
+	"petrolcan_buy": "Pagaste $%s por un bidón de nafta",
+	"petrolcan_cannot_carry": "No podés cargar este bidón de nafta"
+}

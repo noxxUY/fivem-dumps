@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Crear Anuncio</title>
+</head>
+<body>
+    <div class="container" id="app" v-if="opened">
+        <div class="left-panel">
+            <div class="header">Crear Anuncio</div>
+            <div class="option" v-on:click="setPage('presets')">
+                <label>Alertas</label>
+            </div>
+        </div>
+       
+        <div class="right-panel" v-if="page == 'presets'">
+            <div class="title">ALERTAS PERSONALIZADAS</div>
+                <div class="container-presets">
+                    <div class="preset" v-if="job == item.job" v-for="item in presets">
+                        <div class="type">{{ item.type }}</div>
+                        <div class="message">{{ item.msg }}</div>
+                        <button class="button" id="send" v-on:click="sendPresetAnnounce(item)">ENVIAR ALERTA</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="bloque-anuncio">
+        <audio src="pop.ogg" id="anuncio1"></audio>
+        <div class="anuncio"></div>
+        <!--<div class="bloque-header"></div>!-->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "APP_POS" : "Pos",
+    "APP_LAP" : "Vuelta",
+    "APP_CHECKPOINT" : "Punto",
+    "APP_TIME" : "Tiempo",
+    "APP_LAPTIME" : "Vuelta Tiempo",
+    "APP_BESTLAPTIME" : "Mejor Vuelta"
+}

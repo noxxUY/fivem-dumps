@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000"/>
+    <proxies>
+	    <Item>uniqx_skybar_lobby_milo</Item>
+        <Item>uniqx_skybar_milo</Item>
+    </proxies>
+</SInteriorOrderData>

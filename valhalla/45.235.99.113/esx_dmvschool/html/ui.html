@@ -1,0 +1,120 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="full-screen">
+    <div class="question-container">
+        <!-- header -->
+        <div class="header">
+            <h1>Escuela de Manejo</h1>
+        </div>
+        <!-- home -->
+        <div class="body home">
+            <div class="content">
+                <!-- ICI BREVE PRESENTATION -->
+                <center>
+                    <img class="logo" src="dmv.png">
+                    <br>
+                    <p class="bold-text">Bienvenido a la Escuela de Manejo
+                </center>
+                <br>
+                <center>Todos los ciudadanos deben pasar el examen antes de circular en las calles.
+                    <br>Tomate tu tiempo, responde con sentido común y no de forma aleatoria.
+                    <br>
+                    <br> <b>Examen Teorico</b>
+                    <br> - El examen teorico cuesta $200, el monto no será reembolsado en caso de fallar el examen.
+                    <br> - En caso de fallar el Examen Teorico en tu primer intento, deberás esperar un tiempo antes de
+                    volver a realizarlo!
+                    <br>
+                    <br> <b>Prueba de Manejo</b>
+                    <br> - La prueba de manejo cuesta $500, al igual que el Examen Teorico, el monto no será reembolsado
+                    en caso de fallar el examen.
+                    <br> - Recuerda prestar atención mientras conduces para evitar accidentes!</p>
+                </center>
+            </div>
+            <div class="buttonspot">
+                <a class="button btnQuestion" href="#">Iniciar</a>
+            </div>
+            <div class="barre-progression">
+                <h2>Progreso</h2>
+                <progress class="progression" max="10" value="0">
+            </div>
+        </div>
+        <!-- Question-->
+        <div class="body questionnaire-container">
+            <div class="content">
+                <h2 id="questionNumero"></h2>
+                <p id="question"></p>
+                <form class="form" id="question-form">
+                    <div>
+                        <input id="answerA" name="question" type="radio" value="A">
+                        <label class="answerA"></label>
+                    </div>
+                    <div>
+                        <input id="answerB" name="question" type="radio" value="B">
+                        <label class="answerB"></label>
+                    </div>
+                    <div>
+                        <input id="answerC" name="question" type="radio" value="C">
+                        <label class="answerC"></label>
+                    </div>
+                    <div>
+                        <input id="answerD" name="question" type="radio" value="D">
+                        <label class="answerD"></label>
+                    </div>
+                    <button class="submit" id="submit" type="submit">Próxima pregunta</button>
+                </form>
+            </div>
+            <div class="barre-progression">
+                <h2>Progreso</h2>
+                <progress class="progression" max="10" value="0">
+            </div>
+        </div>
+        <!-- Results -->
+        <div class="body resultGood">
+            <div class="content">
+                <center>
+                    <p class="bold-text">Buen trabajo!</p>
+                    <br>
+                    <br>Te ha ido bien en tu examen teorico.
+                    <br>
+                    <br>Ya puedes cerrar esta ventana y tomar la prueba de manejo.
+                </center>
+            </div>
+            <div class="buttonspot">
+                <a class="button btnClose" href="#">Cerrar</a>
+            </div>
+            <div class="barre-progression">
+                <h2>Progreso</h2>
+                <progress class="progression" max="10" value="10">
+            </div>
+        </div>
+        <div class="body resultBad">
+            <div class="content">
+                <center>
+                    <p class="bold-text">Has fallado</p>
+                    <br>
+                    <br>No estabas preparado para la prueba, intenta más tarde...
+                    <br>
+                    <br>
+                </center>
+            </div>
+            <div class="buttonspot">
+                <a class="button btnKick" href="#">Cerrar</a>
+            </div>
+            <div class="barre-progression">
+                <h2>Progreso</h2>
+                <progress class="progression" max="10" value="10">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+<script src="questions.js" type="text/javascript"></script>
+<script src="scripts.js" type="text/javascript"></script>
+<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>

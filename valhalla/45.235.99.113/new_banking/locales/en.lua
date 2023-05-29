@@ -1,0 +1,16 @@
+Locales['en'] = {
+    ['bank_blip'] = 'Banco',
+	['anyatm_near'] = 'Cajero Cerca',
+	['anybank_near'] = 'Banco Cerca',
+	['invalid_amount'] = 'Monto Invalido',
+	['deposit'] = 'Depositar: ',
+	['withdraw'] = 'Retirar: ',
+	['remove_card'] = 'Retirar Tarjeta',
+	['insert_card'] = 'Insertar Tarjeta',
+	['nice_try'] = "No puedes transferirte a ti mismo.",
+	['transfered'] = 'Transferido:  ',
+	['recived'] = 'Recibido: ',
+	['to'] = ' para ',
+	['from'] = ' de ',
+	['not_found'] = 'No Encontrado',
+}

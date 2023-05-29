@@ -1,0 +1,239 @@
+<html lang="ru"><head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ReinadoRP</title>
+<meta name="csrf-token" content="7c52e741dca9aac035b943acf11d">
+<meta name="theme-color" content="#fff">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!-- Google Tag Manager -->
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- Pages static -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+    #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper" id="app">
+    <main id="page_content_body">
+
+
+
+
+            <div class="casemain__wrapper" id="screen__home">
+    <div class="container casemain__container">
+	
+	
+        <div class="row">
+            <div class="col-12 elcentro">
+
+                <video autoplay muted loop id="myVideo">
+                <source src="fondo.mp4" type="video/mp4">
+                </video>
+
+
+              <div style="position:absolute;top: 2vw;left: 2px;
+                font-size: 16px;
+                color: #fff;
+                text-align: center;font-weight: 700;"><span style="color:#ff7600">Tiktok:</span> <a onclick="window.invokeNative('openUrl', 'https://tiktok.com/@reinado_rp')">https://tiktok.com/@reinado_rp </a></div> 
+
+
+                <div style="position:absolute;top: 2vw;right: 2px;
+                font-size: 16px;
+                color: #fff;
+                text-align: center;font-weight: 700;"><span style="color:#ff7600">Discord:</span> <a onclick="window.invokeNative('openUrl', 'https://discord.gg/reinadorp')">https://discord.gg/reinadorp</a></div> 
+                <header class="casemain__header wow fadeInLeft" style="visibility: visible;">
+                    <h2 class="casemain__slogan">
+                     <img src="https://i.imgur.com/q3GQ1cu.png" class="logitototo pulse"></h2>
+                </header>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+       <audio id="loading" src="music.mp3" autoplay="true" hidden="true" loop="true"></audio>
+
+
+    
+           
+            
+        
+    
+
+    
+    <div class="joinUs__wrapper" id="screen__joinUs">
+	<style>
+
+    .logitototo {
+        transition: 1s ease-in-out all;
+        animation: shake 1.25s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+        0% { transform: scale(1); }
+        20% { transform: scale(0.99); }
+        40% { transform: scale(0.98); }
+        60% { transform: scale(0.97); }
+        80% { transform: scale(0.98); }
+        100% { transform: scale(0.99); }
+    }
+
+	
+.loadbar {
+    width: 90%;
+    background-color: #070a12;
+    height: 20px;
+	text-align:center;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+	border-radius:20px;
+	border:1px solid #fff;
+}
+
+.progressBar {
+    width: 10%;
+    background-color: #ffbf00;
+	background: -webkit-linear-gradient( 135deg, #ffbf00 25%, #ff7600 25%, #ff7600 50%, #ffbf00 50%, #ffbf00 75%, #ff7600 75% );
+	-webkit-animation: bar-animation 3s linear infinite;
+    height: 20px;
+	
+  background-size: 50px 50px;
+	border-radius:20px;
+    position: absolute;
+    left: 10%;
+}
+
+@-webkit-keyframes bar-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+</style>
+
+	<p style="font-size:16px;color:#fff; text-align:center;margin-top: -60px;">Presiona el <strong style="color:#ff7600">-ESPACIO-</strong> para pausar la m&uacute;sica.</p>
+    <div class="loadbar">
+
+		
+        <div class="progressBar"></div>
+    </div>
+</div>
+    </main>
+    
+</div>
+
+
+    <!-- Page rendered at 0.015569925308228 sec -->
+
+
+<script>
+    var play = false;
+            var vid = document.getElementById("loading");
+            vid.volume = 0.5;
+            window.addEventListener('keyup', function(e)
+            {
+                if (e.which == 69){
+                    vid.volume = Math.min(vid.volume + 0.1,1);
+                } else if(e.which == 65){
+                    vid.volume = Math.max(vid.volume - 0.1,0);
+                };
+            });
+    
+            var audio = document.querySelector('audio');
+    
+            if (audio) {
+    
+            window.addEventListener('keydown', function (event) {
+    
+            var key = event.which || event.keyCode;
+            if (key === 32) { // spacebar
+            event.preventDefault();
+            audio.paused ? audio.play() : audio.pause();
+        }
+      });
+    }
+</script>
+	
+	
+<script>
+// From cfx-keks (https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Btest%5D/keks)
+var count = 0;
+var thisCount = 0;
+
+
+const handlers = {
+    startInitFunctionOrder(data) {
+        count = data.count;
+    },
+
+    initFunctionInvoking(data) {
+        document.querySelector('.progressBar').style.left = '0%';
+        document.querySelector('.progressBar').style.width = ((data.idx / count) * 100) + '%';
+    },
+
+    startDataFileEntries(data) {
+        count = data.count;
+    },
+
+    performMapLoadFunction(data) {
+        ++thisCount;
+        document.querySelector('.progressBar').style.left = '0%';
+        document.querySelector('.progressBar').style.width = ((thisCount / count) * 100) + '%';
+    },
+};
+
+window.addEventListener('message', function (e) {
+    (handlers[e.data.eventName] || function () { })(e.data);
+});
+</script>
+
+
+<script>
+/* Need Help? Join my discord @ discord.gg/yWddFpQ */
+var config = {
+    /* In milliseconds */
+    "transitionInterval": 1250,
+    "imgInterval": 8000,
+    "music": true,
+    /* Insert the Youtube Video ID below */
+   /* "videoID": "909T2l0PetI", */
+    /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
+    "musicVolume": 5,
+    "text": {
+        "title": "Reinado RP",
+        "link": "Click para entrar al discord.gg/7YumrWuRgk",
+    },
+    /* You dont have to include the '/imgs/' dir AND ALSO REMEMBER TO ADD THESE IMGS IN YOUR __resource.lua*/ 
+    "images": ['back.png']
+}
+</script>
+
+</body></html>

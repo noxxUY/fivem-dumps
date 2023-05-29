@@ -1,0 +1,225 @@
+:root{
+    /*Paleta1
+    --mainColor: rgba(47, 51, 51, 0.801);
+    --secondaryColor: rgba(66, 71, 71, 0.863);
+    --cyan:rgb(156, 26, 182);
+    --alertColor:rgb(238, 57, 12);
+    */
+    --mainColor: rgba(58, 58, 58, 0.904);
+    --secondaryColor:rgba(30, 32, 32, 0.925) ;
+    --cyan:#1d1d1d;
+    --alertColor:rgb(238, 57, 12);
+}
+
+*{
+    user-select: none;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    overflow:hidden;
+}
+
+
+#notification{
+    width:60px;
+    height:60px;
+    background-color: #1d1d1d;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top:30px;
+    margin-right:30px;
+}
+
+#notification i{
+    animation:wobble;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+#notificationIcon{
+    margin:0 auto;
+    color:white;
+    font-size:25px;
+    margin-top:17px;
+}
+
+#menu{
+    position: absolute;
+    width:350px;
+    height:230px;
+    background-color: var(--mainColor);
+    
+    top:50%;
+    left:50%;
+    text-align: center;
+}
+
+#menuHeader{
+    padding-top:8px;
+    font-weight: 800;
+    display:inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--cyan);
+    width: 100%;
+    height:30px;
+}
+
+#menuHeader p{
+    margin-top: 1px;
+}
+
+#close{
+    float:right;
+    margin-right:15px;
+    width:12px;
+    height:12px;
+    background-color: rgb(235, 80, 33);
+    border-radius: 100%;
+    margin-top:-29px;
+    cursor:pointer;
+}
+
+
+#close:hover{
+    background-color: rgb(194, 62, 22);
+}
+
+
+
+#midPannel{
+    width:100%;
+    height:120px;
+    background-color:var(--secondaryColor);
+    margin-top:30px;
+    font-weight: 550;
+    padding-top:5px;
+    
+}
+
+#adress{
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:0px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
+
+#code{
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:-2px;
+    font-style: italic;
+}
+
+#message{
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:-10px;
+    font-size: 16px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    max-height: 70px;
+    overflow: hidden; 
+    hyphens: auto;
+}
+
+#arrows{
+    display:inline-block;
+    font-weight: 700;
+    font-size:20px;
+    margin-top:7px;
+}
+
+#rightArrow{
+    float:right;
+    margin-left:10px;
+    margin-top:3px;
+    cursor:pointer;
+}
+
+
+#leftArrow{
+    float:left;
+    margin-right:10px;
+    margin-top:3px;
+    cursor:pointer;
+}
+
+#rightArrow:hover{
+    color:rgb(216, 216, 216);
+}
+
+#leftArrow:hover{
+    color:rgb(216, 216, 216);
+}
+
+#alertNumber{
+    margin-top:-20px;
+    display: inline-block;
+    font-size:15px;
+}
+
+#rightPannel{
+    position: absolute;
+    width:80px;
+    height:125px;
+    background-color: var(--mainColor);
+    margin-left:85%;
+    margin-top:-125px;
+    z-index: -3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#expandArrow{
+    float:right;
+    text-align: center;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+@keyframes expandSubMenu{
+    50%{transform:translate(40px,0)}
+    100%{transform:translate(40px,0);}
+}
+
+#rightPannel:hover{
+    animation-name: expandSubMenu;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    animation-fill-mode: forwards; /*para mantener la posicion de la animacion*/
+}
+
+#deleteAlert{
+    color:rgb(238, 57, 12);
+    display: block;
+    font-size: 20px;
+    margin-top:40px;
+    cursor:pointer;
+}
+
+#acceptAlert{
+    display: block;
+    color:rgb(2, 170, 2);
+    font-size: 20px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+
+#deleteAlert:hover{
+    color:rgb(192, 46, 10);
+}
+
+#acceptAlert:hover{
+    color:rgb(0, 129, 0);
+}
+
+#markOnMap:hover{
+    color:rgb(9, 98, 170);
+}

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilombo_Interfaz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="container">
+
+        <div class="second-page">
+
+            <div class="nav">
+                <img class="logo animate__animated animate__backInLeft" src="./img/logo.png" alt="">
+
+                <div class="box-btn animate__animated animate__backInDown">
+                    <!-- <div class="play">
+                        <i class="fa-solid fa-play"></i> <span class="btn-play">ENTRAR</span>
+                    </div> -->
+
+                    <div class="btn-normativa">
+                        <i class="fa-solid fa-book"></i> NORMATIVAS
+                    </div>
+
+                    <div class="btn-keys">
+                        <i class="fa-solid fa-keyboard"></i> CONTROLES
+                    </div>
+
+                    <div class="btn-nos">
+                        <i class="fa-solid fa-circle-info"></i> NOSOTROS
+                    </div>
+                </div>
+
+                <div class="redes animate__animated animate__backInRight">
+                    <div class="cont-redes">
+                        <div>
+                            <i class="fa-brands fa-tiktok"></i>
+                            @kilomborp
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-discord"></i>
+                           discord.gg/kilombo
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="cont-boxes animate__animated animate__fadeIn">
+                <div class="left-box">
+
+                    
+                        <div class="char-info">
+                            <h1 class = 'name'></h1>
+                            <div><i class="fa-solid fa-phone"></i><p class="tel">N/A</p></div>
+                            <div><i class="fa-solid fa-briefcase"></i><p class="job">N/A</p> </div>
+                            <div><i class="fa-solid fa-credit-card"></i><p class="bank">N/A</p></div>
+                            <div><i class="fa-solid fa-money-bill"></i><p class="money">N/A</p></div>
+                            <div><i class="fa-solid fa-calendar-days"></i><p class="birthday">N/A</p> </div>
+                            <div><i class="fa-solid fa-mars-and-venus"></i><p class="gender">N/A</p></div>
+                        </div>
+
+
+                    <div class="conected">
+                        <h1>CONECTADOS A KILOMBO</h1>
+                        <div class="cont-connected">
+                            <div class="users-con">
+                                <i class="fa-solid fa-users"></i>
+                                <p id = 'onlineplys'><div class="loader"></div></p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-user-police"></i>
+                                <p id = 'polices'><div class="loader"></div></p>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-stethoscope"></i>
+                                <p id = 'doctors'><div class="loader"></div></p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-car-wrench"></i>
+                                <p id = 'mechanics'><div class="loader"></div></p>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-taxi"></i>
+                                <p id = 'taxists'><div class="loader"></div></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="comunicados">
+                        <h1>Últimas Actualizaciones</h1>
+                        <li>Nuevos vehículos en concesionarios</li>
+                        <li>Se pueden guardar armas en maleteros</li>
+                        <li>Las gasolineras ya no explotan.</li>
+                        <li>Agregada tienda de aeronaves</li>
+                        <li>Nuevo hospital en sandy</li>
+                        <li>Nuevas zonas seguras</li>
+                    </div> -->
+                </div>
+
+                <div class="middle-box">
+                    <div class="normativas">
+                        <div class="btn-normas">
+                            <div class="norm-1">CONCEPTOS BASICOS</div>
+                            <div class="norm-2">NORMATIVA GENERAL</div>
+                            <!-- <div class="norm-3">NORMATIVA MAFIAS</div> -->
+                        </div>
+
+                        <div class="cont-norm cont-norm-1">
+                            <div class="head-norm">
+                                <div class="exit-norm">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <h1>CONCEPTOS BASICOS</h1>
+                            </div>
+                            <div class="text-cont">
+                                <h2>Introducción</h2>
+                                <p>
+                                    Crea tu personaje. Invéntate un nombre, por ejemplo: Carlos (no estarán permitidos nombres de famosos, de alto carácter o xenófobos, ni caracteres raros/especiales en los mismos), un apellido, por ejemplo: Gutiérrez y una fecha de nacimiento: Primero el año, luego el mes y, por último, el día, por ejemplo: 1999-01-17.
+                                    Vestimenta: No se podrá usar ropa ni uniforme de las facciones a no ser que pertenezcas a las mismas. Tampoco se puede usar la ropa por defecto. Está prohibido el uso de cascos de la tienda de ropa, trajes espaciales, trajes de aliens, ropa de recuadros o ropa invisible.
+                                    Cíñete a la historia de tu personaje: imagina cómo actuaría tu personaje si existiera en la vida real en cada una de las situaciones. Esta es la principal norma de un servidor de roleplay, encarnarse en el personaje por sobre todas las cosas.
+                                    Con esta normativa intentamos cubrir el mayor número de situaciones que puedan darse dentro del juego. Si esta normativa no recoge tu situación actual, sigue el principio que encabeza esta introducción o pregunta a un staff.
+                                    Respeto: En el servidor no está permitido bajo ningún tipo de vista alguna discriminación, racismo, comentaríos xenófobos, etc. Si una persona realiza uno de estos comentarios será baneado PERMANENTEMENTE del servidor sin apelación alguna.
+                                    Recuerda que tienes a tu disposición el Staff de Kilombo RP para cualquier duda. Podrás contactar con ellos a través de nuestro Discord: https://discord.gg/kilombo    
+                                </p>
+
+                                <h2>Conceptos básicos de rol</h2>
+                                <p>1.10.     IC (In Character): Todo aquello que sucede dentro del rol de tu personaje. </p>
+                                <p>1.11.     OOC (Out of Character): Todo aquello que sucede fuera del rol del personaje (contrario al concepto anterior). </p>
+                                <p>1.12.     MG (Metagaming): Utilizar información obtenida de manera OOC para el beneficio en un rol de manera IC. Como por ejemplo charlar con un amigo mediante discord (Por algo está la radio IC) para encontrarse en un lugar o darle información estando muerto y esté se aproveche de esa información que no podría obtener de otra forma. </p>
+                                <p>De la mano del metagaming, viene el META KILL (MK): que sería matar a un usuario o conocido por motivos OOC, sin un rol previo ni nada vinculado.  </p>
+                                <p>1.13.     BJ (Bunny Jump): Saltar una y otra vez para llegar más rápido a algún sitio, evitando el cansancio del personaje. (No sancionable) </p>
+                                <p>1.14.     RDE (Rol de Entorno): Todo aquello que se percibe en la vida real y debemos imaginar en el juego para fortalecer el rol. El rol de entorno no solo hay que rolearlo, si no que también hay que respetarlo por ejemplo; no atracando a alguien delante de comisaría (ya que habria muchos policías), o atracar un banco sin máscara (Ya que habría cámaras de seguridad y te grabarán). Cada vez que cometamos un acto delictivo (robo/secuestro de un auto/persona y demás). El objetivo del entorno, es que podamos representar todo lo que sucede alrededor de nuestro personaje como si fuera la vida real, para que, como mencionamos antes, podamos fortalecer el rol. </p>
+                                <p>1.15.     PK (Player Kill): Se le llama PlayerKill a la muerte de tu personaje con carácter de rol. Existen dos clases de PK, el PK parcial y el total. El Parcial se refiere a tu muerte de cualquier manera, ya sea con un disparo en la cabeza, un choque que te dejó muerto, morir en una explosión, etcétera, situaciones que requieran una pérdida de memoria no tan lejana. El Total se refiere a cuando se desea que pierdas la memoria desde tu llegada al servidor en relación de conexiones, ya sean policiales o ilegales, sin embargo esto no tomará en cuenta tus amistades, quienes te podrán hacer recordar quién eras para recopilar información de esta misma. En todo caso tendrá que venir un EMS a curarte o bien aparecer en el hospital, eso conlleva la pérdida de tu memoria. Una persona/compañero/amigo te puede llegar a contar lo que ha pasado para recordártelo ya que es importante recalcar que tu PJ no muere. </p>
+                               
+                                <h2>Procedimiento para hacer un PKT:</h2>
+                                <p>1. Grabar todo el proceso, no puede faltar ninguna prueba ya que luego deberá de ser presentado todo en soporte.         </p>
+                                <p>2. Tener razones y motivos razonables y suficientes. Por ejemplo: Una persona que tiene demasiada información sobre tu mafia y la anda repartiendo por la ciudad.          </p>
+                                <p>3. Tener mucha información del sujeto y lo que está haciendo (pruebas). No es necesario, en ciertos casos, tener el DNI del sujeto.
+                                <p>4. El PKT tiene que estar bien ejecutado, en caso contrario será cancelado. ¿Qué quiere decir con bien ejecutado? Que esté todo bien roleado (/me, /do los /entorno, etc), que estén los motivos y razones claras.         </p>
+                                <p>5. Salirse de una mafia, no se considera PKT automático de está. Se deberá realizar y seguir con los procedimientos aclarados.         </p>
+                                <p>6. En el caso de salirse de una facción legal se considera PKT automático de esta. No se deberán realizar los procedimientos.         </p>
+
+                                <br>
+                                <br>
+                                
+                                <p>1.16.     RK (Revenge Kill): Es cuando te mueres y deberías olvidar lo sucedido (por el PK), pero aún así decides cobrar venganza de la persona que te mató.         </p>
+                                <p>1.17.     CK (Character Kill): Es la muerte total de tu personaje. Deberás crearte uno nuevo y comenzar una nueva historia de rol. Perderás el dinero total de tu cuenta, tus coches e inventario de la casa, contactos, amigos/familiares, etc. Este proceso deberá ser aprobado por el head staff, ya que deberás tener motivos e información suficiente IC. Podrás hacerte un auto CK si al morir revelas por /do que no tienes pulso. Hay que recalcar que el CK siempre es un acto voluntario, no se le podrá forzar el CK a una persona. Si esta no quiere, no se le obligará a tomar el rol a excepción de la policía, debido a que si caes en un enfrentamiento contra ellos y decides morir, como en una situación normal de no tenencia de pulso, para evadir la cárcel, será tomado como un CK2 voluntario a conciencia. Este concepto va acompañado de un cambio de nombre del cual tendrá que hacerse cargo el usuario en concreto.         </p>
+                                <p>1.18.     DM (Death Match): Asesinar a otras personas sin motivos ni rol previo, como si fuera GTA online.
+                                <p>1.19.     PG (Power Gaming): Son todas las acciones que puedes realizar dentro del GTA, pero que en la vida real serían Físicamente imposibles de realizar, por lo que toda acción cometida de tal manera se llamaría PG o PowerGaming. Por ejemplo, es considerado PG generalmente, llevar un superdeportivo por la montaña lo cual sería imposible en la vida real o caer de un edificio de 15 metros que tu PJ sobreviva e irte andando como si nada cuando en la vida real incurriría en lesiones como mínimo.         </p>
+                                <p>1.20.     AFK (Away From Keyboard): Es desatender tu personaje estando en el juego, siempre debes estar roleando, de lo contrario deberás desconectarse del servidor. Recuerda que podrás sufrir daños IC en tu personaje si no te encuentras activo. También podrás ser kickeado por un administrador.         </p>
+                                
+                                <p>1.21.     VDM (Vehicle Death Match):  significa realizar un Deathmatch (matar sin rol) desde un vehículo.</p>
+                                <p>1.22.     GHOSTING: Brindar información tanto de tu personaje como del entorno, estando muertos, será considerado ghosting.</p>
+                                <p>1.23.     No valorar la vida del personaje: Debemos siempre valorar nuestra vida, por ello hay situaciones en las que no deberemos evitar un rol o forzarlo, ya que podremos estar poniéndonos en riesgo. Si nos apuntan para atracarnos, debemos levantar las manos, ya que si sacamos un arma claramente la otra persona nos abatirá antes que nosotros.</p>
+                                <p>1.24.     Admin Abuse (AA): Mal uso de poderes por parte de un administrador, para beneficiarse en alguna situación.</p>
+                                <p>1.25.     Car Jacking (CJ): Robar un vehículo sin ningún tipo de rol. Por ejemplo; robar un vehículo de un usuario en zona segura.</p>
+                                <p>1.26.     Bug Abuser (BA): Abusar de un bug/exploit para el beneficio de uno. Este tipo de conductas será motivo de graves sanciones, incluyendo posibles bloqueos permanentes, reinicio completo de la cuenta y la eliminación de la cuenta.</p>
+                                <p>1.27.     Comandos /do y /me: Estos comandos son herramientas para enriquecer las situaciones de rol. En un /do jamás se podrá mentir. Tampoco se deberá abusar de él para obtener información fácil.</p>
+                                <p>El /do se usa para darle vida al entorno, siempre en tercera persona. Debemos jugar con este comando cuando estemos con otro jugador, para así rolear la historia que deseamos. Es esencial mantener la omnisciencia constantemente. Se utiliza para aclarar situaciones y nunca se deberá mentir con este comando Aclarar que es entorno y tiene que ser algo que pueda ser percibido por las dos personas un /do pensaria que es tonto estaria mal roleado.</p>
+                                <p>El /me se utiliza para representar animaciones que no están en el juego, por ejemplo: “/me le escupe en la cara“ o  “/me le corta el dedo con su cuchillo“.</p>
+                                
+                                
+                                <p>1.28.     No valorar la vida de tu personaje(NVVPJ): Hacer cualquier cosa arriesgando la vida de tu PJ. Ejemplo: Meterte en medio de un tiroteo sin armas. Está norma rige para zonas rojas, el hecho de meterse sin armas a una zona roja es sancionable.</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="cont-norm cont-norm-2">
+                            <div class="head-norm">
+                                <div class="exit-norm">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <h1>Normativa General</h1>
+                            </div>
+                            <div class="text-cont">
+                                <p>2.0	FAIR PLAY: El juego limpio en roles, esto significa que siempre que se realice un rol agresivo o pasivo se deberá jugar respetando siempre las normativas básicas del rol, servidor y a ambos usuarios, ya sea sus compañeros o los adversarios, teniendo actitudes no tóxicas y que incentiven el buen comportamiento.</p>
+                                <p>2.1.     Evasión de rol y reintegración a un rol: Estamos jugando un servidor de RP y por ello nunca debemos evitar el rol que cualquier jugador desee iniciar, como un robo o un secuestro. Si por casualidad tu conexión de internet se ve perjudicada, deberás avisarle a la administración de lo sucedido y conectarte cuanto antes.</p>
+                                <p>2.2.     Valorar tu vida: Al darle vida a nuestro personaje, siempre debemos valorarla, como si fuera la vida real. No podremos hacernos los tontos aprovechándose de que es un juego. Si nos vienen a robar y nos hacen levantar las manos, apuntándonos con un arma, debemos obedecer. El no colaborar podrá conllevar a nuestra muerte, en este caso no hemos valorado nuestra vida.</p>
+                                <p>2.3.     Nunca parar/cortar un rol: Si piensas que un jugador está rompiendo las reglas del servidor en pleno rol, recuerda no cortar el mismo diciéndole las faltas que está cometiendo, ya que ahí también tú estarías cortando el rol. Deberás esperar a que finalice el rol (por más que sea un rol mal hecho) con esa persona, acordándose de su ID para luego reportar lo sucedido y que un administrador tome cartas sobre el asunto. Se recomienda siempre grabar en todo momento para así tener mayores pruebas de lo sucedido.</p>
+                                <p>2.4.     Comportamiento IC y OOC: Comportamientos demasiados tóxicos y abusivos de personas de la comunidad, serán sancionadas severamente por los miembros del staff.
+                                <p>2.5.     Estado de Coma: En estado de coma solamente podrás comunicarte mediante el comando /do para brindar información de tu entorno. Por ejemplo, “/do tendría el DNI en su bolsillo izquierdo”, “/do tendría pulso normal”, “/do tendría heridas de bala en la pierna”, etc.
+                                <p>2.6.     Uso de vehículos estatales: Está totalmente prohibido el uso de coches de la facción de Policía, EMS o Mecánico, salvo casos donde sea necesaria la utilización para la valoración de vida o el rol lleve a ello. También se podrán utilizar los autos policiales durante 5 minutos, luego de un robo. Pero siempre hay que evitar utilizar los vehículos estatales.</p>
+                                <p>2.7.	Roles agresivos: Solo podrán participar un máximo de 5 Civiles o 9 mafiosos en todos los roles agresivos que se realicen sin ser un robo. En los robos está normativa no se cumplirá y se deberá respetar el máximo de integrantes aclarado en el robo.
+                                <p>↳ Un rol agresivo se tomará como finalizado luego de haber pasado 15 minutos del mismo.</p>
+                                <p>↳ No se podrán realizar roles agresivos entre mafias y civiles juntos, en caso que se realice un rol así se le dará una sanción a la mafia.</p>
+                                <p>2.9.     Violaciones o Actos sexuales: Cualquier tipo de rol relacionado con acciones sexuales hacia otra persona, con mayor o menor grado de dicho acto, siempre tendrá que ser consentido por las dos partes que participen en dicho rol. Ese tipo de rol se podrá hacer con las acciones de +18 o bien con el uso del /me, /do y chat de voz. No se podrá forzar ésto en caso de disconformidad de alguna de las partes (por más que roleen una amenaza), si una de las 2 personas no están de acuerdo con dicho rol y se tomará una sanción de baneo PERMANENTE</p>
+                                <p>2.11.     Uso de los chats de texto y voz: Está obligado siempre a usar la tecla para poder hablar (push to talk), funcionalidad principal de cualquier servidor de rol. El canal OOC será únicamente para hablar Off Rol (dudas, consultas, aclaraciones de rol, etc.). El uso de modificadores de voz, saturación de micrófono y otras acciones molestas o anti roleras, será motivo de sanción.</p>
+                                <p>2.12.   Robos a otros jugadores: Nunca podremos matar a ningún civil si colabora, a menos que seamos mafia y deseemos que este olvide de todo para que nuestra identidad no sea filtrada. En caso que el civil no de respuesta alguna o no colabore se lo podrá matar luego de haber pasado más de 5 segundos en los cuales se aprecie que no valora su vida. Queda prohibido robar a la EMS para que el rol médico sea más fluido, ya que se pueden fastidiar muchos roles si no hay EMS disponible. No se puede robar a los trabajadores legales: Sames, camionero, correo argentino, basurero, etc. (Tienen que tener la ropa de trabajo). Únicamente se le podrá robar a los policías. Se puede robar todo menos los ítems de trabajo legales.</p>
+                                <p>                               
+                                <p>Robo a civil: 1 policía mínimo.</p>
+                                <p>Robo a policía: 3 policías mínimo.</p>
+                         
+                                <p>2.13.     Secuestros: De la misma manera que en los robos, no podremos secuestrar trabajadores legales que estén en servicio. Tampoco podemos vivir secuestrando gente. La idea de rolear un secuestro, es para reclamar algo (Dinero, un rescate, etc.). No podemos vivir secuestrando gente RANDOM. El tiempo máximo que se podrá tener a una persona secuestrada será de 20 minutos, una vez superado el tiempo se deberá dejar al secuestrado, si el rol amerita la muerte del mismo estará permitido.</p>
+                                <p>Secuestro a civil: 3 policías mínimo.</p>
+                                <p>Secuestro a policía: 4 policías mínimo.</p>
+                         
+                                <p>2.14.     Zonas Seguras: Son lugares que se rigen por el Rol de entorno. (No podré atracar a alguien delante de comisaría debido al gran número de policías, no podré apuñalar a alguien en GC delante de 40 personas, ya que no estaría ni valorando mi vida ni llevando ninguna interpretación de Rol.)</p>
+                                <p>Las zonas seguras son las siguientes: Todos los garajes, Comisaría, Hospital, Centro de trabajos, Casas, Apartamentos, Concesionarios, Taller mecánico, Central de taxi, Tienda de ropas, Tienda de máscaras, Tiendas de pelos, Tienda de tatuajes.</p>
+                                <p>Las tiendas y bancos solamente son zonas seguras en caso de que no estén siendo robadas, en el caso contrarío los podrán tomar como rehenes y robar.</p>
+                         
+                                <p>2.15     Zonas Inseguras: Son lugares donde se permite iniciar cualquier tipo de rol agresivo, siempre y cuando, se inicie de manera adecuada. </p>
+                         
+                                <p>2.15.     Zonas calientes: Se considera una zona ilegal/caliente a lugares de recogidas de drogas o de farmeo para la realización de su proceso. En las mismas se puede abrir fuego sin aviso ni rol previo y secuestrar/amenazar personas que se encuentren en el lugar.</p>
+                                <p>Estas son:</p>
+                                <p>Aserradero (Cuando no se encuentre con inmunidad)</p>
+                                <p>Aditivos</p>
+                                <p>Puntos de ventas/compra de estupefacientes. </p>
+                                <p>Zonas de plantación de drogas.</p>
+                                <p>Invasión casas de mafias (con un rol previo)</p>
+                                <p>Fábrica (Cuando no se encuentre con inmunidad)</p>
+                                <p>Pollería </p>
+                          
+                                <p>2.17.     Asistencia Médica: Los médicos no pueden acudir a todos los llamados de emergencias porque hay mucha gente y reciben muchos llamados, los servicios de EMS hacen lo que pueden en su mayor plazo de tiempo. Pero en el caso de que solo tenga una llamada de emergencia es obligatorio acudir a esa zona de la llamada de emergencia.</p>
+                                                         
+                                <p>2.18.     Protección del médico en servicio: A los médicos que estén de servicio queda totalmente prohibido robarles y secuestrarlos. Nunca se podrá matar a un EMS en ningún caso (a menos que no valore su vida), en el caso de que mates a una persona y el EMS se ponga a reanimarlo, puedes llegar a amenazar apuntándole con un arma (sin llegar a dispararle en ningún momento) para que no lo reviva, el EMS tendrá que hacerte caso (Valorando su vida) Material médico: Solo podrán llevar medikits y vendas estando de servicio.</p>
+                                                       
+                                <p>2.19.     Prioridad de atención médica: En el caso de conflicto entre policías y delincuentes, el médico tendrá la prioridad de siempre curar a los policías antes que a un delincuente. En caso de que todos los policías hayan quedado abatidos y haya ladrones vivos, los SAME deberán proceder a curar a los delincuentes heridos si este se ve obligado a hacerlo.</p>
+                                                        
+                                <p>2.20.     Funcionamiento de las zonas calientes: Para controlar la zona deberán matar a todos los que estén allí en el momento. Recuerda que quien gane el ataque a aserradero o la fábrica, tendrá inmunidad por 48hs, la ejecución de algún miembro de esa mafia conlleva a una sanción administrativa. En las zonas calientes se podrá matar y disparar sin rol previo, ya que se trata de una zona peligrosa.</p>
+                         
+                                <p>2.23.    Armamento portable en ciudad: Los usuarios, estando dentro de la ciudad, estarán obligados a utilizar armamentos de las siguientes categorías: Pistolas, Escopetas de bombeo y Subfusiles (En caso de ser mafia). Cabe recalcar que la Combat MG u divisiones de esta, que son de diferente calibre a los subfusiles, no se podrán utilizar en la ciudad. Para adquirir la licencia de armas legales deberá consultar con la policía.</p>
+                                <p>Cualquier jugador que posea armas indebidas acorde a su facción será sancionado. Recuerda que la portación de armas ilegales en el servidor (de hacker)  también conlleva a una sanción aún mayor, por ello deben ser reportadas con un administrador para su confiscación.</p>
+                         
+                                <p>2.25.     Disparar desde el vehículo: No se podrá disparar desde la posición de conductor ya que el mismo servidor no lo permite. Los acompañantes pueden disparar a las ruedas o al motor, no a matar durante una persecución entre vehículos. En caso de que el vehículo se encuentre quieto y los acompañantes maten a alguien desde arriba de este, en ese caso sí será válido. También se podrá realizar el tiroteo fuera del vehículo.</p>
+                                <p>2.24.	Vehículo: Una vez el vehículo tenga 1 rueda pinchada deberá reducir la velocidad a 130 Km/h, en caso que el vehículo tenga 2 ruedas pinchadas deberá frenar por completo el vehículo y estacionarlo. En caso de un Motovehículo una vez tenga 1 rueda pinchada deberá frenar en su totalidad el motovehículo y estacionarlo.</p>
+                                <p>↳ Para iniciar un rol agresivo desde un vehículo deberán ir 2 sujetos en el mismo y el co-piloto deberá apuntar al atracado y bajarse del vehículo, una vez abajo deberá seguir con su rol agresivo y robarle al atracado.</p>
+                                <p>2.28.     Comando /anon: Recuerda que este es un comando IC, por lo tanto no podrás hablar nada que no sea parte del rol. Se podrá usar para fastidiar siempre y cuando sea IC. No se lo deberá utilizar bajo ninguna circunstancia para llamar a un administrador, reportar a un usuario o simplemente hablar OOC.</p>
+                         
+                                <p>2.29.     Multicuentas: Está totalmente prohibido el uso de multicuentas, únicamente podrás tener una en el servidor.</p>
+                         
+                                <p>2.30.     Caracteres en los nombres y chat: Está totalmente prohibido el uso de fuentes que no sean las predeterminadas, caracteres raros/especiales o emojis. Los nombres de colores están permitidos</p>
+                         
+                                <p>2.31.     Venta de vehículos de Donador: Estará completamente prohibido la venta de coches de donador a usuarios no donadores. Sólo podrán comerciar entre usuarios donadores y con acceso a la respectiva tienda.</p>
+                                <p>Bis 2.31.     Ventas de objetos OOC: Las ventas OOC están permitidas. Podrán darle el valor que quieran al objeto. Únicamente pueden vender autos ADDON (No vips) y casas de manera ooc (Por dinero real). La manera correcta de hacer un intercambio OOC, es abriendo ticket en el discord, para prevenir todo tipo de estafa y podamos actuar ante cualquier estafa.</p>
+                                <p>Bis 2.31.     Ventas de objetos OOC: Las ventas OOC están permitidas. Podrán darle el valor que quieran al objeto. Únicamente pueden vender autos ADDON (No vips) y casas de manera ooc (Por dinero real). La manera correcta de hacer un intercambio OOC, es abriendo ticket en el discord, para prevenir todo tipo de estafa y podamos actuar ante cualquier estafa.</p>
+                                <p>Por ejemplo, si van a comprar un addon. Las partes abren un ticket donde puedan interactuar y seamos testigos del intercambio. En caso de que una de las partes estafe al otro, quedará permanentemente baneado y los objetos quedarán en la cuenta de la persona afectada. (Así que es al pedo estafar, se comerían un ban de gratis  ya que el sujeto tendría las cosas por las que pagó y ustedes un baneo, pudiendo haberse ahorrado el baneo).</p>
+                                <p>Puntos a tener en cuenta:</p>
+                                <p>Si el intercambio se hace sin abrir un ticket y sin consultar, y son estafados, el staff de kilombo RP no se hará responsable.</p>
+                                <p>Ventas con un valor mayor a $4.000, tendrán que ceder una comisión del 10% para el servidor, para seguir apoyando está idea y que el server pueda seguir adelante. (Literalmente que no pierden dinero cediendo el 10% de comisión, siempre están ganando).</p>
+                                <p>En el ticket, tendrán que estar ambas partes y un encargado de donaciones que certifique toda la movida.</p>                             
+                                <p>2.32.    ROBOS Y ATENTADOS</p>
+                                <p>Para robar algún local, Deberán preguntar la disponibilidad por /anon ¿Policia Disponible? La policía deberá responder si están o no. No se puede mentir por las negociaciones. Cabe recalcar que el negociador es intocable. Una vez terminada la negociación u se hayan roto las negociaciones por cualquiera de ambas partes, habrá un lapso de 10 segundos de tregua, donde cada bando deberá posicionarse (Recalcar que este último punto no cuenta para joyería, donde no existen las negociaciones) .</p>
+                                <p>Para realizar un robo a Gasolinera/Tienda:
+                                <p>Atracadores mínimos 1 , Máximo 3</p>
+                                <p>Policías mínimos 1 - Máximos 3.</p>
+                                <p>Rehenes permitidos: 1 máximo.</p>
+                                <p>Solamente se podrá usar pistolas y escopetas.</p>
+                                <p>Tirador: Prohibido.</p>
+                                <p>Latas y smoke: Policías: 1 - Atracadores: 1 (Molotov)</p>
+                                <p>Para realizar un robo a Banco Fleeca:</p>
+                                <p>Atracadores mínimos 3 , Máximos 5.</p>
+                                <p>Policías mínimos 3 - Máximos 5.</p>
+                                <p>Rehenes permitidos: 3 máximo.</p>
+                                <p>Solamente se podrá usar pistolas, escopetas y subfusiles.</p>
+                                <p>Tiradores: 1 máximo (SIN SNIPER).</p>
+                                <p>Latas y smoke: Policías: 2 - Molotov Atracadores: 2</p>
+                                <p>Para realizar un robo a Life Invader:</p>
+                                <p>Atracadores mínimos 4 , Máximos 7.</p>
+                                <p>Policías mínimos 4 - Máximos 7.</p>
+                                <p>Rehenes permitidos: 3 máximo.</p>
+                                <p>Solamente se podrá usar pistolas, escopetas y subfusiles.</p>
+                                <p>Tiradores: Prohibido</p>
+                                <p>Latas y smoke: Policías: 3 - Atracadores: 3 (Molotov)</p>
+                                <p>Para realizar un robo a Yate:</p>
+                                <p>Atracadores mínimos 3 , Máximos 6.</p>
+                                <p>Policías mínimos 3 - Máximos 6.</p>
+                                <p>Rehenes permitidos: 2 máximo.</p>
+                                <p>Solamente se podrá usar pistolas, escopetas y subfusiles.</p>
+                                <p>Tiradores: Prohibido</p>
+                                <p>Latas y smoke: Policías: 2 - Atracadores: 2 (Molotov)</p>
+                                <p>Para realizar un robo a casa Michael:</p>
+                                <p>Atracadores mínimos 2 -  Máximos 6.</p>
+                                <p>Policías mínimos 2 - Máximos 6.</p>
+                                <p>Rehenes permitidos: 2 máximo.</p>
+                                <p>Solamente se podrá usar pistolas, escopetas y subfusiles.</p>
+                                <p>Tiradores: Prohibido.</p>
+                                <p>Latas y smoke: Policías: 1 - Atracadores: 1 (Molotov)</p>
+                                <p>Para realizar un robo a Banco Central:</p>
+                                <p>Atracadores mínimos 5 - Máximos 10.</p>
+                                <p>Policías mínimos 5 - Máximos 10.</p>
+                                <p>Rehenes permitidos: 5 máximo.</p>
+                                <p>Se permiten Pistolas, escopetas, Subfusiles y Fusiles de Asalto.</p>
+                                <p>Tiradores: 1 máximo.</p>
+                                <p>Latas y smoke: Policías: 4 - Atracadores: 4 (Molotov)</p>
+                                <p>Para realizar un robo a Humane:</p>
+                                <p>Atracadores mínimos 4 - Máximos 8.</p>
+                                <p>Policías mínimos 4 - Máximos 8.</p>
+                                <p>Rehenes permitidos: 4 máximo.</p>
+                                <p>Se permiten Pistolas, escopetas, Subfusiles y Fusiles de Asalto.</p>
+                                <p>Tiradores: Prohibido </p>
+                                <p>Latas y smoke: Policías: 3 - Atracadores: 3 (Molotov)</p>
+                                <p>Para realizar un robo a Pollería:</p>
+                                <p>Atracadores mínimos 5 - Máximos 8.</p>
+                                <p>Policías mínimos 5 - Máximos 8.</p>
+                                <p>Rehenes permitidos: 4 máximo.</p>
+                                <p>Se permiten Pistolas, escopetas, Subfusiles y Fusiles de Asalto.</p>
+                                <p>Para realizar un robo a la Joyería (Robo Express):</p>
+                                <p>La P.F.A podrá abrir fuego sin aviso/rol previo, sin negociar.  La P.F.A iniciará el tiroteo con disparos de advertencia, hasta que ambos bandos comienzan a disparar. </p>
+                                <p>Atracadores mínimos 3 - Máximos 6.</p>
+                                <p>Policías mínimos 3 - Maximos 6.</p>
+                                <p>Rehenes: No permitidos.</p>
+                                <p>Se permiten pistolas, escopetas y subfusiles. </p>
+                                <p>Tirador: Prohibido.</p>
+                                <p>Latas y smoke: Policías: 2 - Atracadores: 2 (Molotov)</p>
+                                <p>Para realizar un robo a Subte:</p>
+                                <p>Atracadores mínimos 3 , Máximos 5.</p>
+                                <p>Policías mínimos 3 - Máximos 5.</p>
+                                <p>Rehenes permitidos: 3 máximo.</p>
+                                <p>Solamente se podrá usar pistolas, escopetas y subfusiles.</p>
+                                <p>Tiradores: Prohibido.</p>
+                                <p>Latas y smoke: Policías: 1 - Molotov Atracadores: 1</p>
+                                <p>Para realizar un robo a Rancho abandonado:</p>
+                                <p>Atracadores mínimos 4 - Máximos 6.</p>
+                                <p>Policías mínimos 4 - Máximos 6.</p>
+                                <p>Rehenes permitidos: 3 máximo.</p>
+                                <p>Se permiten Pistolas, escopetas, Subfusiles y Fusiles de Asalto.</p>
+                                <p>Tiradores: Prohibido.</p>
+                                <p>Latas y smoke: Policías: 2 - Atracadores: 2 (Molotov)</p>                       
+                                <p>Latas y smoke: Se podrá pedir que la PFA no utilice una lata y una smoke por cada rehén y una lata por parte del botín. </p>
+                                <p>Segundos para escapar:Se les otorgará un máximo de 2 segundos (Apenas se sube el último empieza) para escapar, a cambio de un rehén.</p>
+                                <p>Se podrá negociar el no uso de barreras, cajas o barricadas, retirar patrullas que obstruyan la salida de la tienda en los primeros metros. “Salida Libre”.</p>
+                                <p>Se podrá pedir $30.000 por cada rehén.</p>
+                                <p>El tirador se podrá mover libremente por los techos del lugar que esté. No es necesario que esté fijo en el mismo lugar siempre. Puede moverse por los techos pero nunca bajar.</p>
+                                <p>2.34.    Roles ajenos: No podrás incorporarte a un rol ajeno así porque sí, a no ser que la situación lo requiera o lo permita. Si por ejemplo estamos andando en nuestro coche y vemos que un jugador está atracando a otro, no podremos bajarnos a ayudar a alguno de ellos, debemos esperar a que su rol termine.</p>                   
+                                <p>2.36.    Reportes: Los reportes in-game se notifican con el comando /reportar (ID) (MOTIVO). Recuerda tener suficientes pruebas a la hora de reportar, ya que sin ellas, el administrador no podrá hacer nada. También podrás reportar en la sala “Esperando Soporte” de nuestro Discord.</p>                       
+                                <p>2.38.    Niveles de alerta</p>
+                                <p>Estado de alerta 5, Implica lo siguiente: Zona de comisaría cerrada, quien ignore el cordón policial será considerado terrorista y abatido de inmediato. (Aún portando las manos en alto).</p>
+                                <p>Estado de alerta 4, Implica lo siguiente: Desplazamiento del equipo G.E.O.F. Patrullaje a fondo en toda la ciudad. Cualquier individuo con actitud sospechosa o que se aproxime a un vehículo policial, será abatido.</p>
+                                <p>Estado de alerta 3, Implica lo siguiente: Los agentes de la P.F.A portarán ametralladoras SMG, cualquier sospechoso será directamente puesto bajo arresto.</p>
+                                <p>Estado de alerta 2, Implica lo siguiente: Se refuerza el patrullaje en toda la ciudad. Los agentes de la P.F.A portarán su pistola desenfundada como medida adicional de seguridad.</p>
+                                <p>Estado de alerta 1, Implica lo siguiente: Los agentes de la P.F.A portarán su táser desenfundado como medida adicional de seguridad.</p>
+                                <p>Estado de alerta 0, Implica lo siguiente: Vuelta a la normalidad, la ciudad vuelve a la calma y la P.F.A, rebaja sus defensas.</p>                              
+                                <p>2.39    En caso de un enfrentamiento, donde dos personas sacan el arma al mismo tiempo, ganará el que mejor disparo tenga. Deberán dispararse y ver quién es el ganador.</p>                              
+                                <p>2.39    Cachear con arma en mano estará permitido. No consideramos PG el hecho de cachear con arma en mano, ya que por lógica alguien al momento de cachear un cuerpo apoyaría el arma en el piso. </p>                               
+                                <p>Las Normativas tienen prioridad sobre la palabra de cualquier miembro de staff. Bajo ningún concepto se deberá ponderar la palabra de un staff por sobre la normativa en cuestiones concretas. </p>
+                                <p>No se podrá buscar amparo en los huecos o baches de la normativa que vayan en contra del sentido común. </p>
+                                <p>Las normativas se podrán ir modificando a medida del tiempo. Se darán avisos en los canales de Discord.</p>
+                                <p>Última Actualización : 22/08/2022</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="cont-norm cont-norm-3">
+                            <div class="head-norm">
+                                <div class="exit-norm">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <h1>NORMATIVA MAFIAS</h1>
+                            </div>
+                            <div class="text-cont">
+                                <h2>Lorem Ipsum</h2>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat non massa vel bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pretium libero id urna aliquam, ac feugiat tortor interdum. Maecenas et enim sit amet nisi tempor eleifend nec ac nibh. Mauris a lorem nec urna elementum fringilla vel id tortor. Etiam porta quam in dui iaculis, sed vulputate purus consequat. Maecenas in commodo felis. Integer aliquam urna vel diam accumsan, sit amet porta mauris consequat. Nulla interdum commodo felis, facilisis congue felis feugiat et. In faucibus laoreet vestibulum. Sed nec mauris ligula. Morbi ipsum felis, ultrices sed eleifend id, elementum eu augue.
+
+                                    Suspendisse potenti. Donec malesuada ut arcu vitae ultrices. Suspendisse scelerisque est a neque sagittis, in convallis libero elementum. Fusce rhoncus ex orci, sed sagittis risus facilisis semper. Integer mi enim, luctus non auctor at, interdum a augue. In nec euismod erat. Etiam risus est, lobortis sit amet ornare sed, tristique sit amet ligula. Morbi consectetur erat id dictum fermentum. Aenean at lectus ultricies, pretium tortor at, suscipit enim. Pellentesque pellentesque imperdiet gravida. Aliquam erat volutpat. Maecenas sagittis varius diam at venenatis. Suspendisse arcu orci, tempus quis dui quis, fringilla rutrum neque.
+
+                                    Mauris luctus nec ante et vestibulum. Suspendisse porttitor sapien id lacus ultrices, quis pretium ligula vestibulum. Nam fringilla mauris vel lectus pulvinar vestibulum id vitae diam. Sed vel eros non mauris pulvinar dignissim sed in ipsum. Mauris vestibulum, sapien at tincidunt accumsan, ipsum nunc luctus mi, ut mattis quam ligula tincidunt tortor. Praesent scelerisque iaculis eros, sed malesuada neque volutpat ac. Phasellus nec nibh dui. Donec ipsum eros, fermentum vitae ante vitae, mollis scelerisque nibh. Aliquam lacinia nisi nec velit rhoncus, nec commodo dui pulvinar. Phasellus id ipsum est. Vestibulum iaculis convallis ligula quis feugiat. Etiam in nulla diam. Vivamus vitae bibendum urna. Maecenas mattis non orci a facilisis. Nullam eget luctus dui, sed iaculis metus.
+
+                                    Vestibulum molestie facilisis orci at commodo. Integer et neque quis tellus imperdiet pulvinar pretium non orci. Curabitur finibus lectus ut orci pellentesque, non eleifend quam consectetur. Fusce ut lorem porttitor, euismod nunc sit amet, lacinia sapien. Vivamus volutpat ullamcorper efficitur. Maecenas at ex quis ex aliquet pretium non at tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer pellentesque ipsum interdum erat egestas, sed varius mauris convallis.
+
+                                    Phasellus commodo porttitor risus, id hendrerit arcu vestibulum eu. Fusce vel aliquam erat. Fusce at imperdiet arcu, eu bibendum enim. Praesent et turpis ut lorem feugiat pretium id ac nisl. In lectus tortor, luctus ut posuere non, molestie eget turpis. Suspendisse potenti. Donec ante nulla, interdum id laoreet id, suscipit vel dolor. Aenean lacinia eget dui a faucibus. Mauris ornare mauris in ante tincidunt, vitae porta enim consequat. Proin suscipit odio commodo, ornare nunc sed, imperdiet risus.
+                                    </p> 
+
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat non massa vel bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin pretium libero id urna aliquam, ac feugiat tortor interdum. Maecenas et enim sit amet nisi tempor eleifend nec ac nibh. Mauris a lorem nec urna elementum fringilla vel id tortor. Etiam porta quam in dui iaculis, sed vulputate purus consequat. Maecenas in commodo felis. Integer aliquam urna vel diam accumsan, sit amet porta mauris consequat. Nulla interdum commodo felis, facilisis congue felis feugiat et. In faucibus laoreet vestibulum. Sed nec mauris ligula. Morbi ipsum felis, ultrices sed eleifend id, elementum eu augue.
+
+                                    Suspendisse potenti. Donec malesuada ut arcu vitae ultrices. Suspendisse scelerisque est a neque sagittis, in convallis libero elementum. Fusce rhoncus ex orci, sed sagittis risus facilisis semper. Integer mi enim, luctus non auctor at, interdum a augue. In nec euismod erat. Etiam risus est, lobortis sit amet ornare sed, tristique sit amet ligula. Morbi consectetur erat id dictum fermentum. Aenean at lectus ultricies, pretium tortor at, suscipit enim. Pellentesque pellentesque imperdiet gravida. Aliquam erat volutpat. Maecenas sagittis varius diam at venenatis. Suspendisse arcu orci, tempus quis dui quis, fringilla rutrum neque.
+
+                                    Mauris luctus nec ante et vestibulum. Suspendisse porttitor sapien id lacus ultrices, quis pretium ligula vestibulum. Nam fringilla mauris vel lectus pulvinar vestibulum id vitae diam. Sed vel eros non mauris pulvinar dignissim sed in ipsum. Mauris vestibulum, sapien at tincidunt accumsan, ipsum nunc luctus mi, ut mattis quam ligula tincidunt tortor. Praesent scelerisque iaculis eros, sed malesuada neque volutpat ac. Phasellus nec nibh dui. Donec ipsum eros, fermentum vitae ante vitae, mollis scelerisque nibh. Aliquam lacinia nisi nec velit rhoncus, nec commodo dui pulvinar. Phasellus id ipsum est. Vestibulum iaculis convallis ligula quis feugiat. Etiam in nulla diam. Vivamus vitae bibendum urna. Maecenas mattis non orci a facilisis. Nullam eget luctus dui, sed iaculis metus.
+
+                                    Vestibulum molestie facilisis orci at commodo. Integer et neque quis tellus imperdiet pulvinar pretium non orci. Curabitur finibus lectus ut orci pellentesque, non eleifend quam consectetur. Fusce ut lorem porttitor, euismod nunc sit amet, lacinia sapien. Vivamus volutpat ullamcorper efficitur. Maecenas at ex quis ex aliquet pretium non at tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer pellentesque ipsum interdum erat egestas, sed varius mauris convallis.
+
+                                    Phasellus commodo porttitor risus, id hendrerit arcu vestibulum eu. Fusce vel aliquam erat. Fusce at imperdiet arcu, eu bibendum enim. Praesent et turpis ut lorem feugiat pretium id ac nisl. In lectus tortor, luctus ut posuere non, molestie eget turpis. Suspendisse potenti. Donec ante nulla, interdum id laoreet id, suscipit vel dolor. Aenean lacinia eget dui a faucibus. Mauris ornare mauris in ante tincidunt, vitae porta enim consequat. Proin suscipit odio commodo, ornare nunc sed, imperdiet risus.
+                                    </p> 
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="controles">
+                        <div class="tabla-controles">
+                            <div class="col col-1">
+                                <div class="key">
+                                    <h3>Celular</h3>
+                                    <p>Tecla [F1]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Inventario</h3>
+                                    <p>Tecla [F2]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Animaciones</h3>
+                                    <p>Tecla [F3]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Menú Personal</h3>
+                                    <p>Tecla [F7]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Abrir Maleteros</h3>
+                                    <p>Tecla [K]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Cerrar el Coche</h3>
+                                    <p>Tecla [U]</p>
+                                </div>
+
+                            <div class="key">
+                                <h3>Menu Vehículos</h3>
+                                <p>Tecla [F10]</p>
+                            </div>
+
+                        </div>
+
+                            <div class="col col-2">
+                                <div class="key">
+                                    <h3>Abrir el Chat</h3>
+                                    <p>Tecla [T]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Menu de ropa</h3>
+                                    <p>Tecla [Y]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Cinturón</h3>
+                                    <p>Tecla [G]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Cambiar de voz</h3>
+                                    <p>Tecla [F11]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Levantar manos</h3>
+                                    <p>Tecla [X]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Señalar</h3>
+                                    <p>Tecla [B]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Agacharse</h3>
+                                    <p>Tecla [CTRL]</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col col-3">
+
+                                <div class="key">
+                                    <h3>Reportar</h3>
+                                    <p>Comando [/report]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Ver info de jugador</h3>
+                                    <p>Comando [/id (ID)]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Twitter</h3>
+                                    <p>Comando [/twt]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Mensaje Anonimo</h3>
+                                    <p>Comando [/anon]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Dar auto a jugador</h3>
+                                    <p>Comando [/darllaves (ID)]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Mensaje privado</h3>
+                                    <p>Comando [/msg]</p>
+                                </div>
+
+                                <div class="key">
+                                    <h3>Cargar jugador</h3>
+                                    <p>Comando [/cargar]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nos">
+                        <h1>¡Bienvenid@ a Kilombo RP V2!</h1>
+                        <p>Somos un servidor inaugurado en el 2022, nuestra intención como servidor es lograr un buen clima y un buen ambiente en la comunidad, no aceptamos y repudiamos todo tipo de toxicidad, serán penadas severamente. Si querés pasar un buen rato y divertirte este es el lugar indicado, tenemos muchos sistemas y scripts propios e innovadores, para que te diviertas al máximo. Si queres obtener más información sobre nosotros podes hacerlo en nuestro Discord: https://discord.gg/kilombo</a></p>
+                    </div>
+
+                    <div class="cont-slider">
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                              <img src="https://media.discordapp.net/attachments/1049455490222014484/1099423766460760166/screenshot.png?width=1202&height=676" style="width:100%">
+                              <div class="text">HömeR#0666</div>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <img src="https://media.discordapp.net/attachments/1049455490222014484/1099423779094016110/screenshot.png?width=1202&height=676" style="width:100%">
+                              <div class="text">Wezzo#0777</div>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <img src="https://fivem.net/73663161434ea35812a20da2e517f102.jpg" style="width:100%">
+                              <div class="text">Diego.#8713</div>
+                            </div>
+                          
+                            <!-- Next and previous buttons -->
+                            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                          </div>
+                          <br>
+                        </div>
+
+                    </div>
+
+                    <button class="btn-play">JUGAR <i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="animation-wrapper">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+          </div>
+          
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

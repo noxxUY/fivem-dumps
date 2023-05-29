@@ -1,0 +1,21 @@
+Config = {}
+Config.ArrayAnuncios = {
+    {job = "police", theme = "white"},
+    {job = "ambulance", theme = "white"},
+    {job = "mechanic", theme = "white"},
+    {job = "mechanic2", theme = "white"},
+    {job = "mechanic3", theme = "white"},
+    {job = "distribuidora", theme = "white"},
+    {job = "comercio1", theme = "white"},
+    {job = "comercio2", theme = "white"},
+    {job = "comercio3", theme = "white"},
+    {job = "afterpunk", theme = "white"},
+    {job = "galaxy", theme = "white"},
+    {job = "mazebank", theme = "white"},
+    {job = "vanilla", theme = "white"},
+    {job = "growshop", theme = "white"},
+    {job = "backside", theme = "white"},
+    {job = "compraventasur", theme = "white"},
+    {job = "smithracing", theme = "white"},
+    {job = "blackrebel", theme = "white"},
+}

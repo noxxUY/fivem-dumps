@@ -1,0 +1,56 @@
+resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+
+description 'ESX Mechanic Job'
+
+version '1.1.0'
+
+client_scripts {
+	'@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/es.lua',
+	'locales/fi.lua',
+	'locales/fr.lua',
+	'locales/br.lua',
+	'locales/sv.lua',
+	'locales/pl.lua',
+	'config.lua',
+	'client/main.lua'
+}
+
+server_scripts {
+	'@mysql-async/lib/MySQL.lua',
+	'@es_extended/locale.lua',
+	'locales/en.lua',
+	'locales/es.lua',
+	'locales/fi.lua',
+	'locales/fr.lua',
+	'locales/br.lua',
+	'locales/sv.lua',
+	'locales/pl.lua',
+	'config.lua',
+	'server/main.lua'
+}
+
+dependencies {
+	'es_extended',
+	'esx_billing'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client_script '@car/str/ReadMe.lua'

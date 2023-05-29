@@ -1,0 +1,15 @@
+Locales['es'] = {
+  ['used_bread'] = 'Comiste ~y~1~s~ ~b~pan~s~',
+  ['used_water'] = 'Tomaste ~y~1~s~ ~b~agua~s~',
+  ['used_macka'] = 'Comiste ~y~1~s~ ~b~Taco~s~',
+  ['used_sprite'] = 'Tomaste ~y~1~s~ ~b~Sprite~s~',
+  ['used_pizza'] = 'Comiste ~y~1~s~ ~b~Pizza~s~',
+  ['used_pastacarbonara'] = 'Comiste ~y~1~s~ ~b~Pasta~s~',
+  ['used_chips'] = 'Comiste ~y~1~s~ ~b~Lays~s~',
+  ['used_loka'] = 'Tomaste ~y~1~s~ ~b~Manaos Uva~s~',
+  ['used_burger'] = 'Comiste ~y~1~s~ ~b~Hamburguesa~s~',
+  ['used_fanta'] = 'Tomaste ~y~1~s~ ~b~Fanta~s~',
+  ['used_cocacola'] = 'Tomaste ~y~1~s~ ~b~Coca-Cola~s~',
+  ['used_cheesebows'] = 'Comiste ~y~1~s~ ~b~Cheeto~s~',
+  ['used_marabou'] = 'Comiste ~y~1~s~ ~b~Kit Kat~s~',
+}

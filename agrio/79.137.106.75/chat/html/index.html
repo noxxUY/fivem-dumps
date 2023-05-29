@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="vendor/latofonts.css" rel="stylesheet">
+  <link href="vendor/flexboxgrid.6.3.1.min.css" rel="stylesheet"></link>
+  <link href="vendor/animate.3.5.2.min.css" rel="stylesheet"></link>
+  <link href="index.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  <script src="vendor/vue.2.3.3.min.js" type="text/javascript"></script>
+  <script src="config.default.js" type="text/javascript"></script>
+  <script src="config.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- App Template -->
+  <script type="text/x-template" id="app_template">
+    <div id="app">
+      <div class="chat-window" :style="this.style" :class="{ 'fadeOutUp animated': !showWindow, 'hidden': shouldHide }">
+        <div class="chat-messages" ref="messages">
+          <message v-for="msg in messages"
+                   :templates="templates"
+                   :multiline="msg.multiline"
+                   :args="msg.args"
+                   :color="msg.color"
+                   :template="msg.template"
+                   :template-id="msg.templateId"
+                   :key="msg">
+          </message>
+        </div>
+      </div>
+      <div class="chat-input" v-show="showInput">
+        <div>
+          <span class="prefix">➤</span>
+          <input class="chat-text" v-model="message" placeholder="🗨️ Escribe un mensaje..." ref="input" type="text" autofocus spellcheck="false" @keyup.esc="hideInput" @keyup="keyUp" @keydown="keyDown" @keypress.enter.prevent="send" id="input">
+        </div>
+        <suggestions :message="message" :suggestions="suggestions" id="suggestions">
+        </suggestions>
+      </div>
+    </div>
+  </script>
+
+  <!-- Message Template -->
+  <script type="text/x-template" id="message_template">
+    <div class="msg" :class="{ multiline }">
+      <span v-html="textEscaped"></span>
+    </div>
+  </script>
+
+  <!-- Suggestions Template -->
+  <script type="text/x-template" id="suggestions_template">
+    <div class="suggestions-wrap" v-show="currentSuggestions.length > 0">
+      <ul class="suggestions">
+        <li class="suggestion" v-for="s in currentSuggestions">
+          <p>
+            <span :class="{ 'disabled': s.disabled }">
+              {{s.name}}
+            </span>
+            <span class="param"
+                  v-for="(p, index) in s.params"
+                  :class="{ 'disabled': p.disabled }">
+              [{{p.name}}]
+            </span>
+          </p>
+          <small class="help">
+            <template v-if="!s.disabled">
+              {{s.help}}
+            </template>
+            <template v-for="p in s.params" v-if="!p.disabled">
+              {{p.help}}
+            </template>
+          </small>
+        </li>
+      </ul>
+    </div>
+  </script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="./Suggestions.js"></script>
+  <script type="text/javascript" src="./Message.js"></script>
+  <script type="text/javascript" src="./App.js"></script>
+
+  <!-- Main Entry -->
+  <script type="text/javascript">
+  window.post = (url, data) => {
+    var request = new XMLHttpRequest();
+    request.open('POST', url, true);
+    request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    request.send(data);
+  }
+
+  const instance = new Vue({
+    el: '#app',
+    render: h => h(APP),
+  });
+
+  window.emulate = (type, detail = {}) => {
+    detail.type = type;
+    window.dispatchEvent(new CustomEvent('message', {
+      detail,
+    }));
+  };
+  </script>
+
+<script>
+  var area = document.getElementById('input');
+  if (area.addEventListener) {
+    area.addEventListener('input', (res) => {
+      if (area.value.indexOf('/me') != -1 && area.value.indexOf('/do') === -1) {
+        area.style.transition = '.5s';
+        area.style.background = 'rgba(53, 0, 0, 0.864)';
+      }
+      else if (area.value.indexOf('/me') === -1 && area.value.indexOf('/do') != -1) {
+        area.style.transition = '.5s';
+        area.style.background = 'rgba(0, 1, 53, 0.864)';
+      }
+      else if (area.value.indexOf('/oop') === -1 && area.value.indexOf('/ayuda') != -1) {
+        area.style.transition = '.5s';
+        area.style.background = 'rgba(53, 52, 0, 0.864)';
+      }
+      else if (area.value.indexOf('/oop') === -1 && area.value.indexOf('/dados') != -1) {
+        area.style.transition = '.5s';
+        area.style.background = 'rgba(53, 34, 0, 0.864)';
+      }
+      else {
+        area.style.transition = '.5s';
+        area.style.background = 'rgba(0, 0, 0, 0.829)';
+      }
+    },false)
+  } else if (area.attachEvent) {
+    area.attachEvent('onpropertychange', (res) => {
+      console.log(res)
+    });
+  }
+</script>
+
+</body>
+</html>

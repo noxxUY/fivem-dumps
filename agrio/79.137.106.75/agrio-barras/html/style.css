@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Play;
+	src: url('https://cdn.discordapp.com/attachments/791803602993414144/975574767233024032/Play-Bold.ttf');
+}
+
+
+#mina {
+    display: none;
+    overflow: hidden;
+    font-family: Play; 
+
+}
+
+#pbar_outerdiv {
+    position: relative;
+    margin-top: 45.5%; 
+    left: 42.5%; 
+    background-color: rgba(0, 0, 0, 0.479); 
+    box-shadow: 0 0 .3vw #0000008e, 0 0 .3vw #0000008e, 0 0 .3vw #0000008e, 0 0 .3vw #0000008e;
+    border-radius: 5px;
+    width: 15%; 
+    height: 30px; 
+    z-index: 1; 
+}
+
+
+#pbar_innerdiv {
+    background-color: rgb(107, 107, 107); 
+    box-shadow: 0 0 .1vw #0000008e, 0 0 .1vw #0000008e, 0 0 .1vw #0000008e, 0 0 .1vw #0000008e;
+    z-index: 2; 
+    border-radius: 5px 5px 5px 5px;
+    height: 100%; 
+    width: 0%;
+}
+
+#pbar_innertext  {
+    color: rgb(255, 255, 255); 
+    z-index: 5; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    border-radius: 5px 5px 5px 5px;
+    width: 100%; 
+    height: 100%; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family: Play; 
+    margin-top: 5px;
+
+}

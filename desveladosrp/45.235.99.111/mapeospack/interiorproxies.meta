@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>baham_milo_</Item>
+        <Item>hei_sm_16_interior_v_bahama_milo_</Item>
+        <Item>hei_sm_rd_strm_2</Item>
+        <Item>hei_sm_occl_03</Item>
+    </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>hei_bh1_13_strm_0</Item>
+        <Item>int_luxury_milo_</Item>
+    </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>ajaxon_burton_lsc_milo_</Item>
+        <Item>apa_distlodlights_medium015</Item>
+        <Item>apa_distlodlights_small061</Item>
+        <Item>apa_lodlights_medium015</Item>
+        <Item>distlodlights_medium015</Item>
+        <Item>hei_distlodlights_medium015</Item>
+        <Item>distlodlights_small060</Item>
+        <Item>hei_distlodlights_small061</Item>
+        <Item>hei_lodlights_medium015</Item>
+        <Item>apa_lodlights_small061</Item>
+        <Item>hei_lodlights_small061</Item>
+        <Item>lodlights_medium015</Item>
+        <Item>vw_distlodlights_medium015</Item>
+        <Item>lodlights_small060</Item>
+        <Item>vw_lodlights_small061</Item>
+        <Item>vw_lodlights_medium015</Item>
+        <Item>ajaxon_hei_ap1_04_interior_v_carmod_milo_</Item>
+        <Item>apa_bt1_02_interior_v_carmod_milo_</Item>
+        <Item>vw_distlodlights_small061</Item>
+        <Item>apa_bt1_02_strm_0</Item>
+        <Item>apa_bt1_02</Item>
+        <Item>apa_ss1_occl_00</Item>
+        <Item>apa_ss1_rd1_critical_1</Item>
+        <Item>apa_ss1_rd1_long_0</Item>
+        <Item>apa_ss1_rd1_strm_2</Item>
+    </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>bh1_occl_06</Item>
+        <Item>brofx_church_mlo</Item>
+    </proxies>
+</SInteriorOrderData>

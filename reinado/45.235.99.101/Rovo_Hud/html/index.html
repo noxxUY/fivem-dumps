@@ -1,0 +1,409 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8345449064.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+	<script>
+        showTime();
+
+        function showTime() {
+            myDate = new Date();
+            hours = myDate.getHours();
+            minutes = myDate.getMinutes();
+            seconds = myDate.getSeconds();
+            if (hours < 10) hours = 0 + hours;
+
+            if (minutes < 10) minutes = "0" + minutes;
+
+
+            $(".HoraActual").text(hours + ":" + minutes);
+            setTimeout("showTime()", 3000);
+        }
+    </script>
+</head>
+	<body>
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<div class="todoelHUd">
+			
+		
+		<div class="panel" style="display: none;">
+
+			<div class="switches">
+
+				<h3>Panel</h3>
+
+
+				<div class="columna-50 left">
+					<input type="checkbox" checked id="1">
+					<label for="1">
+						<span><img src="img/vida.png"> Vida </span>
+						<span></span>
+					</label>
+				</div>
+				
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#ff0a0a" id="colorPicker" class="colorVida"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked id="2">
+						<label for="2">
+						<span><img src="img/chaleco.png"> Chaleco</span>
+						<span></span>
+					</label>
+				</div>
+					
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#1568f4" id="colorPicker" class="colorChaleco"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="3">
+						<label for="3">
+						<span><img src="img/comida.png"> Comida</span>
+						<span></span>
+					</label>
+				</div>
+					
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#fd5900" id="colorPicker" class="colorComida"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="4">
+						<label for="4">
+						<span><img src="img/agua.png"> Bebida</span>
+						<span></span>
+					</label>
+				</div>
+				
+					
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#2c92e0" id="colorPicker" class="colorAgua"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="5">
+						<label for="5">
+						<span><img src="img/stamina.png"> Stamina</span>
+						<span></span>
+					</label>
+				</div>
+				
+					
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="colorStamina"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				<!-- 
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="23">
+						<label for="23">
+						<span><img src="img/stress.png"> Stress</span>
+						<span></span>
+					</label>
+				</div>
+				
+					
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#ff00e6" id="colorPicker" class="colorStress"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+-->
+				<h3>Vehicle</h3>
+
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked disabled="disabled"  id="6">
+						<label for="6">
+						<span><img src="img/speed.png"> Vehiculo</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="colorVehicle"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked id="10">
+						<label for="10">
+						<span><img src="img/gasoil.png"> Gasolina</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="fuelVehicle"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked id="11">
+						<label for="11">
+						<span><img src="img/motor.png"> Motor</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="motorVehicle"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+				
+
+				<h3>Information</h3>
+
+				
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="7">
+						<label for="7">
+						<span> TIempo</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="timeColor"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="8">
+						<label for="8">
+						<span>Online</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="onlineColor"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+				
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="9">
+						<label for="9">
+						<span> ID</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#f9e814" id="colorPicker" class="idColor"></label>
+				</div>
+
+				<div class="divi">&nbsp;</div>
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="15">
+						<label for="15">
+						<span> Job</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#ffffff" id="colorPicker" class="jobColor"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+				<div class="columna-50 left">
+					<input type="checkbox" checked  id="16">
+						<label for="16">
+						<span> Money</span>
+						<span></span>
+						</label>
+				</div>
+
+				<div class="columna-50 right">
+					<label>  Color: <input type="color" value="#ffffff" disabled id="colorPicker" class="moneyColor"></label>
+				</div>
+				<div class="divi">&nbsp;</div>
+
+				<div class="boton">
+					<div class="reset">RESET</div>
+				 </div>
+			</div>
+
+		</div>
+
+	<div class="moveAllUserInfo">
+
+	
+	<div class="infouser">
+		<div class="tiempo">
+			<div class="relojito">
+				<i class="fa-solid fa-clock"></i><div class="HoraActual"></div>
+				<div class="fecha">
+					<script>
+						var f = new Date();
+						document.write(f.getDate() + "." + (f.getMonth() +1) + "." + f.getFullYear());
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="cantidad">
+			<div class="usernumeros">
+				<i class="fa-solid fa-users"></i>
+				<div class="cantusers">123</div>
+				<div class="textnumeros">
+					ONLINE
+				</div>
+			</div>
+
+		</div>
+		<div class="identi">
+			<div class="laid">
+				ID: 777
+			</div>
+
+		</div>
+	</div>
+	</div>
+	<div class="movejObxd">
+	<div class="trabajo">
+		<span class="job">Cargando...</span> - <span class="range">Cargando...</span>
+	</div>
+	</div>
+	<div class="moveThinkMoney">
+
+	
+	<div class="economia">
+		
+		<div class="dineroplayer animadotop">
+			<div class="efectivo"> <span class="moneyjs">Cargando...</span> <u><i class="fa-solid fa-dollar-sign"></i></u></div>
+			<div class="negro"> <span class="blackjs">Cargando...</span> <u><i class="fa-solid fa-user-ninja"></i></u></div>
+			<div class="banco"> <span class="bankjs">Cargando...</span> <u><i class="fa-solid fa-piggy-bank"></i></u></div>
+			<div class="vip"> <span class="vipjs">Cargando...</span> <u><i class="fa-solid fa-gem"></i></u></div>
+			<div class="sociedad"> <span class="societyjs">Cargando...</span> <u><i class="fa-solid fa-building-columns"></i></u></div>
+		</div>
+	</div>
+</div>
+	<div class="armas">
+		<span>66 / 30</span> <img src="img/bullet.png">
+	</div>
+
+	<div class="status">
+		<div class="cuadrado" id="vida">
+			<div class="icofb"><img src="img/vida.png"></div>
+			<div class="lbar">
+				<strong class="bar1 barrs" style='width:90%;'></strong>
+			</div>
+			<div class="texto1 porcentaje">
+				90%
+			</div>
+		</div>
+		<div class="cuadrado" id="chaleco">
+			<div class="icofb"><img src="img/chaleco.png"></div>
+			<div class="lbar">
+				<strong class="bar2 barrs" style='width:10%;'></strong>
+			</div>
+			<div class="texto2 porcentaje">
+				90%
+			</div>
+		</div>
+		<div class="cuadrado" id="comida">
+			<div class="icofb"><img src="img/comida.png"></div>
+			<div class="lbar">
+				<strong class="bar3 barrs" style='width:40%;'></strong>
+			</div>
+			<div class="texto3 porcentaje">
+				90%
+			</div>
+		</div>
+		<div class="cuadrado" id="agua">
+			<div class="icofb"><img src="img/agua.png"></div>
+			<div class="lbar">
+				<strong class="bar4 barrs" style='width:50%;'></strong>
+			</div>
+			<div class="texto4 porcentaje">
+				90%
+			</div>
+		</div>
+		<div class="cuadrado" id="stamina">
+			<div class="icofb"><img src="img/stamina.png"></div>
+			<div class="lbar">
+				<strong class="bar5 barrs" style='width:30%;'></strong>
+			</div>
+			<div class="texto5 porcentaje">
+				90%
+			</div>
+		</div>
+	</div>
+		
+		<div class="TodoElCarHudxD">
+	<div class="velocimetro">
+		<div class="barras">
+			<div class="ldBar velocimetro2" data-value="9" style="width:16.5vw;height:16.5vw" stroke-dasharray="2, 1" stroke="#ffffff78 ", data-path="M7.877 22.042C1.437 15.408 6.155 4.856 15.015 4.869S28.566 15.551,22.17 21.944"></div>
+			<div class="ldBar motor2" data-value="90" style="width:7.9vw;height:14vw" stroke-dasharray="2, 1" stroke="#ffffff78 ", data-path="M4.895 20.922C1.734 15.551 3.339 8.576 8.199 5.237"></div>
+			<div class="ldBar combustible2" data-value="90" style="width:7.5vw;height:13.8vw" stroke-dasharray="2, 1" stroke="#ffffff78 ", data-path="M23.361 23.203C26.853 19.82 28.87 12.212 23.206 6.437"></div>
+			<svg style="color: aliceblue;"  version="1.1" x="0px" y="0px" viewBox="0 0 28 25">   
+			</svg>
+		</div>
+
+		<div class="textos">
+			<div class="numspeed">
+			<p>373</p>
+			</div>
+			<div class="textspeed">
+			<p>Km/h</p>
+			</div>
+			<div class="textmotor">
+			<p>70%</p>
+			</div>
+			
+			
+			<div class="imgtmotor">
+			<p><img src="img/motor.png"></p>
+			</div>
+			<div class="imgspeed">
+			<p><img src="img/speed.png"></p>
+			</div>
+			<div class="imgluz">
+			<p><img src="img/luz2.png"></p>
+			</div>
+			<div class="imgcinto">
+			<p><img src="img/cinto.png"></p>
+			</div>
+			<div class="imggasoil">
+			<p><img src="img/gasoil.png"></p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="microfono">
+		<ul>
+			<li id="microJs"></li>
+			<li id="microJs"></li>
+			<li id="microJs"></li>
+			<li id="microJs"></li>
+			<li id="microJs"></li>
+			<li id="microJs"></li>
+		</ul>
+	</div>
+		<link rel="stylesheet" type="text/css" href="dist/loading-bar.css"/>
+<script type="text/javascript" src="dist/loading-bar.js"></script>
+	
+</div>
+	</body>
+</html>
+		

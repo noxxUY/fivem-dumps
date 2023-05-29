@@ -1,0 +1,354 @@
+{
+  "WhiteListedParticles": [
+    "veh_backfire",
+    "1919313769",
+    "2911163930",
+    "830586904",
+    "3452706341",
+    "2473553234",
+    "1437422523",
+    "4075160325",
+    "2711608405",
+    "1609496387",
+    "738352871",
+    "1783670098",
+    "2616236119",
+    "205379549",
+    "3082955480",
+    "3863872967"
+  ],
+  "ExplosionTypes": {
+    "0": {
+      "Name": "Grenade",
+      "Mode": "Ban"
+    },
+    "1": {
+      "Name": "Grenade Launcher",
+      "Mode": "Ban"
+    },
+    "2": {
+      "Name": "Sticky Bomb",
+      "Mode": "None"
+    },
+    "3": {
+      "Name": "Molotov",
+      "Mode": "Ban"
+    },
+    "4": {
+      "Name": "Rocket",
+      "Mode": "Ban"
+    },
+    "5": {
+      "Name": "TankShell",
+      "Mode": "Ban"
+    },
+    "6": {
+      "Name": "Hi_Octane",
+      "Mode": "None"
+    },
+    "7": {
+      "Name": "Car",
+      "Mode": "None"
+    },
+    "8": {
+      "Name": "Plane",
+      "Mode": "None"
+    },
+    "9": {
+      "Name": "PetrolPump",
+      "Mode": "None"
+    },
+    "10": {
+      "Name": "Bike",
+      "Mode": "None"
+    },
+    "11": {
+      "Name": "Dir_Steam",
+      "Mode": "None"
+    },
+    "12": {
+      "Name": "Dir_Flame",
+      "Mode": "None"
+    },
+    "13": {
+      "Name": "Dir_Water_Hydrant",
+      "Mode": "None"
+    },
+    "14": {
+      "Name": "Dir_Gas_Canister",
+      "Mode": "None"
+    },
+    "15": {
+      "Name": "Boat",
+      "Mode": "None"
+    },
+    "16": {
+      "Name": "Ship_Destroy",
+      "Mode": "None"
+    },
+    "17": {
+      "Name": "Truck",
+      "Mode": "None"
+    },
+    "18": {
+      "Name": "Bullet",
+      "Mode": "Ban"
+    },
+    "19": {
+      "Name": "SmokeGrenadeLauncher",
+      "Mode": "Ban"
+    },
+    "20": {
+      "Name": "SmokeGrenade",
+      "Mode": "Ban"
+    },
+    "21": {
+      "Name": "BZGAS",
+      "Mode": "None"
+    },
+    "22": {
+      "Name": "Flare",
+      "Mode": "None"
+    },
+    "23": {
+      "Name": "Gas_Canister",
+      "Mode": "None"
+    },
+    "24": {
+      "Name": "Extinguisher",
+      "Mode": "None"
+    },
+    "25": {
+      "Name": "Programmablear",
+      "Mode": "Ban"
+    },
+    "26": {
+      "Name": "Train",
+      "Mode": "Ban"
+    },
+    "27": {
+      "Name": "Barrel",
+      "Mode": "None"
+    },
+    "28": {
+      "Name": "PROPANE",
+      "Mode": "None"
+    },
+    "29": {
+      "Name": "Blimp",
+      "Mode": "Ban"
+    },
+    "30": {
+      "Name": "Dir_Flame_Explode",
+      "Mode": "None"
+    },
+    "31": {
+      "Name": "Tanker",
+      "Mode": "None"
+    },
+    "32": {
+      "Name": "PlaneRocket",
+      "Mode": "Ban"
+    },
+    "33": {
+      "Name": "VehicleBullet",
+      "Mode": "Ban"
+    },
+    "34": {
+      "Name": "Gas_Tank",
+      "Mode": "None"
+    },
+    "35": {
+      "Name": "EXP_TAG_BIRD_CRAP",
+      "Mode": "Ban"
+    },
+    "36": {
+      "Name": "EXP_TAG_RAILGUN",
+      "Mode": "Ban"
+    },
+    "37": {
+      "Name": "EXP_TAG_BLIMP2",
+      "Mode": "Ban"
+    },
+    "38": {
+      "Name": "EXP_TAG_FIREWORK",
+      "Mode": "None"
+    },
+    "39": {
+      "Name": "EXP_TAG_SNOWBALL",
+      "Mode": "None"
+    },
+    "40": {
+      "Name": "EXP_TAG_PROXMINE",
+      "Mode": "Ban"
+    },
+    "41": {
+      "Name": "EXP_TAG_VALKYRIE_CANNON",
+      "Mode": "Ban"
+    },
+    "42": {
+      "Name": "EXP_TAG_AIR_DEFENCE",
+      "Mode": "Ban"
+    },
+    "43": {
+      "Name": "EXP_TAG_PIPEBOMB",
+      "Mode": "Ban"
+    },
+    "44": {
+      "Name": "EXP_TAG_VEHICLEMINE",
+      "Mode": "Ban"
+    },
+    "45": {
+      "Name": "EXP_TAG_EXPLOSIVEAMMO",
+      "Mode": "Ban"
+    },
+    "46": {
+      "Name": "EXP_TAG_APCSHELL",
+      "Mode": "Ban"
+    },
+    "47": {
+      "Name": "EXP_TAG_BOMB_CLUSTER",
+      "Mode": "Ban"
+    },
+    "48": {
+      "Name": "EXP_TAG_BOMB_GAS",
+      "Mode": "Ban"
+    },
+    "49": {
+      "Name": "EXP_TAG_BOMB_INCENDIARY",
+      "Mode": "Ban"
+    },
+    "50": {
+      "Name": "EXP_TAG_BOMB_STANDARD",
+      "Mode": "Ban"
+    },
+    "51": {
+      "Name": "EXP_TAG_TORPEDO",
+      "Mode": "Ban"
+    },
+    "52": {
+      "Name": "EXP_TAG_TORPEDO_UNDERWATER",
+      "Mode": "Ban"
+    },
+    "53": {
+      "Name": "EXP_TAG_BOMBUSHKA_CANNON",
+      "Mode": "Ban"
+    },
+    "54": {
+      "Name": "EXP_TAG_BOMB_CLUSTER_SECONDARY",
+      "Mode": "Ban"
+    },
+    "55": {
+      "Name": "EXP_TAG_HUNTER_BARRAGE",
+      "Mode": "Ban"
+    },
+    "56": {
+      "Name": "EXP_TAG_HUNTER_CANNON",
+      "Mode": "Ban"
+    },
+    "57": {
+      "Name": "EXP_TAG_ROGUE_CANNON",
+      "Mode": "Ban"
+    },
+    "58": {
+      "Name": "EXP_TAG_MINE_UNDERWATER",
+      "Mode": "Ban"
+    },
+    "59": {
+      "Name": "EXP_TAG_ORBITAL_CANNON",
+      "Mode": "Ban"
+    },
+    "60": {
+      "Name": "EXP_TAG_BOMB_STANDARD_WIDE",
+      "Mode": "Ban"
+    },
+    "61": {
+      "Name": "EXP_TAG_EXPLOSIVEAMMO_SHOTGUN",
+      "Mode": "None"
+    },
+    "62": {
+      "Name": "EXP_TAG_OPPRESSOR2_CANNON",
+      "Mode": "Ban"
+    },
+    "63": {
+      "Name": "EXP_TAG_MORTAR_KINETIC",
+      "Mode": "Ban"
+    },
+    "64": {
+      "Name": "EXP_TAG_VEHICLEMINE_KINETIC",
+      "Mode": "Ban"
+    },
+    "65": {
+      "Name": "EXP_TAG_VEHICLEMINE_EMP",
+      "Mode": "Ban"
+    },
+    "66": {
+      "Name": "EXP_TAG_VEHICLEMINE_SPIKE",
+      "Mode": "Ban"
+    },
+    "67": {
+      "Name": "EXP_TAG_VEHICLEMINE_SLICK",
+      "Mode": "Ban"
+    },
+    "68": {
+      "Name": "EXP_TAG_VEHICLEMINE_TAR",
+      "Mode": "Ban"
+    },
+    "69": {
+      "Name": "EXP_TAG_SCRIPT_DRONE",
+      "Mode": "Ban"
+    },
+    "70": {
+      "Name": "EXP_TAG_RAYGUN",
+      "Mode": "Ban"
+    },
+    "71": {
+      "Name": "EXP_TAG_BURIEDMINE",
+      "Mode": "Ban"
+    },
+    "72": {
+      "Name": "EXP_TAG_SCRIPT_MISSILE",
+      "Mode": "Ban"
+    },
+    "73": {
+      "Name": "EXP_TAG_RCTANK_ROCKET",
+      "Mode": "Ban"
+    },
+    "74": {
+      "Name": "EXP_TAG_BOMB_WATER",
+      "Mode": "Ban"
+    },
+    "75": {
+      "Name": "EXP_TAG_BOMB_WATER_SECONDARY",
+      "Mode": "Ban"
+    },
+    "76": {
+      "Name": "_0xF728C4A9",
+      "Mode": "Ban"
+    },
+    "77": {
+      "Name": "_0xBAEC056F",
+      "Mode": "Ban"
+    },
+    "78": {
+      "Name": "EXP_TAG_FLASHGRENADE",
+      "Mode": "None"
+    },
+    "79": {
+      "Name": "EXP_TAG_STUNGRENADE",
+      "Mode": "None"
+    },
+    "80": {
+      "Name": "_0x763D3B3B",
+      "Mode": "Ban"
+    },
+    "81": {
+      "Name": "EXP_TAG_SCRIPT_MISSILE_LARGE",
+      "Mode": "Ban"
+    },
+    "82": {
+      "Name": "EXP_TAG_SUBMARINE_BIG",
+      "Mode": "Ban"
+    }
+  }
+}

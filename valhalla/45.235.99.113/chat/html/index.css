@@ -1,0 +1,315 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+.color-0 {
+    color: #ffffff;
+}
+
+.color-1 {
+    color: #ff4444;
+}
+
+.color-2 {
+    color: #919191;
+}
+
+.color-3 {
+    color: #d5fa03;
+}
+
+.color-4 {
+    color: #85eb10;
+}
+
+.color-5 {
+    color: #33b5e5;
+}
+
+.color-6 {
+    color: #aa66cc;
+}
+
+.color-8 {
+    color: #cc0000;
+}
+
+.color-9 {
+    color: rgb(0, 255, 0)
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: -1px 0 rgb(31, 30, 30), 0 1px rgb(31, 30, 30), 1px 0 rgb(31, 30, 30), 0 -1px rgb(31, 30, 30);
+    font-weight: 700;
+    font-size: 17.4px;
+}
+
+.no-grow {
+    flex-grow: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+#app {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+}
+
+.chat-window {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.0);
+    -webkit-animation-duration: 2s;
+    height: 22%;
+}
+
+
+.chat-messages {
+    background: rgba(0, 0, 0, 0.0);
+    position: relative;
+    height: 200px;
+    font-size: 17.2px;
+    padding: 10px 10px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    font-weight: 750;
+}
+
+
+.chat-input {
+    font-size: 1rem;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    top: 255px;
+    left: 15px;
+}
+
+.prefix {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 5.5px;
+    left: 4px;
+}
+
+textarea {
+    font-size: 1rem;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 18px;
+    top: -1px;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    border-width: 0;
+    height: 34px;
+    overflow: hidden;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.msg {
+    margin-bottom: 3px;
+}
+
+/* .multiline {
+  margin-left: 1.5rem;
+  text-indent: -1.5rem;
+  white-space: pre-line;
+} */
+
+.suggestions {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 27px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.help {
+    color: #b0bbbd;
+}
+
+.disabled {
+    color: #b0bbbd;
+}
+
+.suggestion {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.reporte {
+    color: rgb(255, 255, 255);
+    animation: blinkingText 2s infinite;
+}
+
+.duda {
+    color: #0000FF;
+    background-color: rgba(0, 0, 244, 0.4);
+}
+
+@keyframes blinkingText {
+    0% {
+        background-color: rgba(244, 0, 0, 0.199);
+    }
+    50% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgba(244, 0, 0, 0.199);
+    }
+}
+
+.badge {
+    padding: 3px 4px;
+    font-size: 13px;
+    font-weight: 600;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    border-radius: .25rem;
+    position: relative;
+}
+
+.badge2 {
+    display: inline-block;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px dashed transparent;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-primary {
+    background-color: rgba(244, 0, 0);
+}
+
+.badge-duda {
+    background-color: rgba(0, 0, 244);
+}
+
+.badge-developer {
+    border-color: #6989ff;
+    color: #6989ff;
+    background-color: transparent;
+}
+
+.badge-ceo {
+    border-color: #cd03ff;
+    color: #cd03ff;
+    background-color: transparent;
+}
+
+.badge-manager {
+    border-color: #ffad69;
+    color: #ffad69;
+    background-color: transparent;
+}
+
+.badge-admin {
+    border-color: #f985ff;
+    color: #f985ff;
+    background-color: transparent;
+}
+
+.badge-highstaff {
+    border-color: #afff69;
+    color: #afff69;
+    background-color: transparent;
+}
+
+.badge-staff {
+    border-color: #ad1d1d;
+    color: #ad1d1d;
+    background-color: transparent;
+}
+
+.badge-streamer {
+    border-color: #c569ff;
+    color: #c569ff;
+    background-color: transparent;
+}
+
+.badge-vip {
+    border-color: #fff569;
+    color: #fff569;
+    background-color: transparent;
+}
+
+.badge-robo {
+    border-color: #f89d00;
+    color: #f89d00;
+    background-color: transparent;
+}
+
+.badge-roboexitoso {
+    border-color: #85eb10;
+    color: #85eb10;
+    background-color: transparent;
+}
+
+.badge-robocancelled {
+    border-color: #ff0000;
+    color: #ff0000;
+    background-color: transparent;
+}
+
+.badge-dado {
+    background-color: #00c97c;
+}
+
+.badge-anon {
+    background-color: #3F3F3F;
+}
+
+.badge-report {
+    background-color: #c55252;
+}
+
+.badge-twt {
+    background-color: #7fb7d1;
+}
+
+.badge-pfa {
+    background-color: #101dd4;
+}
+
+.badge-same {
+    background-color: #3aa75e;
+}
+
+.badge-psg {
+    background-color: #d5fa03;
+}
+
+.badge-gr {
+    background-color: #fc0303;
+}
+
+.badge-m {
+    background-color: #6b25be;
+}
+
+.badge-me {
+    background-color: #4169e1;
+}
+
+.badge-do {
+    background-color: #aa66cc;
+}

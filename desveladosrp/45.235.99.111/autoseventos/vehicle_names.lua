@@ -1,0 +1,7 @@
+Citizen.CreateThread(function()
+    AddTextEntry('f175', 'Ferrari evento')
+    AddTextEntry('rb18', 'Redbull evento')
+    AddTextEntry('xd60', 'Colectivo')
+    AddTextEntry('onebeast', 'Limo')
+    AddTextEntry('sspres', 'Seguridad')
+end)

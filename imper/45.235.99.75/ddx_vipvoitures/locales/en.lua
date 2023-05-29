@@ -1,0 +1,17 @@
+Locales['en'] = {
+  ['not_enough_money']    = 'no tienes suficiente dinero !',
+  ['vip_belongs']        = 'El vehiculo ~y~%s~s~ ahora te pertenece',
+  ['generic_shopitem']    = '$%s',
+  ['vip_dealer']         = 'Concesionario VIP',
+  ['buy_vip_shop']       = 'Quiere comprar esto %s Por $%s?',
+  ['buy_license']         = 'Compra la licencia de auto',
+  ['no']                  = 'No',
+  ['yes']                 = 'Si',
+  ['vip_purchased']      = 'Compraste un auto',
+  ['shop_menu']           = 'Presione~INPUT_CONTEXT~ para entrar al menu',
+  ['shop_awaiting_model'] = 'Le bateau ~g~charge~s~ merci d\'attendre !',
+  ['sell_menu']           = 'Appuyez sur ~INPUT_CONTEXT~ pour vendre votre ~y~%s~s~ pour ~g~$%s~s~',
+  ['license_missing']     = 'Vous n\'avez pas de permis Bateau!',
+  ['vip_sold_for']       = 'Le ~b~%s~s~ a été ~y~vendu~s~ pour ~g~$%s~s~',
+  ['not_yours']           = 'El vehículo no te pertenece',
+}

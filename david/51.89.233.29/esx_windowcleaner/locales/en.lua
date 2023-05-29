@@ -1,0 +1,16 @@
+Locales['en'] = {
+	['GPS_info'] = 'Se ha colocado una nueva posición en el GPS',
+	['cancel_mission'] = 'Has ~r~cancelado~s~ la misión',
+	['pickup'] = 'Pulsa ~INPUT_CONTEXT~ para limpiar el cristal',
+	['end_service'] = 'Trabajo completado',
+	['take_service'] = 'Comenzar Trabajo',
+	['end_service_notif'] = 'Fuera de servicio',
+	['take_service_notif'] = 'Cogiendo ~g~servicio',
+	['start_job'] = 'Pulsa ~b~DEL~s~ para comenzar el trabajo',
+	['Vehicle_Menu_Title'] = 'Servicio de vehículos',
+	['in_vehicle'] = '~r~¡Tienes que salir del vehículo!',
+	['vehicle_broken'] = '~r~ ¡Tienes que reparar el vehículo primero!',
+	['bad_vehicle'] = 'Solo puedes guardar ~b~vehículos de servicio de limpieza',
+	['not_good_veh'] = '~r~Tienes qu estar en el vehículo de la empresa',
+	['stop_npc'] = 'Acción ~r~imposible~s~ : Ve al deposito',
+}

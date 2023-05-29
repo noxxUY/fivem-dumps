@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    cursor: default;
+}
+
+#wrap {
+    display: none;
+    font-family: 'Segoe UI';
+    overflow: auto;
+    width: 60vh;
+    max-height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(14, 14, 14);
+    background-image: url('https://fivem.net/5acaf3ca7e527ae76bc22212bbe7532f.png');
+    background-repeat: repeat;
+    background-size: 15%;
+    animation: back 600s infinite;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 6rem;
+    border-radius: 15px;
+}
+
+@keyframes back {
+    from {
+        background-position: 0 0;
+      }
+    /*use negative width if you want it to flow right to left else and positive for left to right*/
+      to {
+        background-position: 10000px -10000px;
+      }
+    }
+
+.header {
+    display: relative;
+    text-align: center;
+}
+
+
+
+.jobs {
+    background-color: black;
+    margin-top: 1vh;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1vh;
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.server_details {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kaisel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    width: 40%;
+    height: 15%;
+}
+
+.detalles {
+    display: block;
+    text-align: left;
+    margin-top: 1.5vh;
+    background-color: black;
+    width: 25vh;
+    padding: .7vh;
+    font-size: 1.5vh;
+    border-radius: 15px;
+    padding-left: 1rem;
+}

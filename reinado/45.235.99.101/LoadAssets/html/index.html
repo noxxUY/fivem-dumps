@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<script src="https://kit.fontawesome.com/8345449064.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>LoadAssets</title>
+</head>
+<body>
+
+    <div class="contenedor" style="display: none;">
+
+        <div class="alerta">
+            <div class="header">
+                Download Assets   
+            </div>
+            <div class="cuerpo">
+                <div class="todoslositems">
+                    <div class="item linea">
+                        <div class="text">
+                            <label for="maps">
+                            <i class="fa-solid fa-house"></i> Download Maps
+                            </label>
+                        </div>
+                        <div class="check">
+                            <button> <i id="mapas" class="fa-solid fa-cloud-arrow-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="item linea">
+                        <div class="text">
+                            <label for="vehicles">
+                            <i class="fa-solid fa-car"></i> Download Vehicles
+                            </label>
+                        </div>
+                        <div class="check">
+                            <button> <i id="vehiculos" class="fa-solid fa-cloud-arrow-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text">
+                            <label for="clothes">
+                            <i class="fa-solid fa-shirt"></i> Download Clothes
+                            </label>
+                        </div>
+                        <div class="check">
+                            <button> <i id="ropas" class="fa-solid fa-cloud-arrow-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descargando">
+                    <div class="todoslositems">
+                        <div class="item">
+                            <div class="text">
+                                <label for="maps">
+                                    <i class="fa-solid fa-user"></i> Status
+                                </label>
+                            </div>
+                            <div class="status">
+                                <i id="wait" class="fa-solid fa-pause"></i> waiting...<br>
+                                <!-- <i id="download" class="fa-solid fa-cloud-arrow-down"></i> downloading... <br>
+                                <i id="complete" class="fa-solid fa-thumbs-up"></i> Completed -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

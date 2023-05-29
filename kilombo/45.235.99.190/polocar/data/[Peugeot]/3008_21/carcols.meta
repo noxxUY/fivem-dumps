@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal> 
+
+<Kits>
+
+       <Item>
+      <kitName>3008_300821_modkit</kitName>
+      <id value="3008" />     
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+      <Item>
+        <modelName>3008_black</modelName>
+        <modShopLabel>3008_PACK1</modShopLabel> 
+        <linkedModels />
+        <turnOffBones />
+        <type>VMT_CHASSIS</type>
+        <bone>chassis</bone>
+        <collisionBone>chassis</collisionBone>
+        <camerasPos>VMCP_DEFAULT</camerasPos>
+        <audioApply value="1.000000" />
+        <weight value="0" />
+        <turnOffExtra value="false" />
+        <disableBonnetCamera value="false" />
+        <disableBonnetSlide value="false" />
+      </Item>
+
+      </visibleMods>
+      <linkMods />
+      <statMods />          
+      <slotNames />
+      <liveryNames>
+      </liveryNames>
+    </Item>
+	
+  </Kits>
+
+</CVehicleModelInfoVarGlobal>

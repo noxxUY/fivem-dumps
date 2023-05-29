@@ -1,0 +1,97 @@
+<!---- CREATED BY kortylae.pl --->
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>LoadingScreen</title>
+        <!--ODNOŚNIK CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<!---- CREATED BY kortylae.pl --->
+    <body>
+        
+            <div class="video"> 
+                <iframe width="1920" height="1080" src="https://www.youtube-nocookie.com/embed/lQKdqnYHsFQ?&controls=0&rel=0&showinfo=0&autoplay=1&loop=1&start=1&mute=1" frameborder="0" allow="autoplay; fullscreen" ></iframe>
+            </div>
+    
+        
+       <!----   <iframe width="1920" height="1080" src="../[html]/vid.mp4" frameborder="0" allow="autoplay; fullscreen" ></iframe>!--->
+        
+        
+<!--     <div class="video"> 
+            <iframe width="1920" height="1080" src="../[html]/vid.mp4" frameborder="0" allow="autoplay; fullscreen" ></iframe>
+        </div> 
+-->
+      <!---  <div class="video"> 
+        <iframe width="1920" height="1080" src="../[html]/vid.mp4" frameborder="0" allow="autoplay; fullscreen" fullscreen></iframe>
+      
+    </div> -->
+ 
+
+
+        <!--TEKST POWITANIE-->
+        <div class="ekortyla"><br>
+            
+            <div class="przyciemnienie"></div>
+            
+        </div>
+
+    <div class="ekortyla2">BIENVENIDO A <purple>AGRIO RP</purple><br>
+        <div class="ekortyla">Conectandote al servidor...<br>
+        <ek>Discord: discord.gg/<purple>agriorp</purple></ek>
+        <div class="przyciemnienie"></div>
+    </div> 
+    
+    <!--TEKST ŁĄCZENIE-->
+       
+        
+        <!--ANIMACJA ŁADOWANIA-->
+        <div class="loading">
+            
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+        </div>
+        
+        
+<!---- CREATED BY kortylae.pl --->
+<div id="intro">
+    <div>
+       <img src='pngold.png' class="" style='width:120px;height:120px;'>
+  </div>
+        <!--MUZYKA-->
+        <audio id="eryczek" src="ek.mp3" autoplay="true" hidden="true" loop="true"></audio>
+    </body>
+    <!--SKRYPT AUDIO-->
+    <script>
+    
+        var play = eryczek;
+        var myAudio = document.getElementById("eryczek");
+        
+        myAudio.volume = 0.1;
+    
+        function onKeyDown(event) {
+                switch (event.keyCode) {
+                    case 32: //SpaceBar                    
+                        if (play) {
+                            myAudio.pause();
+                            play = false;
+                        } else {
+                            myAudio.play();
+                            play = true;
+                        }
+                        break;
+                }
+          return false;
+        }
+    
+        window.addEventListener("keydown", onKeyDown, false);
+    </script>
+<!---- CREATED BY kortylae.pl --->
+</html>
+<!---- CREATED BY kortylae.pl --->

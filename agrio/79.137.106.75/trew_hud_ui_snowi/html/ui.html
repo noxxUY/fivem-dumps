@@ -1,0 +1,193 @@
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300&display=swap" rel="stylesheet">
+
+  	<link id="font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>Agrio RP</title>
+</head>
+
+<body style="font-family: 'Montserrat'">
+	<div id="ui">
+
+
+
+
+
+
+		<!--<div class="info server">
+			<div id="server"><img src="https://media.discordapp.net/attachments/1075573634292260944/1077488549575798824/LOGO_ANIMADO_2.gif"></div>
+		</div>
+	-->
+
+
+
+
+
+
+		<div class="info player">
+			<!--<div id="job"><span></span></div>-->
+
+			<div id="money">
+				<div class="icon text" id="agrio_coins" style="display: none;">
+					<i class="fas fa-gem"></i><span>0</span>
+				</div>
+				<div class="icon text" id="society" style="display: none;"><i class="fas fa-university"></i><span>0</span></div>
+				<div class="icon text" id="blackMoney" style="display: none;"><i class="fab fa-btc"></i><span>0</span></div>
+				<div class="icon text" id="bank" style="display: none;"><i class="fab fa-cc-mastercard"></i><span>0</span></div>
+				<div class="icon text" id="wallet" style="display: none;"><i class="fas fa-dollar-sign"></i><span>0</span></div>
+			</div>
+
+			<div id="status">
+				<ul>
+					<li class="icon" id="thirst" style="display: none;">
+						<i class="fas fa-glass-whiskey" id="BaseCircle"></i><span></span>
+					</li>
+					<li class="icon" id="hunger" style="display: none;">
+						<i class="fas fa-hamburger" id="BaseCircle"></i><span></span>
+					</li>
+					<li class="icon" id="stamina" style="display: none;">
+						<i class="fas fa-lungs" id="BaseCircle"></i><span></span>
+					</li>
+					<li class="icon" id="armor" style="display: none;">
+						<i class="fas fa-shield-alt" id="BaseCircle"></i><span></span>
+					</li>
+					<li class="icon" id="health" style="display: none;">
+						<i class="fas fa-heart" id="BaseCircle"></i><span></span>
+					</li>
+					<li class="icon" id="stress" style="display: none;">
+						<i class="fas fa-brain" id="BaseCircle"></i><span></span>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="info vehicle inactive animated">
+
+			<div id="speedometer">
+
+
+				<div id="progress-speed">
+					<svg viewBox="0 0 100 100">
+						<circle cx="50" cy="50" r="45" class="mask" />
+						<circle cx="50" cy="50" r="45" class="speed" />
+
+						<defs>
+							<linearGradient id="speed-gradient">
+							    <stop offset="0%" stop-color="#ff0000"/>
+							    <stop offset="75%" stop-color="#ffee00"/>
+							    <stop offset="100%" stop-color="#10dea3"/>
+							</linearGradient>
+						</defs>
+					</svg>
+					<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" class="border" /></svg>
+				</div>
+
+
+
+				<div id="vehicle-speed">
+					<span>999</span>
+					<strong>KM/H</strong>
+				</div>
+
+
+
+				<div id="vehicle-gear" class="icon text"><i><img src="img/vehicle-gear.png"></i><span>N</span></div>
+
+
+			
+				<div id="vehicle-status-left">
+					<ul>
+						<li class="icon off" id="seatbelt"><i><img src="img/vehicle-seatbelt.png"></i><span style="height: 100%"></span></li>
+						<li class="icon" id="fuel"><i class="fas fa-gas-pump"></i><span></span></li>
+					</ul>
+				</div>
+
+
+				<div id="vehicle-status-right">
+					<ul>
+						<li class="icon normal" id="lights"><i><img src="img/vehicle-lights.png"></i><span></span></li>
+						<li class="icon" id="signals" class="off"><i class="fas fa-arrows-alt-h"></i><span style="height: 100%"></span></li>
+					</ul>
+				</div>
+
+
+
+			</div>
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+		<div class="info notify animated" id="notify">
+			<div class="background">
+ 				<div class="title"><i class="fab"></i> <span>Admin</span></div>
+				<div class="msg">Mensagem</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="info radio">
+			<div id="voice" style="display: none;"><i class="far fa-angry"></i></div>
+			<div id="voice2" style="display: none;"><i class="far fa-laugh-beam"></i></div>
+		</div>
+
+
+
+
+
+
+		<div class="info time-and-place">
+			<div class="data">
+				<div id="date" style="display: none;"><span>Hoje é <strong>31 de Fevereiro de 2020</strong></span></div>
+				<div id="location" style="display: none;"><span>Você está em <strong>Aeroporto de Los Santos</strong></span></div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</div>
+
+
+	<audio id="sounds"><source type="audio/ogg"></audio>
+
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/saferInnerHTML@1/dist/saferInnerHTML.polyfills.min.js"></script>
+	<script src="app.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js" integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow==" crossorigin="anonymous"></script>
+
+</html>

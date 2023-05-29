@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/47939d168426339.643a1d0045aca.jpg'); */
+    background-size: cover;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.alerta {
+    background-image: url('https://i.imgur.com/MgUk5nQ.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 20vw;
+}
+.header {    background: linear-gradient(0deg, #00000000 0%, #1d1d1d 100%);
+    border-radius: 1vw 1vw 0 0;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+.todoslositems {
+    
+    box-shadow: 0 0 2px #000000;
+    font-weight: 400;
+    background: #1d1d1da9;
+    border-radius: 1vw;
+    padding: .51vw;
+    margin: 0 1.5vw 1vw 1.5vw;
+}
+.item {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6vw 0.2vw;
+    font-size:.81vw;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
+}
+button {
+    width: 3vw;
+    background: linear-gradient(0deg, #fff 0%, #a6a6a6 100%);
+    border: none;
+    border-radius: .2vw;
+    padding: .1vw;
+  }
+  button:hover {
+  background: linear-gradient(0deg, #e6e6e6 0%, #fff 100%);
+}
+
+.item i {
+width: 1.2vw;
+text-align: center;
+}
+
+.linea {
+    border-bottom: 0.2vh solid #4d4d4d;
+}
+
+.status {
+    text-align: right;
+}

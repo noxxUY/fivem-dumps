@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&family=Secular+One&family=Shippori+Antique+B1&display=swap');
+* {
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Secular One', sans-serif;
+	font-family: 'Shippori Antique B1', sans-serif;
+}
+.menu {
+    transform: perspective(500px) rotateY(-11deg);
+    min-width: 310px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px 10px 20px 10px;
+}
+.menu.align-left {
+    left: 40;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.menu.align-right {
+    right: 40;
+    top: 50%;
+}
+.menu.align-top-left, .menu.align-top, .menu.align-top-right, .menu.align-bottom, .menu.align-bottom-left, .menu.align-center, .menu.align-bottom-right {
+    right: 40;
+    bottom: 40;
+}
+.menu .head {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-size: cover;
+    border-radius: .3vw;
+    border: 0.1vw solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-shadow: 0 0 6px #ffffff;
+    background-color: rgb(3, 3, 3);
+    padding: 13px 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    margin: 5px;
+}
+.menu .menu-items {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+.menu .menu-items .menu-item {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    color: black;
+    text-align: left;
+    font-size: 0.9em;
+    border-radius: .3vw;
+    border: 0.1vw solid rgb(255, 255, 255);
+    background-color: #000000d1;
+    color: white;
+    box-shadow: 0 0 5px rgb(223, 222, 222);
+    margin: 0 5px 5px 5px;
+    padding-left: 7px;
+}
+.menu .menu-items .menu-item.selected {
+    opacity: 100;
+    border-radius: .3vw;
+    border: 0.1vw solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.87);
+    box-shadow: #000;
+    color: #000;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    animation: selectedMenu 0.5s
+}
+.abrirMenu {
+    animation: abrirMenu forwards 0.5s !important;
+}
+.cerrarMenu {
+    animation: cerrarMenu forwards 0.5s !important;
+}
+@keyframes selectedMenu {
+    0% {
+        opacity: 0;
+        transform: scale(0.5)
+    }
+    50% {
+        opacity: .2
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+@keyframes abrirMenu {
+    from {
+        opacity: 0;
+        transform: scale(0) perspective(400px) rotateY(-10deg)
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) perspective(400px) rotateY(-10deg)
+    }
+}
+@keyframes cerrarMenu {
+    from {
+        opacity: 1;
+        transform: scale(1) perspective(400px) rotateY(-10deg)
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0)
+    }
+}

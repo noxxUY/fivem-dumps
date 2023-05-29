@@ -1,0 +1,939 @@
+body {
+    background: none !important;
+}
+
+
+@font-face {
+    font-family: 'modern_sans_serif_7';
+    src: url(fonts/modern_sans_serif_7.ttf);
+  }
+
+@font-face {
+    font-family: 'pricedown';
+    src: url(fonts/pricedown.ttf);
+  }
+
+body {
+    font-family: "Raleway", sans-serif;
+/*     background-image: radial-gradient(circle at center, #899Dc4, #495D84); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+/*     margin-top: 100px; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+/*     background: radial-gradient(ellipse at bottom, #1b2735, #090a0f); */
+    font-weight: 300;
+}
+
+.container {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.container2 {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    width: 80vw;
+    height: 80vh;
+    margin-top: -104px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.container3 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.container4 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.container5 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+
+.container6 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu' ;
+    overflow: hidden;
+}
+
+
+.container7 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.container8 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png'); */
+    background-size: cover;
+    /* background-color: #000000ad; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.purchase-pistol {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-rifle {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.exitmenu {
+    background-size: cover;
+    background-color: #ffe60000;
+    width: 6vw;
+    height: 10vh;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+
+.purchase-esya3 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya4 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya5 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya6 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya7 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+
+.purchase-esya8 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya9 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya10 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya11 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya12 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya13 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.purchase-esya14 {
+    /* background-image: url('https://cdn.discordapp.com/attachments/841022502683803668/864096802776023120/aa.png'); */
+    background-size: cover;
+    font-weight: 300;
+    background-color: #ffe600;
+    clip-path: polygon(100% 0, 100% 0%, 85% 100%, 0% 100%, 15% 0%, 0% 0%);
+    font-size: 2rem;
+    width: 18vw;
+    height: 7vh;
+    margin-top: -70px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    font-style: oblique;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.esya-1-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-2-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-3-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-4-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-5-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-6-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.esya-7-gorunum {
+    background-image: url('https://cdn.discordapp.com/attachments/614207930279133194/1010377338497794058/arkaplan.png');
+    background-size: cover;
+    background-color: #000000ad;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+  }
+  
+.damage img {
+    width: 100px;
+    height: 100px;
+  }
+
+h1 { 
+   position: absolute; 
+   top: 150px; 
+   left: 70px;
+   font-weight: 3;
+   font-size: 1rem;
+   color:yellow; 
+}
+
+.speed img {
+    width: 100px;
+    height: 100px;
+  }
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 70px;
+   font-weight: 3;
+   font-size: 1rem;
+   color:yellow; 
+}
+
+.sag-ok img {
+    width: 100px;
+    height: 100px;
+  }
+
+.sol-ok img {
+    width: 100px;
+    height: 100px;
+    transform: perspective(300px) rotateX(20deg);
+  }
+
+.sag-border img {
+    width: 100px;
+    height: 100px;
+  }
+
+.sag-border2 img {
+    width: 100px;
+    height: 100px;
+  }
+
+.sol-border img {
+    width: 100px;
+    height: 100px;
+  }
+
+.sol-border2 img {
+    width: 100px;
+    height: 100px;
+  }
+  
+.money img {
+    width: 100px;
+    height: 100px;
+  }
+
+h3 { 
+   position: absolute; 
+   top: 150px; 
+   left: 70px;
+   font-weight: 400;
+   font-size: 1rem;
+   color:yellow; 
+   font-family: modern_sans_serif_7;
+}
+
+h4 { 
+    position: absolute; 
+    top: 150px; 
+    left: 70px;
+    font-family: pricedown;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255); 
+ }
+
+h5 { 
+    position: absolute; 
+    top: 150px; 
+    left: 70px;
+    font-weight: 3;
+    font-size: 2.5rem;
+    font-family: BebasNeue;
+    color:rgb(255, 255, 255); 
+ }
+
+
+.all {
+    display: flex;
+    perspective: 1000px;
+    margin-left: -400px;
+    /* transform: perspective(300px) rotateX(20deg); */
+    /* will-change: perspective;
+    perspective-origin: center center;
+    transition: all 1.3s ease-out;
+    justify-content: center;
+    transform-style: preserve-3d; */
+}
+
+.esya-1 {
+    width: 160px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+    margin-left: 465px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-2 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-3 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-4 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-5 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-6 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-7 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-8 {
+    width: 160px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+    margin-left: 465px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-9 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-10 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-11 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-12 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-13 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.esya-14 {
+    width: 140px;
+    height: 68px;
+    transform-style: preserve-3d;
+    border-radius: 0px;
+    margin-top: 17px;
+/*     margin-left: 6px; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgb(197 0 255 / 35%);
+    opacity: 8;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+    background-blend-mode: darken
+}
+
+.text {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease;
+    bottom: 0;
+    left: 5px;
+    position: absolute;
+    will-change: transform;
+    color: #fff;
+}
+
+.explainer {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.6s ease;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: radial-gradient(circle at center top, #ccccee54, #33a);
+    border-radius: 10px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ref {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #d80, #c00);
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: absolute;
+    font-size: 16px;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.ref::first-letter {
+    font-size: 12px;
+}

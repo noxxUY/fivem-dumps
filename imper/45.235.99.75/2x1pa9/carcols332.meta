@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>    
+  <Wheels>
+    <Item/> <!-- VWT_SPORT -->
+    <Item/> <!-- VWT_SUPERMOD1 -->
+    <Item/> <!-- VWT_SUPERMOD2 -->
+    <Item/> <!-- VWT_OFFROAD -->
+    <Item> <!-- VWT_TUNER -->
+			<Item>
+        <wheelName>wheel_spor_scc</wheelName>
+        <wheelVariation />
+        <modShopLabel>scc</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_sw388</wheelName>
+        <wheelVariation />
+        <modShopLabel>sw388</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_smod1</wheelName>
+        <wheelVariation />
+        <modShopLabel>smod1</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_smod5</wheelName>
+        <wheelVariation />
+        <modShopLabel>smod5</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_smod7</wheelName>
+        <wheelVariation />
+        <modShopLabel>smod7</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_smod9</wheelName>
+        <wheelVariation />
+        <modShopLabel>smod9</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_tsl</wheelName>
+        <wheelVariation />
+        <modShopLabel>tsl</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+    </Item>   
+    <Item/> <!-- VWT_BIKE -->
+    <Item/> <!-- VWT_HIEND -->
+  </Wheels>
+</CVehicleModelInfoVarGlobal>

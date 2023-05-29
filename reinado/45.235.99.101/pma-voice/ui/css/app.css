@@ -1,0 +1,19 @@
+body {display:none;}
+.voiceInfo{
+    font-family:Avenir,Helvetica,Arial,sans-serif;
+    position:fixed;
+    text-align:right;
+    bottom:5px;
+    padding:5px;
+    right:15px;
+    font-size:12px;
+    font-weight:700;
+    color:#ffffff;
+    text-shadow: 0 0 2px #000000ad;
+}
+.talking{
+    color:#f2711c;
+}
+p{
+    margin:0
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>    
+  <Wheels>
+    <Item/> <!-- VWT_SPORT -->
+    <Item/> <!-- VWT_SUPERMOD1 -->
+    <Item/> <!-- VWT_SUPERMOD2 -->
+    <Item/> <!-- VWT_OFFROAD -->
+    <Item> <!-- VWT_TUNER -->
+			<Item>
+        <wheelName>wheel_spor_gtc</wheelName>
+        <wheelVariation />
+        <modShopLabel>gtc</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+			<Item>
+        <wheelName>wheel_spor_rpf1</wheelName>
+        <wheelVariation />
+        <modShopLabel>rpf1</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+    </Item>   
+    <Item/> <!-- VWT_BIKE -->
+    <Item/> <!-- VWT_HIEND -->
+  </Wheels>
+</CVehicleModelInfoVarGlobal>

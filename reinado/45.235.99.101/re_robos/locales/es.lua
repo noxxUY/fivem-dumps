@@ -1,0 +1,17 @@
+Locales['es'] = {
+  ['shop_robbery'] = 'Robos Especiales',
+  ['press_to_rob'] = 'E para robar %s',
+  ['robbery_timer'] = 'atraco: %s segundos restantes',
+  ['recently_robbed'] = 'esta tienda fue robada recientemente. Espera %s antes de poder robarla de nuevo',
+  ['rob_in_prog'] = 'Robo en proceso en %s',
+  ['started_to_rob'] = 'has empezado a robar en %s',
+  ['alarm_triggered'] = 'la alarma ha sido activada!',
+  ['robbery_complete'] = 'El robo salió bien, has robado ~g~%s€',
+  ['robbery_complete_at'] = 'Robo finalizado en %s',
+  ['robbery_cancelled'] = 'el robo ha sido cancelado!',
+  ['robbery_cancelled_at'] = 'El robo en %s ha sido cancelado!',
+  ['min_police'] = 'No hay el minimo requerido para poder robar.',
+  ['robbery_already'] = 'Ya hay un robo en progreso.',
+  ['no_threat'] = 'sin pistola el encargado de la tienda no te tiene miedo...',
+  ['no_sosmafia'] = 'Solo las mafias pueden robar este banco...',
+}

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    overflow: hidden;
+    margin: 0;
+}       
+
+@font-face {
+    font-family: Rubik;
+    src: url('https://cdn.discordapp.com/attachments/780480535306305556/948757005810671636/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: Boxed;
+    src: url('https://cdn.discordapp.com/attachments/791803602993414144/973670650164183040/BoxedMedium.ttf');
+}
+
+
+.shake {
+    animation-name:shake-slow;animation-duration:20s;animation-timing-function:ease-in-out;animation-iteration-count:infinite;overflow:hidden;
+    width: 300px;
+    height: 100%;
+    overflow: visible;
+}
+
+.titulo2 {
+    width: 0%;
+    padding-bottom: 0px;
+    position: absolute;
+    top: -32px;
+    left: 0px;
+    font-size: 0px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.titulo {
+    width: max-content;
+    position: absolute;
+    top: -1.05vw;
+    right: -0.3vw;
+    font-family: bankgothic;
+    font-size: .1vw;
+    color: black;
+    text-align: center;
+    
+    padding: .2vw;
+    border-radius:3px 3px 0 0;
+}
+
+
+
+
+.icono {
+    width: 29px;
+    float: left;
+    height: 100%;
+    animation: zoom 1s cubic-bezier(0.000, 0.445, 0.240, 1.365) infinite;
+}
+
+.inclinacion {
+    padding: 15px;
+    position: fixed;
+    bottom: 250px;
+    right: 0px;
+    width: 300px;
+    overflow: visible !important;
+    height: 100%;
+}
+
+#noty_layout__bottomRight {
+    margin: 0;
+    padding: 0;
+    z-index: 9999999;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    transform: translateZ(0) scale(1, 1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    max-width: 230px;
+}
+
+.noty_theme__subils.noty_bar {
+    margin: 7px 0;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+    margin-top: 40px;
+    right: 1600px;
+}
+
+.noty_theme__subils.noty_bar .noty_body {
+    padding: 2px;
+    padding-top: 5px;
+    font-family: Rubik;
+    font-size: 0.87em;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.noty_theme__subils.noty_bar .noty_buttons {
+    padding: 10px;
+}
+
+.noty_theme__subils.noty_type__alert,
+.noty_theme__subils.noty_type__notification {
+    color: #fff;
+    border-bottom: 5px solid #ff9900;
+    box-shadow: 0 0 .2vw #0000004e, 0 0 .2vw #0000004e, 0 0 .3vw #0000004e, 0 0 .3vw #0000004e;
+    border: 1px 9px 1px 9px solid rgba(0, 0, 0, 0);
+    background-color: #000000b7;
+    
+}
+
+
+
+.noty_theme__subils.noty_type__alert .noty_progressbar,
+.noty_theme__subils.noty_type__notification .noty_progressbar {
+    background-color: #363636a9;
+    z-index: -9999999;
+    border-radius: 5px;
+}
+
+.noty_theme__subils.noty_type__warning {
+    background-color: #ffd166;
+    color: #fff;
+}
+
+
+.noty_theme__subils.noty_type__error {
+    background-color: #ef476f;
+    color: #fff;
+}
+
+.noty_theme__subils.noty_type__error .noty_progressbar {
+
+}
+
+.noty_theme__subils.noty_type__info,
+.noty_theme__subils.noty_type__information {
+    background-color: #118ab2;
+    color: #fff;
+}
+
+.noty_theme__subils.noty_type__info .noty_progressbar,
+.noty_theme__subils.noty_type__information .noty_progressbar {
+
+}
+
+.noty_theme__subils.noty_type__success {
+    background-color: #06d6a0;
+    color: #fff;
+}
+
+.shake-help {
+    right: 8px;
+    top: 295px;
+    position: absolute;
+    overflow: visible !important;
+}
+
+#helpbar {
+    font-family: Rubik;
+    background-color: #000000b7;
+    border-radius: 5px;
+    box-shadow: 0 0 .2vw #0000004e, 0 0 .2vw #0000004e, 0 0 .3vw #0000004e, 0 0 .3vw #0000004e;
+    margin-top: -2.3vw;
+    padding: 8px 8px 10px 8px;
+}
+
+#helpText {
+    font-family: Rubik;
+    font-size: 16px;
+    color: #ffffffcc;
+    text-align: left;
+    max-width: 150px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.icono img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.noty_body img {
+    
+    width: 1vw;
+    margin-left: .5vw;
+    left: 9vw;
+    bottom: 2vw;
+    animation:girar 0.8s ease-in-out infinite;
+    transform: rotate(-10deg) translateY(0.1vw);
+}
+
+.mensaje {
+    height: fit-content;
+    margin-right: 12px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+
+.help-in {
+    animation: venirse ease-in-out 0.3s forwards;
+}
+
+.help-out {
+    animation: irse ease-in-out 0.3s forwards;
+}
+
+@keyframes brillo {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(2);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes shake-slow {
+    0% {
+        transform: translate(0, 0) rotate(0)
+    }
+    15% {
+        transform: translate(4px, 2px) rotate(-.1deg)
+    }
+    30% {
+        transform: translate(3px, -5px) rotate(0.5deg)
+    }
+    50% {
+        transform: translate(4px, -3px) rotate(-.5deg)
+    }
+    70% {
+        transform: translate(-3px, 3px) rotate(1.2deg)
+    }
+    85% {
+        transform: translate(-3px, 3px) rotate(1.2deg)
+    }
+    100% {
+        transform: translate(0, 0) rotate(0)
+    }
+}
+
+@keyframes girar {
+    0%{
+        transform: rotate(-10deg)  translateY(0.1vw);
+    }
+    50%{
+        transform: rotate(10deg)  translateY(0.1vw);
+
+    }
+    100%{
+        transform: rotate(-10deg)  translateY(0.1vw);
+
+    }
+}
+
+@keyframes venirse {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+@keyframes irse {
+    0% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.blue {color: #86e3ff;font-weight: bold;}
+.red {color: #ff0000;font-weight: bold;}
+.green {color: #00ff22;font-weight: bold;}
+.yellow {color: #fffb00;font-weight: bold;} 
+.purple {color: #7700ff;font-weight: bold;}
+.grey {color: #cfcfcf;font-weight: bold;}
+.darkgrey {color: #8d8d8d;font-weight: bold;}
+.black {color: #000000;font-weight: bold;}
+.gold {color: #e0d100;font-weight: bold;}
+

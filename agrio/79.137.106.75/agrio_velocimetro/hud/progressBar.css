@@ -1,0 +1,74 @@
+.progress-circle {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:52%;
+    bottom:-3.5%;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0;
+    width: 5em;
+    height: 5em;
+    /* background-color: #F2E9E1;  */
+    border-radius: 50%;
+    line-height: 5em;
+ }
+ 
+ .progress-circle:after{
+     border: none;
+     position: absolute;
+     top: 0.35em;
+     left: 0.35em;
+     text-align: center;
+     display: block;
+     border-radius: 50%;
+     width: 4.3em;
+     height: 4.3em;
+     /* background-color: white; */
+     content: " ";
+ }
+ /* Text inside the control */
+ .progress-circle span {
+     position: absolute;
+     line-height: 5em;
+     width: 5em;
+     text-align: center;
+     display: block;
+     color: #31b61a;
+     z-index: 2;
+ }
+ .left-half-clipper { 
+    /* a round circle */
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    position: absolute; /* needed for clipping */
+    clip: rect(0, 5em, 5em, 2.5em); /* clips the whole left half*/ 
+ }
+ .progress-circle.over50 .left-half-clipper {
+    clip: rect(auto,auto,auto,auto);
+ }
+ .value-bar {
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 2.5em, 5em, 0);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border: 0.45em solid #26ff00; /*The border is 0.35 but making it larger removes visual artifacts */
+    /*background-color: #4D642D;*/ /* for debug */
+    box-sizing: border-box;
+   
+ }
+ .progress-circle.over50 .first50-bar {
+    position: absolute; /*needed for clipping*/
+    clip: rect(0, 5em, 5em, 2.5em);
+    background-color: #26ff00;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+ }
+ .progress-circle:not(.over50) .first50-bar{ display: none; }
+ 
+ 
+ /* Progress bar rotation position */
+ .progress-circle.p0 .value-bar { display: none; }
+ .progress-circle.p1 .value-bar { transform: rotate(4deg); }

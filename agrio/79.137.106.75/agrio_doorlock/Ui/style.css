@@ -1,0 +1,39 @@
+.main-frame {
+    position: absolute;
+    top: 50%;
+}
+
+.container {
+    padding: .3vw .5vw;
+    border-radius: .4vw;
+    background-color: rgba(0, 0, 0, 0.692);
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.356);
+	-moz-box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.301);
+}
+
+@font-face {
+	font-family: Rubik;
+	src: url('https://cdn.discordapp.com/attachments/780480535306305556/948757005810671636/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat4';
+    src: local('Montserrat4'), url('https://cdn.discordapp.com/attachments/886714318471712798/896728379687067648/Montserrat.otf');
+}
+
+.text {
+    font-family: Rubik;
+    font-size: .8vw;
+    color: #fff;
+    text-shadow:  0 0 .3vw #000;
+}
+
+.blue {color: #86e3ff;}
+.red {color: #ff0000;}
+.green {color: #00ff22;}
+.yellow {color: #fffb00;} 
+.purple {color: #e19fff;}
+.grey {color: #cfcfcf;}
+.darkgrey {color: #8d8d8d;}
+.black {color: #000000;}
+.gold {color: #e0d100;}

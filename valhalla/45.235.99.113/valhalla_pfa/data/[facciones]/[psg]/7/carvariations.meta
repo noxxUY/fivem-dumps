@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+	<Item>
+	<modelName>prosegur7</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            134
+            131
+            0
+            27
+            0
+            0
+          </indices>
+        </Item>
+      </colors>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="700"/>
+      <sirenSettings value="521962"/>
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

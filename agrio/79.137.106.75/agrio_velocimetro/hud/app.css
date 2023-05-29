@@ -1,0 +1,253 @@
+@font-face {
+	font-family: fontvelcimetro;
+	src: url('https://images.evilrp.es/2k21/fonts/font_velocimetro.TTF');
+}
+
+@font-face {
+	font-family: audi;
+	src: url('./fonts/audi.ttf');
+}
+
+@font-face {
+	font-family: pixel;
+	src: url('fonts/pixel.ttf');
+}
+.container {
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    bottom: 7px;
+    left:50%;
+    z-index: 99999;
+    transform: translate(-50%,-50%);
+}
+
+.flex-column{
+    flex-direction:  column;
+    position: relative;
+    display: flex;
+}
+
+:root {
+    --color: rgb(218, 124, 56);
+}
+
+body{
+    overflow: hidden;
+}
+.cuadrado {
+    width: 120px;
+    height: 60px; 
+    position: relative;
+    border-radius: 5px;
+    /* bottom: 15px;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    /* background: rgba(56, 218, 174, 0.1); */
+    background: transparent;
+    /* opacity: 60%; */
+    margin-right:3px;
+    margin-left:3px;
+}
+
+.progress{
+    z-index: 1;
+    position:relative;
+    width: 105%;
+    height: 105%;
+    background-color: rgb(255, 0, 0);
+}
+
+.icon {
+    margin: 0; 
+    z-index:4;
+    position: absolute; 
+    line-height: 0.3;
+    left:75%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    width: 20px;
+    fill: white;
+    height: 20px;
+}
+
+.iconcenter {
+    position: absolute; 
+    left:50%;
+    top:50%;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    width: 20px;
+    fill: white;
+    height: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#fuelicon{
+    left:25%;
+}
+#fuelText{
+    left: 62%;
+    letter-spacing: 2px;
+}
+
+.text {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:30%;
+    font-size: 13px;
+    color: white;
+    font-family: pixel; 
+    text-transform: uppercase;
+    text-shadow: black 2px 2px;
+}
+
+.square {
+    width: 50px;
+    height: 25px;
+    position: relative;
+    /* background-color: var(--color); */
+    /* background: rgba(56, 218, 174, 0.1); */
+    font-size: 16px;
+    /* border: 1.0px solid white; */
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: end; 
+    margin-right:5px;
+    margin-top:5px;
+    margin-left:5px;
+}
+.placeholder {
+    transform: translate(-50%,-50%);
+    color: #131212;
+    /* position: absolute; */
+    position: absolute;
+    top:50%; left: 50%;
+    z-index: 50;
+    font-family: pixel; 
+    font-size: 50px;
+    text-align: right !important; 
+    opacity: 60%;
+}
+
+
+.bar {
+    position: absolute;
+    bottom: 20px;
+    height: 10px;
+    width: 120px;
+    top:110%;
+    left: 5px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: linear-gradient(to right, var(--progres) var(--scroll), transparent 0);
+    transition: 0.5s;
+}
+
+#fuel{
+    top:-20px;
+}
+.bar .item {
+    width: 2px;
+    height: 100%;
+    margin-left: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.bar .item.fill {
+    background-color: rgba(255, 0, 0, 0.418);
+    transition: 1s;
+}     
+  
+
+#velocidadSpeed {
+    text-align: right !important; 
+    /* color: red; */
+    position: absolute;
+    z-index: 100;
+    font-family: pixel; 
+    top:50%; left: 50%;
+    font-size: 50px;
+}
+
+#seatbelt {
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top:-15px; left: 50%;
+}
+
+.parpadea {
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+@-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+.parpadea-border {
+    animation: blink 1s infinite; 
+}
+.neoneffect{
+    animation: neon 0.08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 3px var(--color),
+        0 0 15px var(--color), 0 0 6px var(--color),
+        0 0 10px var(--color), 0 0 17px var(--color),
+        0 0 30px var(--color);
+    }
+    to {
+        text-shadow: 0 0 3px var(--color),
+        0 0 15px var(--color), 0 0 6px var(--color),
+        0 0 10px var(--color), 0 0 17px var(--color),
+        0 0 30px var(--color);
+    }
+}
+
+.emergencia {
+    animation: emergency 2s infinite; 
+}
+
+
+@keyframes emergency {
+    0% { color: blue }
+    50% { color: red }
+    100% { color: blue}
+}
+
+
+@keyframes blink { 
+    0% { border-color: rgba(255,0,0,0); box-shadow: 0 0 3px 3px rgb(47, 0, 255); }
+    50% { border-color: rgba(255,0,0,1); box-shadow: 0 0 3px 3px rgb(255, 0, 0); }
+    100% { border-color: rgba(255,0,0,0); box-shadow: 0 0 3px 3px rgb(47, 0, 255); }
+}
+
+.zoomer { 
+    animation: zoom 500ms infinite; 
+}
+@keyframes zoom {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
